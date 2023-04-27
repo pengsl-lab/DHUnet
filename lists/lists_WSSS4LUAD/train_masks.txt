@@ -1,0 +1,1986 @@
+data/WSSS4LUAD/masks/14/000_000.png
+data/WSSS4LUAD/masks/14/000_001.png
+data/WSSS4LUAD/masks/14/000_002.png
+data/WSSS4LUAD/masks/14/000_003.png
+data/WSSS4LUAD/masks/14/000_004.png
+data/WSSS4LUAD/masks/14/000_005.png
+data/WSSS4LUAD/masks/14/000_006.png
+data/WSSS4LUAD/masks/14/000_007.png
+data/WSSS4LUAD/masks/14/000_008.png
+data/WSSS4LUAD/masks/14/001_000.png
+data/WSSS4LUAD/masks/14/001_001.png
+data/WSSS4LUAD/masks/14/001_002.png
+data/WSSS4LUAD/masks/14/001_003.png
+data/WSSS4LUAD/masks/14/001_004.png
+data/WSSS4LUAD/masks/14/001_005.png
+data/WSSS4LUAD/masks/14/001_006.png
+data/WSSS4LUAD/masks/14/001_007.png
+data/WSSS4LUAD/masks/14/001_008.png
+data/WSSS4LUAD/masks/14/002_000.png
+data/WSSS4LUAD/masks/14/002_001.png
+data/WSSS4LUAD/masks/14/002_002.png
+data/WSSS4LUAD/masks/14/002_003.png
+data/WSSS4LUAD/masks/14/002_004.png
+data/WSSS4LUAD/masks/14/002_005.png
+data/WSSS4LUAD/masks/14/002_006.png
+data/WSSS4LUAD/masks/14/002_007.png
+data/WSSS4LUAD/masks/14/002_008.png
+data/WSSS4LUAD/masks/14/003_000.png
+data/WSSS4LUAD/masks/14/003_001.png
+data/WSSS4LUAD/masks/14/003_002.png
+data/WSSS4LUAD/masks/14/003_003.png
+data/WSSS4LUAD/masks/14/003_004.png
+data/WSSS4LUAD/masks/14/003_005.png
+data/WSSS4LUAD/masks/14/003_006.png
+data/WSSS4LUAD/masks/14/003_007.png
+data/WSSS4LUAD/masks/14/003_008.png
+data/WSSS4LUAD/masks/14/004_000.png
+data/WSSS4LUAD/masks/14/004_001.png
+data/WSSS4LUAD/masks/14/004_002.png
+data/WSSS4LUAD/masks/14/004_003.png
+data/WSSS4LUAD/masks/14/004_004.png
+data/WSSS4LUAD/masks/14/004_005.png
+data/WSSS4LUAD/masks/14/004_006.png
+data/WSSS4LUAD/masks/14/004_007.png
+data/WSSS4LUAD/masks/14/004_008.png
+data/WSSS4LUAD/masks/14/005_000.png
+data/WSSS4LUAD/masks/14/005_001.png
+data/WSSS4LUAD/masks/14/005_002.png
+data/WSSS4LUAD/masks/14/005_003.png
+data/WSSS4LUAD/masks/14/005_004.png
+data/WSSS4LUAD/masks/14/005_005.png
+data/WSSS4LUAD/masks/14/005_006.png
+data/WSSS4LUAD/masks/14/005_007.png
+data/WSSS4LUAD/masks/14/005_008.png
+data/WSSS4LUAD/masks/14/006_000.png
+data/WSSS4LUAD/masks/14/006_001.png
+data/WSSS4LUAD/masks/14/006_002.png
+data/WSSS4LUAD/masks/14/006_003.png
+data/WSSS4LUAD/masks/14/006_004.png
+data/WSSS4LUAD/masks/14/006_005.png
+data/WSSS4LUAD/masks/14/006_006.png
+data/WSSS4LUAD/masks/14/006_007.png
+data/WSSS4LUAD/masks/14/006_008.png
+data/WSSS4LUAD/masks/14/007_000.png
+data/WSSS4LUAD/masks/14/007_001.png
+data/WSSS4LUAD/masks/14/007_002.png
+data/WSSS4LUAD/masks/14/007_003.png
+data/WSSS4LUAD/masks/14/007_004.png
+data/WSSS4LUAD/masks/14/007_005.png
+data/WSSS4LUAD/masks/14/007_006.png
+data/WSSS4LUAD/masks/14/007_007.png
+data/WSSS4LUAD/masks/14/007_008.png
+data/WSSS4LUAD/masks/14/008_000.png
+data/WSSS4LUAD/masks/14/008_001.png
+data/WSSS4LUAD/masks/14/008_002.png
+data/WSSS4LUAD/masks/14/008_003.png
+data/WSSS4LUAD/masks/14/008_004.png
+data/WSSS4LUAD/masks/14/008_005.png
+data/WSSS4LUAD/masks/14/008_006.png
+data/WSSS4LUAD/masks/14/008_007.png
+data/WSSS4LUAD/masks/14/008_008.png
+data/WSSS4LUAD/masks/ 2/000_000.png
+data/WSSS4LUAD/masks/ 2/000_001.png
+data/WSSS4LUAD/masks/ 2/000_002.png
+data/WSSS4LUAD/masks/ 2/000_003.png
+data/WSSS4LUAD/masks/ 2/000_004.png
+data/WSSS4LUAD/masks/ 2/001_000.png
+data/WSSS4LUAD/masks/ 2/001_001.png
+data/WSSS4LUAD/masks/ 2/001_002.png
+data/WSSS4LUAD/masks/ 2/001_003.png
+data/WSSS4LUAD/masks/ 2/001_004.png
+data/WSSS4LUAD/masks/ 2/002_000.png
+data/WSSS4LUAD/masks/ 2/002_001.png
+data/WSSS4LUAD/masks/ 2/002_002.png
+data/WSSS4LUAD/masks/ 2/002_003.png
+data/WSSS4LUAD/masks/ 2/002_004.png
+data/WSSS4LUAD/masks/ 2/003_000.png
+data/WSSS4LUAD/masks/ 2/003_001.png
+data/WSSS4LUAD/masks/ 2/003_002.png
+data/WSSS4LUAD/masks/ 2/003_003.png
+data/WSSS4LUAD/masks/ 2/003_004.png
+data/WSSS4LUAD/masks/ 2/004_000.png
+data/WSSS4LUAD/masks/ 2/004_001.png
+data/WSSS4LUAD/masks/ 2/004_002.png
+data/WSSS4LUAD/masks/ 2/004_003.png
+data/WSSS4LUAD/masks/ 2/004_004.png
+data/WSSS4LUAD/masks/ 2/005_000.png
+data/WSSS4LUAD/masks/ 2/005_001.png
+data/WSSS4LUAD/masks/ 2/005_002.png
+data/WSSS4LUAD/masks/ 2/005_003.png
+data/WSSS4LUAD/masks/ 2/005_004.png
+data/WSSS4LUAD/masks/ 2/006_000.png
+data/WSSS4LUAD/masks/ 2/006_001.png
+data/WSSS4LUAD/masks/ 2/006_002.png
+data/WSSS4LUAD/masks/ 2/006_003.png
+data/WSSS4LUAD/masks/ 2/006_004.png
+data/WSSS4LUAD/masks/ 2/007_000.png
+data/WSSS4LUAD/masks/ 2/007_001.png
+data/WSSS4LUAD/masks/ 2/007_002.png
+data/WSSS4LUAD/masks/ 2/007_003.png
+data/WSSS4LUAD/masks/ 2/007_004.png
+data/WSSS4LUAD/masks/ 2/008_000.png
+data/WSSS4LUAD/masks/ 2/008_001.png
+data/WSSS4LUAD/masks/ 2/008_002.png
+data/WSSS4LUAD/masks/ 2/008_003.png
+data/WSSS4LUAD/masks/ 2/008_004.png
+data/WSSS4LUAD/masks/ 2/009_000.png
+data/WSSS4LUAD/masks/ 2/009_001.png
+data/WSSS4LUAD/masks/ 2/009_002.png
+data/WSSS4LUAD/masks/ 2/009_003.png
+data/WSSS4LUAD/masks/ 2/009_004.png
+data/WSSS4LUAD/masks/ 2/010_000.png
+data/WSSS4LUAD/masks/ 2/010_001.png
+data/WSSS4LUAD/masks/ 2/010_002.png
+data/WSSS4LUAD/masks/ 2/010_003.png
+data/WSSS4LUAD/masks/ 2/010_004.png
+data/WSSS4LUAD/masks/ 2/011_000.png
+data/WSSS4LUAD/masks/ 2/011_001.png
+data/WSSS4LUAD/masks/ 2/011_002.png
+data/WSSS4LUAD/masks/ 2/011_003.png
+data/WSSS4LUAD/masks/ 2/011_004.png
+data/WSSS4LUAD/masks/ 1/000_000.png
+data/WSSS4LUAD/masks/ 1/000_001.png
+data/WSSS4LUAD/masks/ 1/000_002.png
+data/WSSS4LUAD/masks/ 1/000_003.png
+data/WSSS4LUAD/masks/ 1/000_004.png
+data/WSSS4LUAD/masks/ 1/000_005.png
+data/WSSS4LUAD/masks/ 1/000_006.png
+data/WSSS4LUAD/masks/ 1/000_007.png
+data/WSSS4LUAD/masks/ 1/000_008.png
+data/WSSS4LUAD/masks/ 1/000_009.png
+data/WSSS4LUAD/masks/ 1/000_010.png
+data/WSSS4LUAD/masks/ 1/000_011.png
+data/WSSS4LUAD/masks/ 1/000_012.png
+data/WSSS4LUAD/masks/ 1/000_013.png
+data/WSSS4LUAD/masks/ 1/001_000.png
+data/WSSS4LUAD/masks/ 1/001_001.png
+data/WSSS4LUAD/masks/ 1/001_002.png
+data/WSSS4LUAD/masks/ 1/001_003.png
+data/WSSS4LUAD/masks/ 1/001_004.png
+data/WSSS4LUAD/masks/ 1/001_005.png
+data/WSSS4LUAD/masks/ 1/001_006.png
+data/WSSS4LUAD/masks/ 1/001_007.png
+data/WSSS4LUAD/masks/ 1/001_008.png
+data/WSSS4LUAD/masks/ 1/001_009.png
+data/WSSS4LUAD/masks/ 1/001_010.png
+data/WSSS4LUAD/masks/ 1/001_011.png
+data/WSSS4LUAD/masks/ 1/001_012.png
+data/WSSS4LUAD/masks/ 1/001_013.png
+data/WSSS4LUAD/masks/ 1/002_000.png
+data/WSSS4LUAD/masks/ 1/002_001.png
+data/WSSS4LUAD/masks/ 1/002_002.png
+data/WSSS4LUAD/masks/ 1/002_003.png
+data/WSSS4LUAD/masks/ 1/002_004.png
+data/WSSS4LUAD/masks/ 1/002_005.png
+data/WSSS4LUAD/masks/ 1/002_006.png
+data/WSSS4LUAD/masks/ 1/002_007.png
+data/WSSS4LUAD/masks/ 1/002_008.png
+data/WSSS4LUAD/masks/ 1/002_009.png
+data/WSSS4LUAD/masks/ 1/002_010.png
+data/WSSS4LUAD/masks/ 1/002_011.png
+data/WSSS4LUAD/masks/ 1/002_012.png
+data/WSSS4LUAD/masks/ 1/002_013.png
+data/WSSS4LUAD/masks/ 1/003_000.png
+data/WSSS4LUAD/masks/ 1/003_001.png
+data/WSSS4LUAD/masks/ 1/003_002.png
+data/WSSS4LUAD/masks/ 1/003_003.png
+data/WSSS4LUAD/masks/ 1/003_004.png
+data/WSSS4LUAD/masks/ 1/003_005.png
+data/WSSS4LUAD/masks/ 1/003_006.png
+data/WSSS4LUAD/masks/ 1/003_007.png
+data/WSSS4LUAD/masks/ 1/003_008.png
+data/WSSS4LUAD/masks/ 1/003_009.png
+data/WSSS4LUAD/masks/ 1/003_010.png
+data/WSSS4LUAD/masks/ 1/003_011.png
+data/WSSS4LUAD/masks/ 1/003_012.png
+data/WSSS4LUAD/masks/ 1/003_013.png
+data/WSSS4LUAD/masks/ 1/004_000.png
+data/WSSS4LUAD/masks/ 1/004_001.png
+data/WSSS4LUAD/masks/ 1/004_002.png
+data/WSSS4LUAD/masks/ 1/004_003.png
+data/WSSS4LUAD/masks/ 1/004_004.png
+data/WSSS4LUAD/masks/ 1/004_005.png
+data/WSSS4LUAD/masks/ 1/004_006.png
+data/WSSS4LUAD/masks/ 1/004_007.png
+data/WSSS4LUAD/masks/ 1/004_008.png
+data/WSSS4LUAD/masks/ 1/004_009.png
+data/WSSS4LUAD/masks/ 1/004_010.png
+data/WSSS4LUAD/masks/ 1/004_011.png
+data/WSSS4LUAD/masks/ 1/004_012.png
+data/WSSS4LUAD/masks/ 1/004_013.png
+data/WSSS4LUAD/masks/ 1/005_000.png
+data/WSSS4LUAD/masks/ 1/005_001.png
+data/WSSS4LUAD/masks/ 1/005_002.png
+data/WSSS4LUAD/masks/ 1/005_003.png
+data/WSSS4LUAD/masks/ 1/005_004.png
+data/WSSS4LUAD/masks/ 1/005_005.png
+data/WSSS4LUAD/masks/ 1/005_006.png
+data/WSSS4LUAD/masks/ 1/005_007.png
+data/WSSS4LUAD/masks/ 1/005_008.png
+data/WSSS4LUAD/masks/ 1/005_009.png
+data/WSSS4LUAD/masks/ 1/005_010.png
+data/WSSS4LUAD/masks/ 1/005_011.png
+data/WSSS4LUAD/masks/ 1/005_012.png
+data/WSSS4LUAD/masks/ 1/005_013.png
+data/WSSS4LUAD/masks/ 1/006_000.png
+data/WSSS4LUAD/masks/ 1/006_001.png
+data/WSSS4LUAD/masks/ 1/006_002.png
+data/WSSS4LUAD/masks/ 1/006_003.png
+data/WSSS4LUAD/masks/ 1/006_004.png
+data/WSSS4LUAD/masks/ 1/006_005.png
+data/WSSS4LUAD/masks/ 1/006_006.png
+data/WSSS4LUAD/masks/ 1/006_007.png
+data/WSSS4LUAD/masks/ 1/006_008.png
+data/WSSS4LUAD/masks/ 1/006_009.png
+data/WSSS4LUAD/masks/ 1/006_010.png
+data/WSSS4LUAD/masks/ 1/006_011.png
+data/WSSS4LUAD/masks/ 1/006_012.png
+data/WSSS4LUAD/masks/ 1/006_013.png
+data/WSSS4LUAD/masks/ 1/007_000.png
+data/WSSS4LUAD/masks/ 1/007_001.png
+data/WSSS4LUAD/masks/ 1/007_002.png
+data/WSSS4LUAD/masks/ 1/007_003.png
+data/WSSS4LUAD/masks/ 1/007_004.png
+data/WSSS4LUAD/masks/ 1/007_005.png
+data/WSSS4LUAD/masks/ 1/007_006.png
+data/WSSS4LUAD/masks/ 1/007_007.png
+data/WSSS4LUAD/masks/ 1/007_008.png
+data/WSSS4LUAD/masks/ 1/007_009.png
+data/WSSS4LUAD/masks/ 1/007_010.png
+data/WSSS4LUAD/masks/ 1/007_011.png
+data/WSSS4LUAD/masks/ 1/007_012.png
+data/WSSS4LUAD/masks/ 1/007_013.png
+data/WSSS4LUAD/masks/ 1/008_000.png
+data/WSSS4LUAD/masks/ 1/008_001.png
+data/WSSS4LUAD/masks/ 1/008_002.png
+data/WSSS4LUAD/masks/ 1/008_003.png
+data/WSSS4LUAD/masks/ 1/008_004.png
+data/WSSS4LUAD/masks/ 1/008_005.png
+data/WSSS4LUAD/masks/ 1/008_006.png
+data/WSSS4LUAD/masks/ 1/008_007.png
+data/WSSS4LUAD/masks/ 1/008_008.png
+data/WSSS4LUAD/masks/ 1/008_009.png
+data/WSSS4LUAD/masks/ 1/008_010.png
+data/WSSS4LUAD/masks/ 1/008_011.png
+data/WSSS4LUAD/masks/ 1/008_012.png
+data/WSSS4LUAD/masks/ 1/008_013.png
+data/WSSS4LUAD/masks/ 1/009_000.png
+data/WSSS4LUAD/masks/ 1/009_001.png
+data/WSSS4LUAD/masks/ 1/009_002.png
+data/WSSS4LUAD/masks/ 1/009_003.png
+data/WSSS4LUAD/masks/ 1/009_004.png
+data/WSSS4LUAD/masks/ 1/009_005.png
+data/WSSS4LUAD/masks/ 1/009_006.png
+data/WSSS4LUAD/masks/ 1/009_007.png
+data/WSSS4LUAD/masks/ 1/009_008.png
+data/WSSS4LUAD/masks/ 1/009_009.png
+data/WSSS4LUAD/masks/ 1/009_010.png
+data/WSSS4LUAD/masks/ 1/009_011.png
+data/WSSS4LUAD/masks/ 1/009_012.png
+data/WSSS4LUAD/masks/ 1/009_013.png
+data/WSSS4LUAD/masks/ 1/010_000.png
+data/WSSS4LUAD/masks/ 1/010_001.png
+data/WSSS4LUAD/masks/ 1/010_002.png
+data/WSSS4LUAD/masks/ 1/010_003.png
+data/WSSS4LUAD/masks/ 1/010_004.png
+data/WSSS4LUAD/masks/ 1/010_005.png
+data/WSSS4LUAD/masks/ 1/010_006.png
+data/WSSS4LUAD/masks/ 1/010_007.png
+data/WSSS4LUAD/masks/ 1/010_008.png
+data/WSSS4LUAD/masks/ 1/010_009.png
+data/WSSS4LUAD/masks/ 1/010_010.png
+data/WSSS4LUAD/masks/ 1/010_011.png
+data/WSSS4LUAD/masks/ 1/010_012.png
+data/WSSS4LUAD/masks/ 1/010_013.png
+data/WSSS4LUAD/masks/ 1/011_000.png
+data/WSSS4LUAD/masks/ 1/011_001.png
+data/WSSS4LUAD/masks/ 1/011_002.png
+data/WSSS4LUAD/masks/ 1/011_003.png
+data/WSSS4LUAD/masks/ 1/011_004.png
+data/WSSS4LUAD/masks/ 1/011_005.png
+data/WSSS4LUAD/masks/ 1/011_006.png
+data/WSSS4LUAD/masks/ 1/011_007.png
+data/WSSS4LUAD/masks/ 1/011_008.png
+data/WSSS4LUAD/masks/ 1/011_009.png
+data/WSSS4LUAD/masks/ 1/011_010.png
+data/WSSS4LUAD/masks/ 1/011_011.png
+data/WSSS4LUAD/masks/ 1/011_012.png
+data/WSSS4LUAD/masks/ 1/011_013.png
+data/WSSS4LUAD/masks/ 1/012_000.png
+data/WSSS4LUAD/masks/ 1/012_001.png
+data/WSSS4LUAD/masks/ 1/012_002.png
+data/WSSS4LUAD/masks/ 1/012_003.png
+data/WSSS4LUAD/masks/ 1/012_004.png
+data/WSSS4LUAD/masks/ 1/012_005.png
+data/WSSS4LUAD/masks/ 1/012_006.png
+data/WSSS4LUAD/masks/ 1/012_007.png
+data/WSSS4LUAD/masks/ 1/012_008.png
+data/WSSS4LUAD/masks/ 1/012_009.png
+data/WSSS4LUAD/masks/ 1/012_010.png
+data/WSSS4LUAD/masks/ 1/012_011.png
+data/WSSS4LUAD/masks/ 1/012_012.png
+data/WSSS4LUAD/masks/ 1/012_013.png
+data/WSSS4LUAD/masks/ 1/013_000.png
+data/WSSS4LUAD/masks/ 1/013_001.png
+data/WSSS4LUAD/masks/ 1/013_002.png
+data/WSSS4LUAD/masks/ 1/013_003.png
+data/WSSS4LUAD/masks/ 1/013_004.png
+data/WSSS4LUAD/masks/ 1/013_005.png
+data/WSSS4LUAD/masks/ 1/013_006.png
+data/WSSS4LUAD/masks/ 1/013_007.png
+data/WSSS4LUAD/masks/ 1/013_008.png
+data/WSSS4LUAD/masks/ 1/013_009.png
+data/WSSS4LUAD/masks/ 1/013_010.png
+data/WSSS4LUAD/masks/ 1/013_011.png
+data/WSSS4LUAD/masks/ 1/013_012.png
+data/WSSS4LUAD/masks/ 1/013_013.png
+data/WSSS4LUAD/masks/ 3/000_000.png
+data/WSSS4LUAD/masks/ 3/000_001.png
+data/WSSS4LUAD/masks/ 3/000_002.png
+data/WSSS4LUAD/masks/ 3/000_003.png
+data/WSSS4LUAD/masks/ 3/000_004.png
+data/WSSS4LUAD/masks/ 3/000_005.png
+data/WSSS4LUAD/masks/ 3/000_006.png
+data/WSSS4LUAD/masks/ 3/001_000.png
+data/WSSS4LUAD/masks/ 3/001_001.png
+data/WSSS4LUAD/masks/ 3/001_002.png
+data/WSSS4LUAD/masks/ 3/001_003.png
+data/WSSS4LUAD/masks/ 3/001_004.png
+data/WSSS4LUAD/masks/ 3/001_005.png
+data/WSSS4LUAD/masks/ 3/001_006.png
+data/WSSS4LUAD/masks/ 3/002_000.png
+data/WSSS4LUAD/masks/ 3/002_001.png
+data/WSSS4LUAD/masks/ 3/002_002.png
+data/WSSS4LUAD/masks/ 3/002_003.png
+data/WSSS4LUAD/masks/ 3/002_004.png
+data/WSSS4LUAD/masks/ 3/002_005.png
+data/WSSS4LUAD/masks/ 3/002_006.png
+data/WSSS4LUAD/masks/ 3/003_000.png
+data/WSSS4LUAD/masks/ 3/003_001.png
+data/WSSS4LUAD/masks/ 3/003_002.png
+data/WSSS4LUAD/masks/ 3/003_003.png
+data/WSSS4LUAD/masks/ 3/003_004.png
+data/WSSS4LUAD/masks/ 3/003_005.png
+data/WSSS4LUAD/masks/ 3/003_006.png
+data/WSSS4LUAD/masks/ 3/004_000.png
+data/WSSS4LUAD/masks/ 3/004_001.png
+data/WSSS4LUAD/masks/ 3/004_002.png
+data/WSSS4LUAD/masks/ 3/004_003.png
+data/WSSS4LUAD/masks/ 3/004_004.png
+data/WSSS4LUAD/masks/ 3/004_005.png
+data/WSSS4LUAD/masks/ 3/004_006.png
+data/WSSS4LUAD/masks/12/000_000.png
+data/WSSS4LUAD/masks/12/000_001.png
+data/WSSS4LUAD/masks/12/000_002.png
+data/WSSS4LUAD/masks/12/000_003.png
+data/WSSS4LUAD/masks/12/000_004.png
+data/WSSS4LUAD/masks/12/000_005.png
+data/WSSS4LUAD/masks/12/000_006.png
+data/WSSS4LUAD/masks/12/001_000.png
+data/WSSS4LUAD/masks/12/001_001.png
+data/WSSS4LUAD/masks/12/001_002.png
+data/WSSS4LUAD/masks/12/001_003.png
+data/WSSS4LUAD/masks/12/001_004.png
+data/WSSS4LUAD/masks/12/001_005.png
+data/WSSS4LUAD/masks/12/001_006.png
+data/WSSS4LUAD/masks/12/002_000.png
+data/WSSS4LUAD/masks/12/002_001.png
+data/WSSS4LUAD/masks/12/002_002.png
+data/WSSS4LUAD/masks/12/002_003.png
+data/WSSS4LUAD/masks/12/002_004.png
+data/WSSS4LUAD/masks/12/002_005.png
+data/WSSS4LUAD/masks/12/002_006.png
+data/WSSS4LUAD/masks/12/003_000.png
+data/WSSS4LUAD/masks/12/003_001.png
+data/WSSS4LUAD/masks/12/003_002.png
+data/WSSS4LUAD/masks/12/003_003.png
+data/WSSS4LUAD/masks/12/003_004.png
+data/WSSS4LUAD/masks/12/003_005.png
+data/WSSS4LUAD/masks/12/003_006.png
+data/WSSS4LUAD/masks/12/004_000.png
+data/WSSS4LUAD/masks/12/004_001.png
+data/WSSS4LUAD/masks/12/004_002.png
+data/WSSS4LUAD/masks/12/004_003.png
+data/WSSS4LUAD/masks/12/004_004.png
+data/WSSS4LUAD/masks/12/004_005.png
+data/WSSS4LUAD/masks/12/004_006.png
+data/WSSS4LUAD/masks/12/005_000.png
+data/WSSS4LUAD/masks/12/005_001.png
+data/WSSS4LUAD/masks/12/005_002.png
+data/WSSS4LUAD/masks/12/005_003.png
+data/WSSS4LUAD/masks/12/005_004.png
+data/WSSS4LUAD/masks/12/005_005.png
+data/WSSS4LUAD/masks/12/005_006.png
+data/WSSS4LUAD/masks/12/006_000.png
+data/WSSS4LUAD/masks/12/006_001.png
+data/WSSS4LUAD/masks/12/006_002.png
+data/WSSS4LUAD/masks/12/006_003.png
+data/WSSS4LUAD/masks/12/006_004.png
+data/WSSS4LUAD/masks/12/006_005.png
+data/WSSS4LUAD/masks/12/006_006.png
+data/WSSS4LUAD/masks/ 6/000_000.png
+data/WSSS4LUAD/masks/ 6/000_001.png
+data/WSSS4LUAD/masks/ 6/000_002.png
+data/WSSS4LUAD/masks/ 6/000_003.png
+data/WSSS4LUAD/masks/ 6/000_004.png
+data/WSSS4LUAD/masks/ 6/000_005.png
+data/WSSS4LUAD/masks/ 6/000_006.png
+data/WSSS4LUAD/masks/ 6/001_000.png
+data/WSSS4LUAD/masks/ 6/001_001.png
+data/WSSS4LUAD/masks/ 6/001_002.png
+data/WSSS4LUAD/masks/ 6/001_003.png
+data/WSSS4LUAD/masks/ 6/001_004.png
+data/WSSS4LUAD/masks/ 6/001_005.png
+data/WSSS4LUAD/masks/ 6/001_006.png
+data/WSSS4LUAD/masks/ 6/002_000.png
+data/WSSS4LUAD/masks/ 6/002_001.png
+data/WSSS4LUAD/masks/ 6/002_002.png
+data/WSSS4LUAD/masks/ 6/002_003.png
+data/WSSS4LUAD/masks/ 6/002_004.png
+data/WSSS4LUAD/masks/ 6/002_005.png
+data/WSSS4LUAD/masks/ 6/002_006.png
+data/WSSS4LUAD/masks/ 6/003_000.png
+data/WSSS4LUAD/masks/ 6/003_001.png
+data/WSSS4LUAD/masks/ 6/003_002.png
+data/WSSS4LUAD/masks/ 6/003_003.png
+data/WSSS4LUAD/masks/ 6/003_004.png
+data/WSSS4LUAD/masks/ 6/003_005.png
+data/WSSS4LUAD/masks/ 6/003_006.png
+data/WSSS4LUAD/masks/ 6/004_000.png
+data/WSSS4LUAD/masks/ 6/004_001.png
+data/WSSS4LUAD/masks/ 6/004_002.png
+data/WSSS4LUAD/masks/ 6/004_003.png
+data/WSSS4LUAD/masks/ 6/004_004.png
+data/WSSS4LUAD/masks/ 6/004_005.png
+data/WSSS4LUAD/masks/ 6/004_006.png
+data/WSSS4LUAD/masks/ 6/005_000.png
+data/WSSS4LUAD/masks/ 6/005_001.png
+data/WSSS4LUAD/masks/ 6/005_002.png
+data/WSSS4LUAD/masks/ 6/005_003.png
+data/WSSS4LUAD/masks/ 6/005_004.png
+data/WSSS4LUAD/masks/ 6/005_005.png
+data/WSSS4LUAD/masks/ 6/005_006.png
+data/WSSS4LUAD/masks/ 6/006_000.png
+data/WSSS4LUAD/masks/ 6/006_001.png
+data/WSSS4LUAD/masks/ 6/006_002.png
+data/WSSS4LUAD/masks/ 6/006_003.png
+data/WSSS4LUAD/masks/ 6/006_004.png
+data/WSSS4LUAD/masks/ 6/006_005.png
+data/WSSS4LUAD/masks/ 6/006_006.png
+data/WSSS4LUAD/masks/ 4/000_000.png
+data/WSSS4LUAD/masks/ 4/000_001.png
+data/WSSS4LUAD/masks/ 4/000_002.png
+data/WSSS4LUAD/masks/ 4/000_003.png
+data/WSSS4LUAD/masks/ 4/000_004.png
+data/WSSS4LUAD/masks/ 4/000_005.png
+data/WSSS4LUAD/masks/ 4/000_006.png
+data/WSSS4LUAD/masks/ 4/000_007.png
+data/WSSS4LUAD/masks/ 4/000_008.png
+data/WSSS4LUAD/masks/ 4/001_000.png
+data/WSSS4LUAD/masks/ 4/001_001.png
+data/WSSS4LUAD/masks/ 4/001_002.png
+data/WSSS4LUAD/masks/ 4/001_003.png
+data/WSSS4LUAD/masks/ 4/001_004.png
+data/WSSS4LUAD/masks/ 4/001_005.png
+data/WSSS4LUAD/masks/ 4/001_006.png
+data/WSSS4LUAD/masks/ 4/001_007.png
+data/WSSS4LUAD/masks/ 4/001_008.png
+data/WSSS4LUAD/masks/ 4/002_000.png
+data/WSSS4LUAD/masks/ 4/002_001.png
+data/WSSS4LUAD/masks/ 4/002_002.png
+data/WSSS4LUAD/masks/ 4/002_003.png
+data/WSSS4LUAD/masks/ 4/002_004.png
+data/WSSS4LUAD/masks/ 4/002_005.png
+data/WSSS4LUAD/masks/ 4/002_006.png
+data/WSSS4LUAD/masks/ 4/002_007.png
+data/WSSS4LUAD/masks/ 4/002_008.png
+data/WSSS4LUAD/masks/ 4/003_000.png
+data/WSSS4LUAD/masks/ 4/003_001.png
+data/WSSS4LUAD/masks/ 4/003_002.png
+data/WSSS4LUAD/masks/ 4/003_003.png
+data/WSSS4LUAD/masks/ 4/003_004.png
+data/WSSS4LUAD/masks/ 4/003_005.png
+data/WSSS4LUAD/masks/ 4/003_006.png
+data/WSSS4LUAD/masks/ 4/003_007.png
+data/WSSS4LUAD/masks/ 4/003_008.png
+data/WSSS4LUAD/masks/ 4/004_000.png
+data/WSSS4LUAD/masks/ 4/004_001.png
+data/WSSS4LUAD/masks/ 4/004_002.png
+data/WSSS4LUAD/masks/ 4/004_003.png
+data/WSSS4LUAD/masks/ 4/004_004.png
+data/WSSS4LUAD/masks/ 4/004_005.png
+data/WSSS4LUAD/masks/ 4/004_006.png
+data/WSSS4LUAD/masks/ 4/004_007.png
+data/WSSS4LUAD/masks/ 4/004_008.png
+data/WSSS4LUAD/masks/ 4/005_000.png
+data/WSSS4LUAD/masks/ 4/005_001.png
+data/WSSS4LUAD/masks/ 4/005_002.png
+data/WSSS4LUAD/masks/ 4/005_003.png
+data/WSSS4LUAD/masks/ 4/005_004.png
+data/WSSS4LUAD/masks/ 4/005_005.png
+data/WSSS4LUAD/masks/ 4/005_006.png
+data/WSSS4LUAD/masks/ 4/005_007.png
+data/WSSS4LUAD/masks/ 4/005_008.png
+data/WSSS4LUAD/masks/ 4/006_000.png
+data/WSSS4LUAD/masks/ 4/006_001.png
+data/WSSS4LUAD/masks/ 4/006_002.png
+data/WSSS4LUAD/masks/ 4/006_003.png
+data/WSSS4LUAD/masks/ 4/006_004.png
+data/WSSS4LUAD/masks/ 4/006_005.png
+data/WSSS4LUAD/masks/ 4/006_006.png
+data/WSSS4LUAD/masks/ 4/006_007.png
+data/WSSS4LUAD/masks/ 4/006_008.png
+data/WSSS4LUAD/masks/ 4/007_000.png
+data/WSSS4LUAD/masks/ 4/007_001.png
+data/WSSS4LUAD/masks/ 4/007_002.png
+data/WSSS4LUAD/masks/ 4/007_003.png
+data/WSSS4LUAD/masks/ 4/007_004.png
+data/WSSS4LUAD/masks/ 4/007_005.png
+data/WSSS4LUAD/masks/ 4/007_006.png
+data/WSSS4LUAD/masks/ 4/007_007.png
+data/WSSS4LUAD/masks/ 4/007_008.png
+data/WSSS4LUAD/masks/ 4/008_000.png
+data/WSSS4LUAD/masks/ 4/008_001.png
+data/WSSS4LUAD/masks/ 4/008_002.png
+data/WSSS4LUAD/masks/ 4/008_003.png
+data/WSSS4LUAD/masks/ 4/008_004.png
+data/WSSS4LUAD/masks/ 4/008_005.png
+data/WSSS4LUAD/masks/ 4/008_006.png
+data/WSSS4LUAD/masks/ 4/008_007.png
+data/WSSS4LUAD/masks/ 4/008_008.png
+data/WSSS4LUAD/masks/13/000_000.png
+data/WSSS4LUAD/masks/13/000_001.png
+data/WSSS4LUAD/masks/13/000_002.png
+data/WSSS4LUAD/masks/13/000_003.png
+data/WSSS4LUAD/masks/13/000_004.png
+data/WSSS4LUAD/masks/13/000_005.png
+data/WSSS4LUAD/masks/13/000_006.png
+data/WSSS4LUAD/masks/13/000_007.png
+data/WSSS4LUAD/masks/13/001_000.png
+data/WSSS4LUAD/masks/13/001_001.png
+data/WSSS4LUAD/masks/13/001_002.png
+data/WSSS4LUAD/masks/13/001_003.png
+data/WSSS4LUAD/masks/13/001_004.png
+data/WSSS4LUAD/masks/13/001_005.png
+data/WSSS4LUAD/masks/13/001_006.png
+data/WSSS4LUAD/masks/13/001_007.png
+data/WSSS4LUAD/masks/13/002_000.png
+data/WSSS4LUAD/masks/13/002_001.png
+data/WSSS4LUAD/masks/13/002_002.png
+data/WSSS4LUAD/masks/13/002_003.png
+data/WSSS4LUAD/masks/13/002_004.png
+data/WSSS4LUAD/masks/13/002_005.png
+data/WSSS4LUAD/masks/13/002_006.png
+data/WSSS4LUAD/masks/13/002_007.png
+data/WSSS4LUAD/masks/13/003_000.png
+data/WSSS4LUAD/masks/13/003_001.png
+data/WSSS4LUAD/masks/13/003_002.png
+data/WSSS4LUAD/masks/13/003_003.png
+data/WSSS4LUAD/masks/13/003_004.png
+data/WSSS4LUAD/masks/13/003_005.png
+data/WSSS4LUAD/masks/13/003_006.png
+data/WSSS4LUAD/masks/13/003_007.png
+data/WSSS4LUAD/masks/13/004_000.png
+data/WSSS4LUAD/masks/13/004_001.png
+data/WSSS4LUAD/masks/13/004_002.png
+data/WSSS4LUAD/masks/13/004_003.png
+data/WSSS4LUAD/masks/13/004_004.png
+data/WSSS4LUAD/masks/13/004_005.png
+data/WSSS4LUAD/masks/13/004_006.png
+data/WSSS4LUAD/masks/13/004_007.png
+data/WSSS4LUAD/masks/13/005_000.png
+data/WSSS4LUAD/masks/13/005_001.png
+data/WSSS4LUAD/masks/13/005_002.png
+data/WSSS4LUAD/masks/13/005_003.png
+data/WSSS4LUAD/masks/13/005_004.png
+data/WSSS4LUAD/masks/13/005_005.png
+data/WSSS4LUAD/masks/13/005_006.png
+data/WSSS4LUAD/masks/13/005_007.png
+data/WSSS4LUAD/masks/13/006_000.png
+data/WSSS4LUAD/masks/13/006_001.png
+data/WSSS4LUAD/masks/13/006_002.png
+data/WSSS4LUAD/masks/13/006_003.png
+data/WSSS4LUAD/masks/13/006_004.png
+data/WSSS4LUAD/masks/13/006_005.png
+data/WSSS4LUAD/masks/13/006_006.png
+data/WSSS4LUAD/masks/13/006_007.png
+data/WSSS4LUAD/masks/13/007_000.png
+data/WSSS4LUAD/masks/13/007_001.png
+data/WSSS4LUAD/masks/13/007_002.png
+data/WSSS4LUAD/masks/13/007_003.png
+data/WSSS4LUAD/masks/13/007_004.png
+data/WSSS4LUAD/masks/13/007_005.png
+data/WSSS4LUAD/masks/13/007_006.png
+data/WSSS4LUAD/masks/13/007_007.png
+data/WSSS4LUAD/masks/10/000_000.png
+data/WSSS4LUAD/masks/10/000_001.png
+data/WSSS4LUAD/masks/10/000_002.png
+data/WSSS4LUAD/masks/10/000_003.png
+data/WSSS4LUAD/masks/10/000_004.png
+data/WSSS4LUAD/masks/10/000_005.png
+data/WSSS4LUAD/masks/10/000_006.png
+data/WSSS4LUAD/masks/10/000_007.png
+data/WSSS4LUAD/masks/10/000_008.png
+data/WSSS4LUAD/masks/10/000_009.png
+data/WSSS4LUAD/masks/10/000_010.png
+data/WSSS4LUAD/masks/10/000_011.png
+data/WSSS4LUAD/masks/10/000_012.png
+data/WSSS4LUAD/masks/10/000_013.png
+data/WSSS4LUAD/masks/10/000_014.png
+data/WSSS4LUAD/masks/10/000_015.png
+data/WSSS4LUAD/masks/10/000_016.png
+data/WSSS4LUAD/masks/10/000_017.png
+data/WSSS4LUAD/masks/10/000_018.png
+data/WSSS4LUAD/masks/10/001_000.png
+data/WSSS4LUAD/masks/10/001_001.png
+data/WSSS4LUAD/masks/10/001_002.png
+data/WSSS4LUAD/masks/10/001_003.png
+data/WSSS4LUAD/masks/10/001_004.png
+data/WSSS4LUAD/masks/10/001_005.png
+data/WSSS4LUAD/masks/10/001_006.png
+data/WSSS4LUAD/masks/10/001_007.png
+data/WSSS4LUAD/masks/10/001_008.png
+data/WSSS4LUAD/masks/10/001_009.png
+data/WSSS4LUAD/masks/10/001_010.png
+data/WSSS4LUAD/masks/10/001_011.png
+data/WSSS4LUAD/masks/10/001_012.png
+data/WSSS4LUAD/masks/10/001_013.png
+data/WSSS4LUAD/masks/10/001_014.png
+data/WSSS4LUAD/masks/10/001_015.png
+data/WSSS4LUAD/masks/10/001_016.png
+data/WSSS4LUAD/masks/10/001_017.png
+data/WSSS4LUAD/masks/10/001_018.png
+data/WSSS4LUAD/masks/10/002_000.png
+data/WSSS4LUAD/masks/10/002_001.png
+data/WSSS4LUAD/masks/10/002_002.png
+data/WSSS4LUAD/masks/10/002_003.png
+data/WSSS4LUAD/masks/10/002_004.png
+data/WSSS4LUAD/masks/10/002_005.png
+data/WSSS4LUAD/masks/10/002_006.png
+data/WSSS4LUAD/masks/10/002_007.png
+data/WSSS4LUAD/masks/10/002_008.png
+data/WSSS4LUAD/masks/10/002_009.png
+data/WSSS4LUAD/masks/10/002_010.png
+data/WSSS4LUAD/masks/10/002_011.png
+data/WSSS4LUAD/masks/10/002_012.png
+data/WSSS4LUAD/masks/10/002_013.png
+data/WSSS4LUAD/masks/10/002_014.png
+data/WSSS4LUAD/masks/10/002_015.png
+data/WSSS4LUAD/masks/10/002_016.png
+data/WSSS4LUAD/masks/10/002_017.png
+data/WSSS4LUAD/masks/10/002_018.png
+data/WSSS4LUAD/masks/10/003_000.png
+data/WSSS4LUAD/masks/10/003_001.png
+data/WSSS4LUAD/masks/10/003_002.png
+data/WSSS4LUAD/masks/10/003_003.png
+data/WSSS4LUAD/masks/10/003_004.png
+data/WSSS4LUAD/masks/10/003_005.png
+data/WSSS4LUAD/masks/10/003_006.png
+data/WSSS4LUAD/masks/10/003_007.png
+data/WSSS4LUAD/masks/10/003_008.png
+data/WSSS4LUAD/masks/10/003_009.png
+data/WSSS4LUAD/masks/10/003_010.png
+data/WSSS4LUAD/masks/10/003_011.png
+data/WSSS4LUAD/masks/10/003_012.png
+data/WSSS4LUAD/masks/10/003_013.png
+data/WSSS4LUAD/masks/10/003_014.png
+data/WSSS4LUAD/masks/10/003_015.png
+data/WSSS4LUAD/masks/10/003_016.png
+data/WSSS4LUAD/masks/10/003_017.png
+data/WSSS4LUAD/masks/10/003_018.png
+data/WSSS4LUAD/masks/10/004_000.png
+data/WSSS4LUAD/masks/10/004_001.png
+data/WSSS4LUAD/masks/10/004_002.png
+data/WSSS4LUAD/masks/10/004_003.png
+data/WSSS4LUAD/masks/10/004_004.png
+data/WSSS4LUAD/masks/10/004_005.png
+data/WSSS4LUAD/masks/10/004_006.png
+data/WSSS4LUAD/masks/10/004_007.png
+data/WSSS4LUAD/masks/10/004_008.png
+data/WSSS4LUAD/masks/10/004_009.png
+data/WSSS4LUAD/masks/10/004_010.png
+data/WSSS4LUAD/masks/10/004_011.png
+data/WSSS4LUAD/masks/10/004_012.png
+data/WSSS4LUAD/masks/10/004_013.png
+data/WSSS4LUAD/masks/10/004_014.png
+data/WSSS4LUAD/masks/10/004_015.png
+data/WSSS4LUAD/masks/10/004_016.png
+data/WSSS4LUAD/masks/10/004_017.png
+data/WSSS4LUAD/masks/10/004_018.png
+data/WSSS4LUAD/masks/10/005_000.png
+data/WSSS4LUAD/masks/10/005_001.png
+data/WSSS4LUAD/masks/10/005_002.png
+data/WSSS4LUAD/masks/10/005_003.png
+data/WSSS4LUAD/masks/10/005_004.png
+data/WSSS4LUAD/masks/10/005_005.png
+data/WSSS4LUAD/masks/10/005_006.png
+data/WSSS4LUAD/masks/10/005_007.png
+data/WSSS4LUAD/masks/10/005_008.png
+data/WSSS4LUAD/masks/10/005_009.png
+data/WSSS4LUAD/masks/10/005_010.png
+data/WSSS4LUAD/masks/10/005_011.png
+data/WSSS4LUAD/masks/10/005_012.png
+data/WSSS4LUAD/masks/10/005_013.png
+data/WSSS4LUAD/masks/10/005_014.png
+data/WSSS4LUAD/masks/10/005_015.png
+data/WSSS4LUAD/masks/10/005_016.png
+data/WSSS4LUAD/masks/10/005_017.png
+data/WSSS4LUAD/masks/10/005_018.png
+data/WSSS4LUAD/masks/10/006_000.png
+data/WSSS4LUAD/masks/10/006_001.png
+data/WSSS4LUAD/masks/10/006_002.png
+data/WSSS4LUAD/masks/10/006_003.png
+data/WSSS4LUAD/masks/10/006_004.png
+data/WSSS4LUAD/masks/10/006_005.png
+data/WSSS4LUAD/masks/10/006_006.png
+data/WSSS4LUAD/masks/10/006_007.png
+data/WSSS4LUAD/masks/10/006_008.png
+data/WSSS4LUAD/masks/10/006_009.png
+data/WSSS4LUAD/masks/10/006_010.png
+data/WSSS4LUAD/masks/10/006_011.png
+data/WSSS4LUAD/masks/10/006_012.png
+data/WSSS4LUAD/masks/10/006_013.png
+data/WSSS4LUAD/masks/10/006_014.png
+data/WSSS4LUAD/masks/10/006_015.png
+data/WSSS4LUAD/masks/10/006_016.png
+data/WSSS4LUAD/masks/10/006_017.png
+data/WSSS4LUAD/masks/10/006_018.png
+data/WSSS4LUAD/masks/10/007_000.png
+data/WSSS4LUAD/masks/10/007_001.png
+data/WSSS4LUAD/masks/10/007_002.png
+data/WSSS4LUAD/masks/10/007_003.png
+data/WSSS4LUAD/masks/10/007_004.png
+data/WSSS4LUAD/masks/10/007_005.png
+data/WSSS4LUAD/masks/10/007_006.png
+data/WSSS4LUAD/masks/10/007_007.png
+data/WSSS4LUAD/masks/10/007_008.png
+data/WSSS4LUAD/masks/10/007_009.png
+data/WSSS4LUAD/masks/10/007_010.png
+data/WSSS4LUAD/masks/10/007_011.png
+data/WSSS4LUAD/masks/10/007_012.png
+data/WSSS4LUAD/masks/10/007_013.png
+data/WSSS4LUAD/masks/10/007_014.png
+data/WSSS4LUAD/masks/10/007_015.png
+data/WSSS4LUAD/masks/10/007_016.png
+data/WSSS4LUAD/masks/10/007_017.png
+data/WSSS4LUAD/masks/10/007_018.png
+data/WSSS4LUAD/masks/10/008_000.png
+data/WSSS4LUAD/masks/10/008_001.png
+data/WSSS4LUAD/masks/10/008_002.png
+data/WSSS4LUAD/masks/10/008_003.png
+data/WSSS4LUAD/masks/10/008_004.png
+data/WSSS4LUAD/masks/10/008_005.png
+data/WSSS4LUAD/masks/10/008_006.png
+data/WSSS4LUAD/masks/10/008_007.png
+data/WSSS4LUAD/masks/10/008_008.png
+data/WSSS4LUAD/masks/10/008_009.png
+data/WSSS4LUAD/masks/10/008_010.png
+data/WSSS4LUAD/masks/10/008_011.png
+data/WSSS4LUAD/masks/10/008_012.png
+data/WSSS4LUAD/masks/10/008_013.png
+data/WSSS4LUAD/masks/10/008_014.png
+data/WSSS4LUAD/masks/10/008_015.png
+data/WSSS4LUAD/masks/10/008_016.png
+data/WSSS4LUAD/masks/10/008_017.png
+data/WSSS4LUAD/masks/10/008_018.png
+data/WSSS4LUAD/masks/10/009_000.png
+data/WSSS4LUAD/masks/10/009_001.png
+data/WSSS4LUAD/masks/10/009_002.png
+data/WSSS4LUAD/masks/10/009_003.png
+data/WSSS4LUAD/masks/10/009_004.png
+data/WSSS4LUAD/masks/10/009_005.png
+data/WSSS4LUAD/masks/10/009_006.png
+data/WSSS4LUAD/masks/10/009_007.png
+data/WSSS4LUAD/masks/10/009_008.png
+data/WSSS4LUAD/masks/10/009_009.png
+data/WSSS4LUAD/masks/10/009_010.png
+data/WSSS4LUAD/masks/10/009_011.png
+data/WSSS4LUAD/masks/10/009_012.png
+data/WSSS4LUAD/masks/10/009_013.png
+data/WSSS4LUAD/masks/10/009_014.png
+data/WSSS4LUAD/masks/10/009_015.png
+data/WSSS4LUAD/masks/10/009_016.png
+data/WSSS4LUAD/masks/10/009_017.png
+data/WSSS4LUAD/masks/10/009_018.png
+data/WSSS4LUAD/masks/10/010_000.png
+data/WSSS4LUAD/masks/10/010_001.png
+data/WSSS4LUAD/masks/10/010_002.png
+data/WSSS4LUAD/masks/10/010_003.png
+data/WSSS4LUAD/masks/10/010_004.png
+data/WSSS4LUAD/masks/10/010_005.png
+data/WSSS4LUAD/masks/10/010_006.png
+data/WSSS4LUAD/masks/10/010_007.png
+data/WSSS4LUAD/masks/10/010_008.png
+data/WSSS4LUAD/masks/10/010_009.png
+data/WSSS4LUAD/masks/10/010_010.png
+data/WSSS4LUAD/masks/10/010_011.png
+data/WSSS4LUAD/masks/10/010_012.png
+data/WSSS4LUAD/masks/10/010_013.png
+data/WSSS4LUAD/masks/10/010_014.png
+data/WSSS4LUAD/masks/10/010_015.png
+data/WSSS4LUAD/masks/10/010_016.png
+data/WSSS4LUAD/masks/10/010_017.png
+data/WSSS4LUAD/masks/10/010_018.png
+data/WSSS4LUAD/masks/10/011_000.png
+data/WSSS4LUAD/masks/10/011_001.png
+data/WSSS4LUAD/masks/10/011_002.png
+data/WSSS4LUAD/masks/10/011_003.png
+data/WSSS4LUAD/masks/10/011_004.png
+data/WSSS4LUAD/masks/10/011_005.png
+data/WSSS4LUAD/masks/10/011_006.png
+data/WSSS4LUAD/masks/10/011_007.png
+data/WSSS4LUAD/masks/10/011_008.png
+data/WSSS4LUAD/masks/10/011_009.png
+data/WSSS4LUAD/masks/10/011_010.png
+data/WSSS4LUAD/masks/10/011_011.png
+data/WSSS4LUAD/masks/10/011_012.png
+data/WSSS4LUAD/masks/10/011_013.png
+data/WSSS4LUAD/masks/10/011_014.png
+data/WSSS4LUAD/masks/10/011_015.png
+data/WSSS4LUAD/masks/10/011_016.png
+data/WSSS4LUAD/masks/10/011_017.png
+data/WSSS4LUAD/masks/10/011_018.png
+data/WSSS4LUAD/masks/10/012_000.png
+data/WSSS4LUAD/masks/10/012_001.png
+data/WSSS4LUAD/masks/10/012_002.png
+data/WSSS4LUAD/masks/10/012_003.png
+data/WSSS4LUAD/masks/10/012_004.png
+data/WSSS4LUAD/masks/10/012_005.png
+data/WSSS4LUAD/masks/10/012_006.png
+data/WSSS4LUAD/masks/10/012_007.png
+data/WSSS4LUAD/masks/10/012_008.png
+data/WSSS4LUAD/masks/10/012_009.png
+data/WSSS4LUAD/masks/10/012_010.png
+data/WSSS4LUAD/masks/10/012_011.png
+data/WSSS4LUAD/masks/10/012_012.png
+data/WSSS4LUAD/masks/10/012_013.png
+data/WSSS4LUAD/masks/10/012_014.png
+data/WSSS4LUAD/masks/10/012_015.png
+data/WSSS4LUAD/masks/10/012_016.png
+data/WSSS4LUAD/masks/10/012_017.png
+data/WSSS4LUAD/masks/10/012_018.png
+data/WSSS4LUAD/masks/10/013_000.png
+data/WSSS4LUAD/masks/10/013_001.png
+data/WSSS4LUAD/masks/10/013_002.png
+data/WSSS4LUAD/masks/10/013_003.png
+data/WSSS4LUAD/masks/10/013_004.png
+data/WSSS4LUAD/masks/10/013_005.png
+data/WSSS4LUAD/masks/10/013_006.png
+data/WSSS4LUAD/masks/10/013_007.png
+data/WSSS4LUAD/masks/10/013_008.png
+data/WSSS4LUAD/masks/10/013_009.png
+data/WSSS4LUAD/masks/10/013_010.png
+data/WSSS4LUAD/masks/10/013_011.png
+data/WSSS4LUAD/masks/10/013_012.png
+data/WSSS4LUAD/masks/10/013_013.png
+data/WSSS4LUAD/masks/10/013_014.png
+data/WSSS4LUAD/masks/10/013_015.png
+data/WSSS4LUAD/masks/10/013_016.png
+data/WSSS4LUAD/masks/10/013_017.png
+data/WSSS4LUAD/masks/10/013_018.png
+data/WSSS4LUAD/masks/10/014_000.png
+data/WSSS4LUAD/masks/10/014_001.png
+data/WSSS4LUAD/masks/10/014_002.png
+data/WSSS4LUAD/masks/10/014_003.png
+data/WSSS4LUAD/masks/10/014_004.png
+data/WSSS4LUAD/masks/10/014_005.png
+data/WSSS4LUAD/masks/10/014_006.png
+data/WSSS4LUAD/masks/10/014_007.png
+data/WSSS4LUAD/masks/10/014_008.png
+data/WSSS4LUAD/masks/10/014_009.png
+data/WSSS4LUAD/masks/10/014_010.png
+data/WSSS4LUAD/masks/10/014_011.png
+data/WSSS4LUAD/masks/10/014_012.png
+data/WSSS4LUAD/masks/10/014_013.png
+data/WSSS4LUAD/masks/10/014_014.png
+data/WSSS4LUAD/masks/10/014_015.png
+data/WSSS4LUAD/masks/10/014_016.png
+data/WSSS4LUAD/masks/10/014_017.png
+data/WSSS4LUAD/masks/10/014_018.png
+data/WSSS4LUAD/masks/10/015_000.png
+data/WSSS4LUAD/masks/10/015_001.png
+data/WSSS4LUAD/masks/10/015_002.png
+data/WSSS4LUAD/masks/10/015_003.png
+data/WSSS4LUAD/masks/10/015_004.png
+data/WSSS4LUAD/masks/10/015_005.png
+data/WSSS4LUAD/masks/10/015_006.png
+data/WSSS4LUAD/masks/10/015_007.png
+data/WSSS4LUAD/masks/10/015_008.png
+data/WSSS4LUAD/masks/10/015_009.png
+data/WSSS4LUAD/masks/10/015_010.png
+data/WSSS4LUAD/masks/10/015_011.png
+data/WSSS4LUAD/masks/10/015_012.png
+data/WSSS4LUAD/masks/10/015_013.png
+data/WSSS4LUAD/masks/10/015_014.png
+data/WSSS4LUAD/masks/10/015_015.png
+data/WSSS4LUAD/masks/10/015_016.png
+data/WSSS4LUAD/masks/10/015_017.png
+data/WSSS4LUAD/masks/10/015_018.png
+data/WSSS4LUAD/masks/10/016_000.png
+data/WSSS4LUAD/masks/10/016_001.png
+data/WSSS4LUAD/masks/10/016_002.png
+data/WSSS4LUAD/masks/10/016_003.png
+data/WSSS4LUAD/masks/10/016_004.png
+data/WSSS4LUAD/masks/10/016_005.png
+data/WSSS4LUAD/masks/10/016_006.png
+data/WSSS4LUAD/masks/10/016_007.png
+data/WSSS4LUAD/masks/10/016_008.png
+data/WSSS4LUAD/masks/10/016_009.png
+data/WSSS4LUAD/masks/10/016_010.png
+data/WSSS4LUAD/masks/10/016_011.png
+data/WSSS4LUAD/masks/10/016_012.png
+data/WSSS4LUAD/masks/10/016_013.png
+data/WSSS4LUAD/masks/10/016_014.png
+data/WSSS4LUAD/masks/10/016_015.png
+data/WSSS4LUAD/masks/10/016_016.png
+data/WSSS4LUAD/masks/10/016_017.png
+data/WSSS4LUAD/masks/10/016_018.png
+data/WSSS4LUAD/masks/10/017_000.png
+data/WSSS4LUAD/masks/10/017_001.png
+data/WSSS4LUAD/masks/10/017_002.png
+data/WSSS4LUAD/masks/10/017_003.png
+data/WSSS4LUAD/masks/10/017_004.png
+data/WSSS4LUAD/masks/10/017_005.png
+data/WSSS4LUAD/masks/10/017_006.png
+data/WSSS4LUAD/masks/10/017_007.png
+data/WSSS4LUAD/masks/10/017_008.png
+data/WSSS4LUAD/masks/10/017_009.png
+data/WSSS4LUAD/masks/10/017_010.png
+data/WSSS4LUAD/masks/10/017_011.png
+data/WSSS4LUAD/masks/10/017_012.png
+data/WSSS4LUAD/masks/10/017_013.png
+data/WSSS4LUAD/masks/10/017_014.png
+data/WSSS4LUAD/masks/10/017_015.png
+data/WSSS4LUAD/masks/10/017_016.png
+data/WSSS4LUAD/masks/10/017_017.png
+data/WSSS4LUAD/masks/10/017_018.png
+data/WSSS4LUAD/masks/10/018_000.png
+data/WSSS4LUAD/masks/10/018_001.png
+data/WSSS4LUAD/masks/10/018_002.png
+data/WSSS4LUAD/masks/10/018_003.png
+data/WSSS4LUAD/masks/10/018_004.png
+data/WSSS4LUAD/masks/10/018_005.png
+data/WSSS4LUAD/masks/10/018_006.png
+data/WSSS4LUAD/masks/10/018_007.png
+data/WSSS4LUAD/masks/10/018_008.png
+data/WSSS4LUAD/masks/10/018_009.png
+data/WSSS4LUAD/masks/10/018_010.png
+data/WSSS4LUAD/masks/10/018_011.png
+data/WSSS4LUAD/masks/10/018_012.png
+data/WSSS4LUAD/masks/10/018_013.png
+data/WSSS4LUAD/masks/10/018_014.png
+data/WSSS4LUAD/masks/10/018_015.png
+data/WSSS4LUAD/masks/10/018_016.png
+data/WSSS4LUAD/masks/10/018_017.png
+data/WSSS4LUAD/masks/10/018_018.png
+data/WSSS4LUAD/masks/17/000_000.png
+data/WSSS4LUAD/masks/17/000_001.png
+data/WSSS4LUAD/masks/17/000_002.png
+data/WSSS4LUAD/masks/17/000_003.png
+data/WSSS4LUAD/masks/17/000_004.png
+data/WSSS4LUAD/masks/17/000_005.png
+data/WSSS4LUAD/masks/17/000_006.png
+data/WSSS4LUAD/masks/17/000_007.png
+data/WSSS4LUAD/masks/17/000_008.png
+data/WSSS4LUAD/masks/17/000_009.png
+data/WSSS4LUAD/masks/17/000_010.png
+data/WSSS4LUAD/masks/17/000_011.png
+data/WSSS4LUAD/masks/17/001_000.png
+data/WSSS4LUAD/masks/17/001_001.png
+data/WSSS4LUAD/masks/17/001_002.png
+data/WSSS4LUAD/masks/17/001_003.png
+data/WSSS4LUAD/masks/17/001_004.png
+data/WSSS4LUAD/masks/17/001_005.png
+data/WSSS4LUAD/masks/17/001_006.png
+data/WSSS4LUAD/masks/17/001_007.png
+data/WSSS4LUAD/masks/17/001_008.png
+data/WSSS4LUAD/masks/17/001_009.png
+data/WSSS4LUAD/masks/17/001_010.png
+data/WSSS4LUAD/masks/17/001_011.png
+data/WSSS4LUAD/masks/17/002_000.png
+data/WSSS4LUAD/masks/17/002_001.png
+data/WSSS4LUAD/masks/17/002_002.png
+data/WSSS4LUAD/masks/17/002_003.png
+data/WSSS4LUAD/masks/17/002_004.png
+data/WSSS4LUAD/masks/17/002_005.png
+data/WSSS4LUAD/masks/17/002_006.png
+data/WSSS4LUAD/masks/17/002_007.png
+data/WSSS4LUAD/masks/17/002_008.png
+data/WSSS4LUAD/masks/17/002_009.png
+data/WSSS4LUAD/masks/17/002_010.png
+data/WSSS4LUAD/masks/17/002_011.png
+data/WSSS4LUAD/masks/17/003_000.png
+data/WSSS4LUAD/masks/17/003_001.png
+data/WSSS4LUAD/masks/17/003_002.png
+data/WSSS4LUAD/masks/17/003_003.png
+data/WSSS4LUAD/masks/17/003_004.png
+data/WSSS4LUAD/masks/17/003_005.png
+data/WSSS4LUAD/masks/17/003_006.png
+data/WSSS4LUAD/masks/17/003_007.png
+data/WSSS4LUAD/masks/17/003_008.png
+data/WSSS4LUAD/masks/17/003_009.png
+data/WSSS4LUAD/masks/17/003_010.png
+data/WSSS4LUAD/masks/17/003_011.png
+data/WSSS4LUAD/masks/17/004_000.png
+data/WSSS4LUAD/masks/17/004_001.png
+data/WSSS4LUAD/masks/17/004_002.png
+data/WSSS4LUAD/masks/17/004_003.png
+data/WSSS4LUAD/masks/17/004_004.png
+data/WSSS4LUAD/masks/17/004_005.png
+data/WSSS4LUAD/masks/17/004_006.png
+data/WSSS4LUAD/masks/17/004_007.png
+data/WSSS4LUAD/masks/17/004_008.png
+data/WSSS4LUAD/masks/17/004_009.png
+data/WSSS4LUAD/masks/17/004_010.png
+data/WSSS4LUAD/masks/17/004_011.png
+data/WSSS4LUAD/masks/17/005_000.png
+data/WSSS4LUAD/masks/17/005_001.png
+data/WSSS4LUAD/masks/17/005_002.png
+data/WSSS4LUAD/masks/17/005_003.png
+data/WSSS4LUAD/masks/17/005_004.png
+data/WSSS4LUAD/masks/17/005_005.png
+data/WSSS4LUAD/masks/17/005_006.png
+data/WSSS4LUAD/masks/17/005_007.png
+data/WSSS4LUAD/masks/17/005_008.png
+data/WSSS4LUAD/masks/17/005_009.png
+data/WSSS4LUAD/masks/17/005_010.png
+data/WSSS4LUAD/masks/17/005_011.png
+data/WSSS4LUAD/masks/17/006_000.png
+data/WSSS4LUAD/masks/17/006_001.png
+data/WSSS4LUAD/masks/17/006_002.png
+data/WSSS4LUAD/masks/17/006_003.png
+data/WSSS4LUAD/masks/17/006_004.png
+data/WSSS4LUAD/masks/17/006_005.png
+data/WSSS4LUAD/masks/17/006_006.png
+data/WSSS4LUAD/masks/17/006_007.png
+data/WSSS4LUAD/masks/17/006_008.png
+data/WSSS4LUAD/masks/17/006_009.png
+data/WSSS4LUAD/masks/17/006_010.png
+data/WSSS4LUAD/masks/17/006_011.png
+data/WSSS4LUAD/masks/17/007_000.png
+data/WSSS4LUAD/masks/17/007_001.png
+data/WSSS4LUAD/masks/17/007_002.png
+data/WSSS4LUAD/masks/17/007_003.png
+data/WSSS4LUAD/masks/17/007_004.png
+data/WSSS4LUAD/masks/17/007_005.png
+data/WSSS4LUAD/masks/17/007_006.png
+data/WSSS4LUAD/masks/17/007_007.png
+data/WSSS4LUAD/masks/17/007_008.png
+data/WSSS4LUAD/masks/17/007_009.png
+data/WSSS4LUAD/masks/17/007_010.png
+data/WSSS4LUAD/masks/17/007_011.png
+data/WSSS4LUAD/masks/17/008_000.png
+data/WSSS4LUAD/masks/17/008_001.png
+data/WSSS4LUAD/masks/17/008_002.png
+data/WSSS4LUAD/masks/17/008_003.png
+data/WSSS4LUAD/masks/17/008_004.png
+data/WSSS4LUAD/masks/17/008_005.png
+data/WSSS4LUAD/masks/17/008_006.png
+data/WSSS4LUAD/masks/17/008_007.png
+data/WSSS4LUAD/masks/17/008_008.png
+data/WSSS4LUAD/masks/17/008_009.png
+data/WSSS4LUAD/masks/17/008_010.png
+data/WSSS4LUAD/masks/17/008_011.png
+data/WSSS4LUAD/masks/17/009_000.png
+data/WSSS4LUAD/masks/17/009_001.png
+data/WSSS4LUAD/masks/17/009_002.png
+data/WSSS4LUAD/masks/17/009_003.png
+data/WSSS4LUAD/masks/17/009_004.png
+data/WSSS4LUAD/masks/17/009_005.png
+data/WSSS4LUAD/masks/17/009_006.png
+data/WSSS4LUAD/masks/17/009_007.png
+data/WSSS4LUAD/masks/17/009_008.png
+data/WSSS4LUAD/masks/17/009_009.png
+data/WSSS4LUAD/masks/17/009_010.png
+data/WSSS4LUAD/masks/17/009_011.png
+data/WSSS4LUAD/masks/17/010_000.png
+data/WSSS4LUAD/masks/17/010_001.png
+data/WSSS4LUAD/masks/17/010_002.png
+data/WSSS4LUAD/masks/17/010_003.png
+data/WSSS4LUAD/masks/17/010_004.png
+data/WSSS4LUAD/masks/17/010_005.png
+data/WSSS4LUAD/masks/17/010_006.png
+data/WSSS4LUAD/masks/17/010_007.png
+data/WSSS4LUAD/masks/17/010_008.png
+data/WSSS4LUAD/masks/17/010_009.png
+data/WSSS4LUAD/masks/17/010_010.png
+data/WSSS4LUAD/masks/17/010_011.png
+data/WSSS4LUAD/masks/17/011_000.png
+data/WSSS4LUAD/masks/17/011_001.png
+data/WSSS4LUAD/masks/17/011_002.png
+data/WSSS4LUAD/masks/17/011_003.png
+data/WSSS4LUAD/masks/17/011_004.png
+data/WSSS4LUAD/masks/17/011_005.png
+data/WSSS4LUAD/masks/17/011_006.png
+data/WSSS4LUAD/masks/17/011_007.png
+data/WSSS4LUAD/masks/17/011_008.png
+data/WSSS4LUAD/masks/17/011_009.png
+data/WSSS4LUAD/masks/17/011_010.png
+data/WSSS4LUAD/masks/17/011_011.png
+data/WSSS4LUAD/masks/17/012_000.png
+data/WSSS4LUAD/masks/17/012_001.png
+data/WSSS4LUAD/masks/17/012_002.png
+data/WSSS4LUAD/masks/17/012_003.png
+data/WSSS4LUAD/masks/17/012_004.png
+data/WSSS4LUAD/masks/17/012_005.png
+data/WSSS4LUAD/masks/17/012_006.png
+data/WSSS4LUAD/masks/17/012_007.png
+data/WSSS4LUAD/masks/17/012_008.png
+data/WSSS4LUAD/masks/17/012_009.png
+data/WSSS4LUAD/masks/17/012_010.png
+data/WSSS4LUAD/masks/17/012_011.png
+data/WSSS4LUAD/masks/17/013_000.png
+data/WSSS4LUAD/masks/17/013_001.png
+data/WSSS4LUAD/masks/17/013_002.png
+data/WSSS4LUAD/masks/17/013_003.png
+data/WSSS4LUAD/masks/17/013_004.png
+data/WSSS4LUAD/masks/17/013_005.png
+data/WSSS4LUAD/masks/17/013_006.png
+data/WSSS4LUAD/masks/17/013_007.png
+data/WSSS4LUAD/masks/17/013_008.png
+data/WSSS4LUAD/masks/17/013_009.png
+data/WSSS4LUAD/masks/17/013_010.png
+data/WSSS4LUAD/masks/17/013_011.png
+data/WSSS4LUAD/masks/17/014_000.png
+data/WSSS4LUAD/masks/17/014_001.png
+data/WSSS4LUAD/masks/17/014_002.png
+data/WSSS4LUAD/masks/17/014_003.png
+data/WSSS4LUAD/masks/17/014_004.png
+data/WSSS4LUAD/masks/17/014_005.png
+data/WSSS4LUAD/masks/17/014_006.png
+data/WSSS4LUAD/masks/17/014_007.png
+data/WSSS4LUAD/masks/17/014_008.png
+data/WSSS4LUAD/masks/17/014_009.png
+data/WSSS4LUAD/masks/17/014_010.png
+data/WSSS4LUAD/masks/17/014_011.png
+data/WSSS4LUAD/masks/17/015_000.png
+data/WSSS4LUAD/masks/17/015_001.png
+data/WSSS4LUAD/masks/17/015_002.png
+data/WSSS4LUAD/masks/17/015_003.png
+data/WSSS4LUAD/masks/17/015_004.png
+data/WSSS4LUAD/masks/17/015_005.png
+data/WSSS4LUAD/masks/17/015_006.png
+data/WSSS4LUAD/masks/17/015_007.png
+data/WSSS4LUAD/masks/17/015_008.png
+data/WSSS4LUAD/masks/17/015_009.png
+data/WSSS4LUAD/masks/17/015_010.png
+data/WSSS4LUAD/masks/17/015_011.png
+data/WSSS4LUAD/masks/17/016_000.png
+data/WSSS4LUAD/masks/17/016_001.png
+data/WSSS4LUAD/masks/17/016_002.png
+data/WSSS4LUAD/masks/17/016_003.png
+data/WSSS4LUAD/masks/17/016_004.png
+data/WSSS4LUAD/masks/17/016_005.png
+data/WSSS4LUAD/masks/17/016_006.png
+data/WSSS4LUAD/masks/17/016_007.png
+data/WSSS4LUAD/masks/17/016_008.png
+data/WSSS4LUAD/masks/17/016_009.png
+data/WSSS4LUAD/masks/17/016_010.png
+data/WSSS4LUAD/masks/17/016_011.png
+data/WSSS4LUAD/masks/17/017_000.png
+data/WSSS4LUAD/masks/17/017_001.png
+data/WSSS4LUAD/masks/17/017_002.png
+data/WSSS4LUAD/masks/17/017_003.png
+data/WSSS4LUAD/masks/17/017_004.png
+data/WSSS4LUAD/masks/17/017_005.png
+data/WSSS4LUAD/masks/17/017_006.png
+data/WSSS4LUAD/masks/17/017_007.png
+data/WSSS4LUAD/masks/17/017_008.png
+data/WSSS4LUAD/masks/17/017_009.png
+data/WSSS4LUAD/masks/17/017_010.png
+data/WSSS4LUAD/masks/17/017_011.png
+data/WSSS4LUAD/masks/17/018_000.png
+data/WSSS4LUAD/masks/17/018_001.png
+data/WSSS4LUAD/masks/17/018_002.png
+data/WSSS4LUAD/masks/17/018_003.png
+data/WSSS4LUAD/masks/17/018_004.png
+data/WSSS4LUAD/masks/17/018_005.png
+data/WSSS4LUAD/masks/17/018_006.png
+data/WSSS4LUAD/masks/17/018_007.png
+data/WSSS4LUAD/masks/17/018_008.png
+data/WSSS4LUAD/masks/17/018_009.png
+data/WSSS4LUAD/masks/17/018_010.png
+data/WSSS4LUAD/masks/17/018_011.png
+data/WSSS4LUAD/masks/17/019_000.png
+data/WSSS4LUAD/masks/17/019_001.png
+data/WSSS4LUAD/masks/17/019_002.png
+data/WSSS4LUAD/masks/17/019_003.png
+data/WSSS4LUAD/masks/17/019_004.png
+data/WSSS4LUAD/masks/17/019_005.png
+data/WSSS4LUAD/masks/17/019_006.png
+data/WSSS4LUAD/masks/17/019_007.png
+data/WSSS4LUAD/masks/17/019_008.png
+data/WSSS4LUAD/masks/17/019_009.png
+data/WSSS4LUAD/masks/17/019_010.png
+data/WSSS4LUAD/masks/17/019_011.png
+data/WSSS4LUAD/masks/17/020_000.png
+data/WSSS4LUAD/masks/17/020_001.png
+data/WSSS4LUAD/masks/17/020_002.png
+data/WSSS4LUAD/masks/17/020_003.png
+data/WSSS4LUAD/masks/17/020_004.png
+data/WSSS4LUAD/masks/17/020_005.png
+data/WSSS4LUAD/masks/17/020_006.png
+data/WSSS4LUAD/masks/17/020_007.png
+data/WSSS4LUAD/masks/17/020_008.png
+data/WSSS4LUAD/masks/17/020_009.png
+data/WSSS4LUAD/masks/17/020_010.png
+data/WSSS4LUAD/masks/17/020_011.png
+data/WSSS4LUAD/masks/17/021_000.png
+data/WSSS4LUAD/masks/17/021_001.png
+data/WSSS4LUAD/masks/17/021_002.png
+data/WSSS4LUAD/masks/17/021_003.png
+data/WSSS4LUAD/masks/17/021_004.png
+data/WSSS4LUAD/masks/17/021_005.png
+data/WSSS4LUAD/masks/17/021_006.png
+data/WSSS4LUAD/masks/17/021_007.png
+data/WSSS4LUAD/masks/17/021_008.png
+data/WSSS4LUAD/masks/17/021_009.png
+data/WSSS4LUAD/masks/17/021_010.png
+data/WSSS4LUAD/masks/17/021_011.png
+data/WSSS4LUAD/masks/17/022_000.png
+data/WSSS4LUAD/masks/17/022_001.png
+data/WSSS4LUAD/masks/17/022_002.png
+data/WSSS4LUAD/masks/17/022_003.png
+data/WSSS4LUAD/masks/17/022_004.png
+data/WSSS4LUAD/masks/17/022_005.png
+data/WSSS4LUAD/masks/17/022_006.png
+data/WSSS4LUAD/masks/17/022_007.png
+data/WSSS4LUAD/masks/17/022_008.png
+data/WSSS4LUAD/masks/17/022_009.png
+data/WSSS4LUAD/masks/17/022_010.png
+data/WSSS4LUAD/masks/17/022_011.png
+data/WSSS4LUAD/masks/17/023_000.png
+data/WSSS4LUAD/masks/17/023_001.png
+data/WSSS4LUAD/masks/17/023_002.png
+data/WSSS4LUAD/masks/17/023_003.png
+data/WSSS4LUAD/masks/17/023_004.png
+data/WSSS4LUAD/masks/17/023_005.png
+data/WSSS4LUAD/masks/17/023_006.png
+data/WSSS4LUAD/masks/17/023_007.png
+data/WSSS4LUAD/masks/17/023_008.png
+data/WSSS4LUAD/masks/17/023_009.png
+data/WSSS4LUAD/masks/17/023_010.png
+data/WSSS4LUAD/masks/17/023_011.png
+data/WSSS4LUAD/masks/17/024_000.png
+data/WSSS4LUAD/masks/17/024_001.png
+data/WSSS4LUAD/masks/17/024_002.png
+data/WSSS4LUAD/masks/17/024_003.png
+data/WSSS4LUAD/masks/17/024_004.png
+data/WSSS4LUAD/masks/17/024_005.png
+data/WSSS4LUAD/masks/17/024_006.png
+data/WSSS4LUAD/masks/17/024_007.png
+data/WSSS4LUAD/masks/17/024_008.png
+data/WSSS4LUAD/masks/17/024_009.png
+data/WSSS4LUAD/masks/17/024_010.png
+data/WSSS4LUAD/masks/17/024_011.png
+data/WSSS4LUAD/masks/19/000_000.png
+data/WSSS4LUAD/masks/19/000_001.png
+data/WSSS4LUAD/masks/19/000_002.png
+data/WSSS4LUAD/masks/19/000_003.png
+data/WSSS4LUAD/masks/19/000_004.png
+data/WSSS4LUAD/masks/19/000_005.png
+data/WSSS4LUAD/masks/19/000_006.png
+data/WSSS4LUAD/masks/19/000_007.png
+data/WSSS4LUAD/masks/19/001_000.png
+data/WSSS4LUAD/masks/19/001_001.png
+data/WSSS4LUAD/masks/19/001_002.png
+data/WSSS4LUAD/masks/19/001_003.png
+data/WSSS4LUAD/masks/19/001_004.png
+data/WSSS4LUAD/masks/19/001_005.png
+data/WSSS4LUAD/masks/19/001_006.png
+data/WSSS4LUAD/masks/19/001_007.png
+data/WSSS4LUAD/masks/19/002_000.png
+data/WSSS4LUAD/masks/19/002_001.png
+data/WSSS4LUAD/masks/19/002_002.png
+data/WSSS4LUAD/masks/19/002_003.png
+data/WSSS4LUAD/masks/19/002_004.png
+data/WSSS4LUAD/masks/19/002_005.png
+data/WSSS4LUAD/masks/19/002_006.png
+data/WSSS4LUAD/masks/19/002_007.png
+data/WSSS4LUAD/masks/19/003_000.png
+data/WSSS4LUAD/masks/19/003_001.png
+data/WSSS4LUAD/masks/19/003_002.png
+data/WSSS4LUAD/masks/19/003_003.png
+data/WSSS4LUAD/masks/19/003_004.png
+data/WSSS4LUAD/masks/19/003_005.png
+data/WSSS4LUAD/masks/19/003_006.png
+data/WSSS4LUAD/masks/19/003_007.png
+data/WSSS4LUAD/masks/19/004_000.png
+data/WSSS4LUAD/masks/19/004_001.png
+data/WSSS4LUAD/masks/19/004_002.png
+data/WSSS4LUAD/masks/19/004_003.png
+data/WSSS4LUAD/masks/19/004_004.png
+data/WSSS4LUAD/masks/19/004_005.png
+data/WSSS4LUAD/masks/19/004_006.png
+data/WSSS4LUAD/masks/19/004_007.png
+data/WSSS4LUAD/masks/19/005_000.png
+data/WSSS4LUAD/masks/19/005_001.png
+data/WSSS4LUAD/masks/19/005_002.png
+data/WSSS4LUAD/masks/19/005_003.png
+data/WSSS4LUAD/masks/19/005_004.png
+data/WSSS4LUAD/masks/19/005_005.png
+data/WSSS4LUAD/masks/19/005_006.png
+data/WSSS4LUAD/masks/19/005_007.png
+data/WSSS4LUAD/masks/19/006_000.png
+data/WSSS4LUAD/masks/19/006_001.png
+data/WSSS4LUAD/masks/19/006_002.png
+data/WSSS4LUAD/masks/19/006_003.png
+data/WSSS4LUAD/masks/19/006_004.png
+data/WSSS4LUAD/masks/19/006_005.png
+data/WSSS4LUAD/masks/19/006_006.png
+data/WSSS4LUAD/masks/19/006_007.png
+data/WSSS4LUAD/masks/19/007_000.png
+data/WSSS4LUAD/masks/19/007_001.png
+data/WSSS4LUAD/masks/19/007_002.png
+data/WSSS4LUAD/masks/19/007_003.png
+data/WSSS4LUAD/masks/19/007_004.png
+data/WSSS4LUAD/masks/19/007_005.png
+data/WSSS4LUAD/masks/19/007_006.png
+data/WSSS4LUAD/masks/19/007_007.png
+data/WSSS4LUAD/masks/19/008_000.png
+data/WSSS4LUAD/masks/19/008_001.png
+data/WSSS4LUAD/masks/19/008_002.png
+data/WSSS4LUAD/masks/19/008_003.png
+data/WSSS4LUAD/masks/19/008_004.png
+data/WSSS4LUAD/masks/19/008_005.png
+data/WSSS4LUAD/masks/19/008_006.png
+data/WSSS4LUAD/masks/19/008_007.png
+data/WSSS4LUAD/masks/19/009_000.png
+data/WSSS4LUAD/masks/19/009_001.png
+data/WSSS4LUAD/masks/19/009_002.png
+data/WSSS4LUAD/masks/19/009_003.png
+data/WSSS4LUAD/masks/19/009_004.png
+data/WSSS4LUAD/masks/19/009_005.png
+data/WSSS4LUAD/masks/19/009_006.png
+data/WSSS4LUAD/masks/19/009_007.png
+data/WSSS4LUAD/masks/18/000_000.png
+data/WSSS4LUAD/masks/18/000_001.png
+data/WSSS4LUAD/masks/18/000_002.png
+data/WSSS4LUAD/masks/18/000_003.png
+data/WSSS4LUAD/masks/18/000_004.png
+data/WSSS4LUAD/masks/18/000_005.png
+data/WSSS4LUAD/masks/18/000_006.png
+data/WSSS4LUAD/masks/18/000_007.png
+data/WSSS4LUAD/masks/18/000_008.png
+data/WSSS4LUAD/masks/18/000_009.png
+data/WSSS4LUAD/masks/18/001_000.png
+data/WSSS4LUAD/masks/18/001_001.png
+data/WSSS4LUAD/masks/18/001_002.png
+data/WSSS4LUAD/masks/18/001_003.png
+data/WSSS4LUAD/masks/18/001_004.png
+data/WSSS4LUAD/masks/18/001_005.png
+data/WSSS4LUAD/masks/18/001_006.png
+data/WSSS4LUAD/masks/18/001_007.png
+data/WSSS4LUAD/masks/18/001_008.png
+data/WSSS4LUAD/masks/18/001_009.png
+data/WSSS4LUAD/masks/18/002_000.png
+data/WSSS4LUAD/masks/18/002_001.png
+data/WSSS4LUAD/masks/18/002_002.png
+data/WSSS4LUAD/masks/18/002_003.png
+data/WSSS4LUAD/masks/18/002_004.png
+data/WSSS4LUAD/masks/18/002_005.png
+data/WSSS4LUAD/masks/18/002_006.png
+data/WSSS4LUAD/masks/18/002_007.png
+data/WSSS4LUAD/masks/18/002_008.png
+data/WSSS4LUAD/masks/18/002_009.png
+data/WSSS4LUAD/masks/18/003_000.png
+data/WSSS4LUAD/masks/18/003_001.png
+data/WSSS4LUAD/masks/18/003_002.png
+data/WSSS4LUAD/masks/18/003_003.png
+data/WSSS4LUAD/masks/18/003_004.png
+data/WSSS4LUAD/masks/18/003_005.png
+data/WSSS4LUAD/masks/18/003_006.png
+data/WSSS4LUAD/masks/18/003_007.png
+data/WSSS4LUAD/masks/18/003_008.png
+data/WSSS4LUAD/masks/18/003_009.png
+data/WSSS4LUAD/masks/18/004_000.png
+data/WSSS4LUAD/masks/18/004_001.png
+data/WSSS4LUAD/masks/18/004_002.png
+data/WSSS4LUAD/masks/18/004_003.png
+data/WSSS4LUAD/masks/18/004_004.png
+data/WSSS4LUAD/masks/18/004_005.png
+data/WSSS4LUAD/masks/18/004_006.png
+data/WSSS4LUAD/masks/18/004_007.png
+data/WSSS4LUAD/masks/18/004_008.png
+data/WSSS4LUAD/masks/18/004_009.png
+data/WSSS4LUAD/masks/18/005_000.png
+data/WSSS4LUAD/masks/18/005_001.png
+data/WSSS4LUAD/masks/18/005_002.png
+data/WSSS4LUAD/masks/18/005_003.png
+data/WSSS4LUAD/masks/18/005_004.png
+data/WSSS4LUAD/masks/18/005_005.png
+data/WSSS4LUAD/masks/18/005_006.png
+data/WSSS4LUAD/masks/18/005_007.png
+data/WSSS4LUAD/masks/18/005_008.png
+data/WSSS4LUAD/masks/18/005_009.png
+data/WSSS4LUAD/masks/18/006_000.png
+data/WSSS4LUAD/masks/18/006_001.png
+data/WSSS4LUAD/masks/18/006_002.png
+data/WSSS4LUAD/masks/18/006_003.png
+data/WSSS4LUAD/masks/18/006_004.png
+data/WSSS4LUAD/masks/18/006_005.png
+data/WSSS4LUAD/masks/18/006_006.png
+data/WSSS4LUAD/masks/18/006_007.png
+data/WSSS4LUAD/masks/18/006_008.png
+data/WSSS4LUAD/masks/18/006_009.png
+data/WSSS4LUAD/masks/18/007_000.png
+data/WSSS4LUAD/masks/18/007_001.png
+data/WSSS4LUAD/masks/18/007_002.png
+data/WSSS4LUAD/masks/18/007_003.png
+data/WSSS4LUAD/masks/18/007_004.png
+data/WSSS4LUAD/masks/18/007_005.png
+data/WSSS4LUAD/masks/18/007_006.png
+data/WSSS4LUAD/masks/18/007_007.png
+data/WSSS4LUAD/masks/18/007_008.png
+data/WSSS4LUAD/masks/18/007_009.png
+data/WSSS4LUAD/masks/18/008_000.png
+data/WSSS4LUAD/masks/18/008_001.png
+data/WSSS4LUAD/masks/18/008_002.png
+data/WSSS4LUAD/masks/18/008_003.png
+data/WSSS4LUAD/masks/18/008_004.png
+data/WSSS4LUAD/masks/18/008_005.png
+data/WSSS4LUAD/masks/18/008_006.png
+data/WSSS4LUAD/masks/18/008_007.png
+data/WSSS4LUAD/masks/18/008_008.png
+data/WSSS4LUAD/masks/18/008_009.png
+data/WSSS4LUAD/masks/18/009_000.png
+data/WSSS4LUAD/masks/18/009_001.png
+data/WSSS4LUAD/masks/18/009_002.png
+data/WSSS4LUAD/masks/18/009_003.png
+data/WSSS4LUAD/masks/18/009_004.png
+data/WSSS4LUAD/masks/18/009_005.png
+data/WSSS4LUAD/masks/18/009_006.png
+data/WSSS4LUAD/masks/18/009_007.png
+data/WSSS4LUAD/masks/18/009_008.png
+data/WSSS4LUAD/masks/18/009_009.png
+data/WSSS4LUAD/masks/11/000_000.png
+data/WSSS4LUAD/masks/11/000_001.png
+data/WSSS4LUAD/masks/11/000_002.png
+data/WSSS4LUAD/masks/11/000_003.png
+data/WSSS4LUAD/masks/11/000_004.png
+data/WSSS4LUAD/masks/11/000_005.png
+data/WSSS4LUAD/masks/11/000_006.png
+data/WSSS4LUAD/masks/11/001_000.png
+data/WSSS4LUAD/masks/11/001_001.png
+data/WSSS4LUAD/masks/11/001_002.png
+data/WSSS4LUAD/masks/11/001_003.png
+data/WSSS4LUAD/masks/11/001_004.png
+data/WSSS4LUAD/masks/11/001_005.png
+data/WSSS4LUAD/masks/11/001_006.png
+data/WSSS4LUAD/masks/11/002_000.png
+data/WSSS4LUAD/masks/11/002_001.png
+data/WSSS4LUAD/masks/11/002_002.png
+data/WSSS4LUAD/masks/11/002_003.png
+data/WSSS4LUAD/masks/11/002_004.png
+data/WSSS4LUAD/masks/11/002_005.png
+data/WSSS4LUAD/masks/11/002_006.png
+data/WSSS4LUAD/masks/16/000_000.png
+data/WSSS4LUAD/masks/16/000_001.png
+data/WSSS4LUAD/masks/16/000_002.png
+data/WSSS4LUAD/masks/16/000_003.png
+data/WSSS4LUAD/masks/16/000_004.png
+data/WSSS4LUAD/masks/16/000_005.png
+data/WSSS4LUAD/masks/16/000_006.png
+data/WSSS4LUAD/masks/16/000_007.png
+data/WSSS4LUAD/masks/16/000_008.png
+data/WSSS4LUAD/masks/16/000_009.png
+data/WSSS4LUAD/masks/16/000_010.png
+data/WSSS4LUAD/masks/16/001_000.png
+data/WSSS4LUAD/masks/16/001_001.png
+data/WSSS4LUAD/masks/16/001_002.png
+data/WSSS4LUAD/masks/16/001_003.png
+data/WSSS4LUAD/masks/16/001_004.png
+data/WSSS4LUAD/masks/16/001_005.png
+data/WSSS4LUAD/masks/16/001_006.png
+data/WSSS4LUAD/masks/16/001_007.png
+data/WSSS4LUAD/masks/16/001_008.png
+data/WSSS4LUAD/masks/16/001_009.png
+data/WSSS4LUAD/masks/16/001_010.png
+data/WSSS4LUAD/masks/16/002_000.png
+data/WSSS4LUAD/masks/16/002_001.png
+data/WSSS4LUAD/masks/16/002_002.png
+data/WSSS4LUAD/masks/16/002_003.png
+data/WSSS4LUAD/masks/16/002_004.png
+data/WSSS4LUAD/masks/16/002_005.png
+data/WSSS4LUAD/masks/16/002_006.png
+data/WSSS4LUAD/masks/16/002_007.png
+data/WSSS4LUAD/masks/16/002_008.png
+data/WSSS4LUAD/masks/16/002_009.png
+data/WSSS4LUAD/masks/16/002_010.png
+data/WSSS4LUAD/masks/16/003_000.png
+data/WSSS4LUAD/masks/16/003_001.png
+data/WSSS4LUAD/masks/16/003_002.png
+data/WSSS4LUAD/masks/16/003_003.png
+data/WSSS4LUAD/masks/16/003_004.png
+data/WSSS4LUAD/masks/16/003_005.png
+data/WSSS4LUAD/masks/16/003_006.png
+data/WSSS4LUAD/masks/16/003_007.png
+data/WSSS4LUAD/masks/16/003_008.png
+data/WSSS4LUAD/masks/16/003_009.png
+data/WSSS4LUAD/masks/16/003_010.png
+data/WSSS4LUAD/masks/16/004_000.png
+data/WSSS4LUAD/masks/16/004_001.png
+data/WSSS4LUAD/masks/16/004_002.png
+data/WSSS4LUAD/masks/16/004_003.png
+data/WSSS4LUAD/masks/16/004_004.png
+data/WSSS4LUAD/masks/16/004_005.png
+data/WSSS4LUAD/masks/16/004_006.png
+data/WSSS4LUAD/masks/16/004_007.png
+data/WSSS4LUAD/masks/16/004_008.png
+data/WSSS4LUAD/masks/16/004_009.png
+data/WSSS4LUAD/masks/16/004_010.png
+data/WSSS4LUAD/masks/16/005_000.png
+data/WSSS4LUAD/masks/16/005_001.png
+data/WSSS4LUAD/masks/16/005_002.png
+data/WSSS4LUAD/masks/16/005_003.png
+data/WSSS4LUAD/masks/16/005_004.png
+data/WSSS4LUAD/masks/16/005_005.png
+data/WSSS4LUAD/masks/16/005_006.png
+data/WSSS4LUAD/masks/16/005_007.png
+data/WSSS4LUAD/masks/16/005_008.png
+data/WSSS4LUAD/masks/16/005_009.png
+data/WSSS4LUAD/masks/16/005_010.png
+data/WSSS4LUAD/masks/16/006_000.png
+data/WSSS4LUAD/masks/16/006_001.png
+data/WSSS4LUAD/masks/16/006_002.png
+data/WSSS4LUAD/masks/16/006_003.png
+data/WSSS4LUAD/masks/16/006_004.png
+data/WSSS4LUAD/masks/16/006_005.png
+data/WSSS4LUAD/masks/16/006_006.png
+data/WSSS4LUAD/masks/16/006_007.png
+data/WSSS4LUAD/masks/16/006_008.png
+data/WSSS4LUAD/masks/16/006_009.png
+data/WSSS4LUAD/masks/16/006_010.png
+data/WSSS4LUAD/masks/ 8/000_000.png
+data/WSSS4LUAD/masks/ 8/000_001.png
+data/WSSS4LUAD/masks/ 8/000_002.png
+data/WSSS4LUAD/masks/ 8/000_003.png
+data/WSSS4LUAD/masks/ 8/000_004.png
+data/WSSS4LUAD/masks/ 8/000_005.png
+data/WSSS4LUAD/masks/ 8/000_006.png
+data/WSSS4LUAD/masks/ 8/000_007.png
+data/WSSS4LUAD/masks/ 8/000_008.png
+data/WSSS4LUAD/masks/ 8/000_009.png
+data/WSSS4LUAD/masks/ 8/000_010.png
+data/WSSS4LUAD/masks/ 8/000_011.png
+data/WSSS4LUAD/masks/ 8/000_012.png
+data/WSSS4LUAD/masks/ 8/000_013.png
+data/WSSS4LUAD/masks/ 8/000_014.png
+data/WSSS4LUAD/masks/ 8/000_015.png
+data/WSSS4LUAD/masks/ 8/000_016.png
+data/WSSS4LUAD/masks/ 8/000_017.png
+data/WSSS4LUAD/masks/ 8/001_000.png
+data/WSSS4LUAD/masks/ 8/001_001.png
+data/WSSS4LUAD/masks/ 8/001_002.png
+data/WSSS4LUAD/masks/ 8/001_003.png
+data/WSSS4LUAD/masks/ 8/001_004.png
+data/WSSS4LUAD/masks/ 8/001_005.png
+data/WSSS4LUAD/masks/ 8/001_006.png
+data/WSSS4LUAD/masks/ 8/001_007.png
+data/WSSS4LUAD/masks/ 8/001_008.png
+data/WSSS4LUAD/masks/ 8/001_009.png
+data/WSSS4LUAD/masks/ 8/001_010.png
+data/WSSS4LUAD/masks/ 8/001_011.png
+data/WSSS4LUAD/masks/ 8/001_012.png
+data/WSSS4LUAD/masks/ 8/001_013.png
+data/WSSS4LUAD/masks/ 8/001_014.png
+data/WSSS4LUAD/masks/ 8/001_015.png
+data/WSSS4LUAD/masks/ 8/001_016.png
+data/WSSS4LUAD/masks/ 8/001_017.png
+data/WSSS4LUAD/masks/ 8/002_000.png
+data/WSSS4LUAD/masks/ 8/002_001.png
+data/WSSS4LUAD/masks/ 8/002_002.png
+data/WSSS4LUAD/masks/ 8/002_003.png
+data/WSSS4LUAD/masks/ 8/002_004.png
+data/WSSS4LUAD/masks/ 8/002_005.png
+data/WSSS4LUAD/masks/ 8/002_006.png
+data/WSSS4LUAD/masks/ 8/002_007.png
+data/WSSS4LUAD/masks/ 8/002_008.png
+data/WSSS4LUAD/masks/ 8/002_009.png
+data/WSSS4LUAD/masks/ 8/002_010.png
+data/WSSS4LUAD/masks/ 8/002_011.png
+data/WSSS4LUAD/masks/ 8/002_012.png
+data/WSSS4LUAD/masks/ 8/002_013.png
+data/WSSS4LUAD/masks/ 8/002_014.png
+data/WSSS4LUAD/masks/ 8/002_015.png
+data/WSSS4LUAD/masks/ 8/002_016.png
+data/WSSS4LUAD/masks/ 8/002_017.png
+data/WSSS4LUAD/masks/ 8/003_000.png
+data/WSSS4LUAD/masks/ 8/003_001.png
+data/WSSS4LUAD/masks/ 8/003_002.png
+data/WSSS4LUAD/masks/ 8/003_003.png
+data/WSSS4LUAD/masks/ 8/003_004.png
+data/WSSS4LUAD/masks/ 8/003_005.png
+data/WSSS4LUAD/masks/ 8/003_006.png
+data/WSSS4LUAD/masks/ 8/003_007.png
+data/WSSS4LUAD/masks/ 8/003_008.png
+data/WSSS4LUAD/masks/ 8/003_009.png
+data/WSSS4LUAD/masks/ 8/003_010.png
+data/WSSS4LUAD/masks/ 8/003_011.png
+data/WSSS4LUAD/masks/ 8/003_012.png
+data/WSSS4LUAD/masks/ 8/003_013.png
+data/WSSS4LUAD/masks/ 8/003_014.png
+data/WSSS4LUAD/masks/ 8/003_015.png
+data/WSSS4LUAD/masks/ 8/003_016.png
+data/WSSS4LUAD/masks/ 8/003_017.png
+data/WSSS4LUAD/masks/ 8/004_000.png
+data/WSSS4LUAD/masks/ 8/004_001.png
+data/WSSS4LUAD/masks/ 8/004_002.png
+data/WSSS4LUAD/masks/ 8/004_003.png
+data/WSSS4LUAD/masks/ 8/004_004.png
+data/WSSS4LUAD/masks/ 8/004_005.png
+data/WSSS4LUAD/masks/ 8/004_006.png
+data/WSSS4LUAD/masks/ 8/004_007.png
+data/WSSS4LUAD/masks/ 8/004_008.png
+data/WSSS4LUAD/masks/ 8/004_009.png
+data/WSSS4LUAD/masks/ 8/004_010.png
+data/WSSS4LUAD/masks/ 8/004_011.png
+data/WSSS4LUAD/masks/ 8/004_012.png
+data/WSSS4LUAD/masks/ 8/004_013.png
+data/WSSS4LUAD/masks/ 8/004_014.png
+data/WSSS4LUAD/masks/ 8/004_015.png
+data/WSSS4LUAD/masks/ 8/004_016.png
+data/WSSS4LUAD/masks/ 8/004_017.png
+data/WSSS4LUAD/masks/ 8/005_000.png
+data/WSSS4LUAD/masks/ 8/005_001.png
+data/WSSS4LUAD/masks/ 8/005_002.png
+data/WSSS4LUAD/masks/ 8/005_003.png
+data/WSSS4LUAD/masks/ 8/005_004.png
+data/WSSS4LUAD/masks/ 8/005_005.png
+data/WSSS4LUAD/masks/ 8/005_006.png
+data/WSSS4LUAD/masks/ 8/005_007.png
+data/WSSS4LUAD/masks/ 8/005_008.png
+data/WSSS4LUAD/masks/ 8/005_009.png
+data/WSSS4LUAD/masks/ 8/005_010.png
+data/WSSS4LUAD/masks/ 8/005_011.png
+data/WSSS4LUAD/masks/ 8/005_012.png
+data/WSSS4LUAD/masks/ 8/005_013.png
+data/WSSS4LUAD/masks/ 8/005_014.png
+data/WSSS4LUAD/masks/ 8/005_015.png
+data/WSSS4LUAD/masks/ 8/005_016.png
+data/WSSS4LUAD/masks/ 8/005_017.png
+data/WSSS4LUAD/masks/ 8/006_000.png
+data/WSSS4LUAD/masks/ 8/006_001.png
+data/WSSS4LUAD/masks/ 8/006_002.png
+data/WSSS4LUAD/masks/ 8/006_003.png
+data/WSSS4LUAD/masks/ 8/006_004.png
+data/WSSS4LUAD/masks/ 8/006_005.png
+data/WSSS4LUAD/masks/ 8/006_006.png
+data/WSSS4LUAD/masks/ 8/006_007.png
+data/WSSS4LUAD/masks/ 8/006_008.png
+data/WSSS4LUAD/masks/ 8/006_009.png
+data/WSSS4LUAD/masks/ 8/006_010.png
+data/WSSS4LUAD/masks/ 8/006_011.png
+data/WSSS4LUAD/masks/ 8/006_012.png
+data/WSSS4LUAD/masks/ 8/006_013.png
+data/WSSS4LUAD/masks/ 8/006_014.png
+data/WSSS4LUAD/masks/ 8/006_015.png
+data/WSSS4LUAD/masks/ 8/006_016.png
+data/WSSS4LUAD/masks/ 8/006_017.png
+data/WSSS4LUAD/masks/ 8/007_000.png
+data/WSSS4LUAD/masks/ 8/007_001.png
+data/WSSS4LUAD/masks/ 8/007_002.png
+data/WSSS4LUAD/masks/ 8/007_003.png
+data/WSSS4LUAD/masks/ 8/007_004.png
+data/WSSS4LUAD/masks/ 8/007_005.png
+data/WSSS4LUAD/masks/ 8/007_006.png
+data/WSSS4LUAD/masks/ 8/007_007.png
+data/WSSS4LUAD/masks/ 8/007_008.png
+data/WSSS4LUAD/masks/ 8/007_009.png
+data/WSSS4LUAD/masks/ 8/007_010.png
+data/WSSS4LUAD/masks/ 8/007_011.png
+data/WSSS4LUAD/masks/ 8/007_012.png
+data/WSSS4LUAD/masks/ 8/007_013.png
+data/WSSS4LUAD/masks/ 8/007_014.png
+data/WSSS4LUAD/masks/ 8/007_015.png
+data/WSSS4LUAD/masks/ 8/007_016.png
+data/WSSS4LUAD/masks/ 8/007_017.png
+data/WSSS4LUAD/masks/ 8/008_000.png
+data/WSSS4LUAD/masks/ 8/008_001.png
+data/WSSS4LUAD/masks/ 8/008_002.png
+data/WSSS4LUAD/masks/ 8/008_003.png
+data/WSSS4LUAD/masks/ 8/008_004.png
+data/WSSS4LUAD/masks/ 8/008_005.png
+data/WSSS4LUAD/masks/ 8/008_006.png
+data/WSSS4LUAD/masks/ 8/008_007.png
+data/WSSS4LUAD/masks/ 8/008_008.png
+data/WSSS4LUAD/masks/ 8/008_009.png
+data/WSSS4LUAD/masks/ 8/008_010.png
+data/WSSS4LUAD/masks/ 8/008_011.png
+data/WSSS4LUAD/masks/ 8/008_012.png
+data/WSSS4LUAD/masks/ 8/008_013.png
+data/WSSS4LUAD/masks/ 8/008_014.png
+data/WSSS4LUAD/masks/ 8/008_015.png
+data/WSSS4LUAD/masks/ 8/008_016.png
+data/WSSS4LUAD/masks/ 8/008_017.png
+data/WSSS4LUAD/masks/ 8/009_000.png
+data/WSSS4LUAD/masks/ 8/009_001.png
+data/WSSS4LUAD/masks/ 8/009_002.png
+data/WSSS4LUAD/masks/ 8/009_003.png
+data/WSSS4LUAD/masks/ 8/009_004.png
+data/WSSS4LUAD/masks/ 8/009_005.png
+data/WSSS4LUAD/masks/ 8/009_006.png
+data/WSSS4LUAD/masks/ 8/009_007.png
+data/WSSS4LUAD/masks/ 8/009_008.png
+data/WSSS4LUAD/masks/ 8/009_009.png
+data/WSSS4LUAD/masks/ 8/009_010.png
+data/WSSS4LUAD/masks/ 8/009_011.png
+data/WSSS4LUAD/masks/ 8/009_012.png
+data/WSSS4LUAD/masks/ 8/009_013.png
+data/WSSS4LUAD/masks/ 8/009_014.png
+data/WSSS4LUAD/masks/ 8/009_015.png
+data/WSSS4LUAD/masks/ 8/009_016.png
+data/WSSS4LUAD/masks/ 8/009_017.png
+data/WSSS4LUAD/masks/ 8/010_000.png
+data/WSSS4LUAD/masks/ 8/010_001.png
+data/WSSS4LUAD/masks/ 8/010_002.png
+data/WSSS4LUAD/masks/ 8/010_003.png
+data/WSSS4LUAD/masks/ 8/010_004.png
+data/WSSS4LUAD/masks/ 8/010_005.png
+data/WSSS4LUAD/masks/ 8/010_006.png
+data/WSSS4LUAD/masks/ 8/010_007.png
+data/WSSS4LUAD/masks/ 8/010_008.png
+data/WSSS4LUAD/masks/ 8/010_009.png
+data/WSSS4LUAD/masks/ 8/010_010.png
+data/WSSS4LUAD/masks/ 8/010_011.png
+data/WSSS4LUAD/masks/ 8/010_012.png
+data/WSSS4LUAD/masks/ 8/010_013.png
+data/WSSS4LUAD/masks/ 8/010_014.png
+data/WSSS4LUAD/masks/ 8/010_015.png
+data/WSSS4LUAD/masks/ 8/010_016.png
+data/WSSS4LUAD/masks/ 8/010_017.png
+data/WSSS4LUAD/masks/ 8/011_000.png
+data/WSSS4LUAD/masks/ 8/011_001.png
+data/WSSS4LUAD/masks/ 8/011_002.png
+data/WSSS4LUAD/masks/ 8/011_003.png
+data/WSSS4LUAD/masks/ 8/011_004.png
+data/WSSS4LUAD/masks/ 8/011_005.png
+data/WSSS4LUAD/masks/ 8/011_006.png
+data/WSSS4LUAD/masks/ 8/011_007.png
+data/WSSS4LUAD/masks/ 8/011_008.png
+data/WSSS4LUAD/masks/ 8/011_009.png
+data/WSSS4LUAD/masks/ 8/011_010.png
+data/WSSS4LUAD/masks/ 8/011_011.png
+data/WSSS4LUAD/masks/ 8/011_012.png
+data/WSSS4LUAD/masks/ 8/011_013.png
+data/WSSS4LUAD/masks/ 8/011_014.png
+data/WSSS4LUAD/masks/ 8/011_015.png
+data/WSSS4LUAD/masks/ 8/011_016.png
+data/WSSS4LUAD/masks/ 8/011_017.png
+data/WSSS4LUAD/masks/ 8/012_000.png
+data/WSSS4LUAD/masks/ 8/012_001.png
+data/WSSS4LUAD/masks/ 8/012_002.png
+data/WSSS4LUAD/masks/ 8/012_003.png
+data/WSSS4LUAD/masks/ 8/012_004.png
+data/WSSS4LUAD/masks/ 8/012_005.png
+data/WSSS4LUAD/masks/ 8/012_006.png
+data/WSSS4LUAD/masks/ 8/012_007.png
+data/WSSS4LUAD/masks/ 8/012_008.png
+data/WSSS4LUAD/masks/ 8/012_009.png
+data/WSSS4LUAD/masks/ 8/012_010.png
+data/WSSS4LUAD/masks/ 8/012_011.png
+data/WSSS4LUAD/masks/ 8/012_012.png
+data/WSSS4LUAD/masks/ 8/012_013.png
+data/WSSS4LUAD/masks/ 8/012_014.png
+data/WSSS4LUAD/masks/ 8/012_015.png
+data/WSSS4LUAD/masks/ 8/012_016.png
+data/WSSS4LUAD/masks/ 8/012_017.png
+data/WSSS4LUAD/masks/ 8/013_000.png
+data/WSSS4LUAD/masks/ 8/013_001.png
+data/WSSS4LUAD/masks/ 8/013_002.png
+data/WSSS4LUAD/masks/ 8/013_003.png
+data/WSSS4LUAD/masks/ 8/013_004.png
+data/WSSS4LUAD/masks/ 8/013_005.png
+data/WSSS4LUAD/masks/ 8/013_006.png
+data/WSSS4LUAD/masks/ 8/013_007.png
+data/WSSS4LUAD/masks/ 8/013_008.png
+data/WSSS4LUAD/masks/ 8/013_009.png
+data/WSSS4LUAD/masks/ 8/013_010.png
+data/WSSS4LUAD/masks/ 8/013_011.png
+data/WSSS4LUAD/masks/ 8/013_012.png
+data/WSSS4LUAD/masks/ 8/013_013.png
+data/WSSS4LUAD/masks/ 8/013_014.png
+data/WSSS4LUAD/masks/ 8/013_015.png
+data/WSSS4LUAD/masks/ 8/013_016.png
+data/WSSS4LUAD/masks/ 8/013_017.png
+data/WSSS4LUAD/masks/ 8/014_000.png
+data/WSSS4LUAD/masks/ 8/014_001.png
+data/WSSS4LUAD/masks/ 8/014_002.png
+data/WSSS4LUAD/masks/ 8/014_003.png
+data/WSSS4LUAD/masks/ 8/014_004.png
+data/WSSS4LUAD/masks/ 8/014_005.png
+data/WSSS4LUAD/masks/ 8/014_006.png
+data/WSSS4LUAD/masks/ 8/014_007.png
+data/WSSS4LUAD/masks/ 8/014_008.png
+data/WSSS4LUAD/masks/ 8/014_009.png
+data/WSSS4LUAD/masks/ 8/014_010.png
+data/WSSS4LUAD/masks/ 8/014_011.png
+data/WSSS4LUAD/masks/ 8/014_012.png
+data/WSSS4LUAD/masks/ 8/014_013.png
+data/WSSS4LUAD/masks/ 8/014_014.png
+data/WSSS4LUAD/masks/ 8/014_015.png
+data/WSSS4LUAD/masks/ 8/014_016.png
+data/WSSS4LUAD/masks/ 8/014_017.png
+data/WSSS4LUAD/masks/ 8/015_000.png
+data/WSSS4LUAD/masks/ 8/015_001.png
+data/WSSS4LUAD/masks/ 8/015_002.png
+data/WSSS4LUAD/masks/ 8/015_003.png
+data/WSSS4LUAD/masks/ 8/015_004.png
+data/WSSS4LUAD/masks/ 8/015_005.png
+data/WSSS4LUAD/masks/ 8/015_006.png
+data/WSSS4LUAD/masks/ 8/015_007.png
+data/WSSS4LUAD/masks/ 8/015_008.png
+data/WSSS4LUAD/masks/ 8/015_009.png
+data/WSSS4LUAD/masks/ 8/015_010.png
+data/WSSS4LUAD/masks/ 8/015_011.png
+data/WSSS4LUAD/masks/ 8/015_012.png
+data/WSSS4LUAD/masks/ 8/015_013.png
+data/WSSS4LUAD/masks/ 8/015_014.png
+data/WSSS4LUAD/masks/ 8/015_015.png
+data/WSSS4LUAD/masks/ 8/015_016.png
+data/WSSS4LUAD/masks/ 8/015_017.png
+data/WSSS4LUAD/masks/ 8/016_000.png
+data/WSSS4LUAD/masks/ 8/016_001.png
+data/WSSS4LUAD/masks/ 8/016_002.png
+data/WSSS4LUAD/masks/ 8/016_003.png
+data/WSSS4LUAD/masks/ 8/016_004.png
+data/WSSS4LUAD/masks/ 8/016_005.png
+data/WSSS4LUAD/masks/ 8/016_006.png
+data/WSSS4LUAD/masks/ 8/016_007.png
+data/WSSS4LUAD/masks/ 8/016_008.png
+data/WSSS4LUAD/masks/ 8/016_009.png
+data/WSSS4LUAD/masks/ 8/016_010.png
+data/WSSS4LUAD/masks/ 8/016_011.png
+data/WSSS4LUAD/masks/ 8/016_012.png
+data/WSSS4LUAD/masks/ 8/016_013.png
+data/WSSS4LUAD/masks/ 8/016_014.png
+data/WSSS4LUAD/masks/ 8/016_015.png
+data/WSSS4LUAD/masks/ 8/016_016.png
+data/WSSS4LUAD/masks/ 8/016_017.png
+data/WSSS4LUAD/masks/ 8/017_000.png
+data/WSSS4LUAD/masks/ 8/017_001.png
+data/WSSS4LUAD/masks/ 8/017_002.png
+data/WSSS4LUAD/masks/ 8/017_003.png
+data/WSSS4LUAD/masks/ 8/017_004.png
+data/WSSS4LUAD/masks/ 8/017_005.png
+data/WSSS4LUAD/masks/ 8/017_006.png
+data/WSSS4LUAD/masks/ 8/017_007.png
+data/WSSS4LUAD/masks/ 8/017_008.png
+data/WSSS4LUAD/masks/ 8/017_009.png
+data/WSSS4LUAD/masks/ 8/017_010.png
+data/WSSS4LUAD/masks/ 8/017_011.png
+data/WSSS4LUAD/masks/ 8/017_012.png
+data/WSSS4LUAD/masks/ 8/017_013.png
+data/WSSS4LUAD/masks/ 8/017_014.png
+data/WSSS4LUAD/masks/ 8/017_015.png
+data/WSSS4LUAD/masks/ 8/017_016.png
+data/WSSS4LUAD/masks/ 8/017_017.png
+data/WSSS4LUAD/masks/22/000_000.png
+data/WSSS4LUAD/masks/22/000_001.png
+data/WSSS4LUAD/masks/22/000_002.png
+data/WSSS4LUAD/masks/22/000_003.png
+data/WSSS4LUAD/masks/22/000_004.png
+data/WSSS4LUAD/masks/22/000_005.png
+data/WSSS4LUAD/masks/22/000_006.png
+data/WSSS4LUAD/masks/22/000_007.png
+data/WSSS4LUAD/masks/22/000_008.png
+data/WSSS4LUAD/masks/22/000_009.png
+data/WSSS4LUAD/masks/22/000_010.png
+data/WSSS4LUAD/masks/22/000_011.png
+data/WSSS4LUAD/masks/22/001_000.png
+data/WSSS4LUAD/masks/22/001_001.png
+data/WSSS4LUAD/masks/22/001_002.png
+data/WSSS4LUAD/masks/22/001_003.png
+data/WSSS4LUAD/masks/22/001_004.png
+data/WSSS4LUAD/masks/22/001_005.png
+data/WSSS4LUAD/masks/22/001_006.png
+data/WSSS4LUAD/masks/22/001_007.png
+data/WSSS4LUAD/masks/22/001_008.png
+data/WSSS4LUAD/masks/22/001_009.png
+data/WSSS4LUAD/masks/22/001_010.png
+data/WSSS4LUAD/masks/22/001_011.png
+data/WSSS4LUAD/masks/22/002_000.png
+data/WSSS4LUAD/masks/22/002_001.png
+data/WSSS4LUAD/masks/22/002_002.png
+data/WSSS4LUAD/masks/22/002_003.png
+data/WSSS4LUAD/masks/22/002_004.png
+data/WSSS4LUAD/masks/22/002_005.png
+data/WSSS4LUAD/masks/22/002_006.png
+data/WSSS4LUAD/masks/22/002_007.png
+data/WSSS4LUAD/masks/22/002_008.png
+data/WSSS4LUAD/masks/22/002_009.png
+data/WSSS4LUAD/masks/22/002_010.png
+data/WSSS4LUAD/masks/22/002_011.png
+data/WSSS4LUAD/masks/22/003_000.png
+data/WSSS4LUAD/masks/22/003_001.png
+data/WSSS4LUAD/masks/22/003_002.png
+data/WSSS4LUAD/masks/22/003_003.png
+data/WSSS4LUAD/masks/22/003_004.png
+data/WSSS4LUAD/masks/22/003_005.png
+data/WSSS4LUAD/masks/22/003_006.png
+data/WSSS4LUAD/masks/22/003_007.png
+data/WSSS4LUAD/masks/22/003_008.png
+data/WSSS4LUAD/masks/22/003_009.png
+data/WSSS4LUAD/masks/22/003_010.png
+data/WSSS4LUAD/masks/22/003_011.png
+data/WSSS4LUAD/masks/22/004_000.png
+data/WSSS4LUAD/masks/22/004_001.png
+data/WSSS4LUAD/masks/22/004_002.png
+data/WSSS4LUAD/masks/22/004_003.png
+data/WSSS4LUAD/masks/22/004_004.png
+data/WSSS4LUAD/masks/22/004_005.png
+data/WSSS4LUAD/masks/22/004_006.png
+data/WSSS4LUAD/masks/22/004_007.png
+data/WSSS4LUAD/masks/22/004_008.png
+data/WSSS4LUAD/masks/22/004_009.png
+data/WSSS4LUAD/masks/22/004_010.png
+data/WSSS4LUAD/masks/22/004_011.png
+data/WSSS4LUAD/masks/22/005_000.png
+data/WSSS4LUAD/masks/22/005_001.png
+data/WSSS4LUAD/masks/22/005_002.png
+data/WSSS4LUAD/masks/22/005_003.png
+data/WSSS4LUAD/masks/22/005_004.png
+data/WSSS4LUAD/masks/22/005_005.png
+data/WSSS4LUAD/masks/22/005_006.png
+data/WSSS4LUAD/masks/22/005_007.png
+data/WSSS4LUAD/masks/22/005_008.png
+data/WSSS4LUAD/masks/22/005_009.png
+data/WSSS4LUAD/masks/22/005_010.png
+data/WSSS4LUAD/masks/22/005_011.png
+data/WSSS4LUAD/masks/22/006_000.png
+data/WSSS4LUAD/masks/22/006_001.png
+data/WSSS4LUAD/masks/22/006_002.png
+data/WSSS4LUAD/masks/22/006_003.png
+data/WSSS4LUAD/masks/22/006_004.png
+data/WSSS4LUAD/masks/22/006_005.png
+data/WSSS4LUAD/masks/22/006_006.png
+data/WSSS4LUAD/masks/22/006_007.png
+data/WSSS4LUAD/masks/22/006_008.png
+data/WSSS4LUAD/masks/22/006_009.png
+data/WSSS4LUAD/masks/22/006_010.png
+data/WSSS4LUAD/masks/22/006_011.png
+data/WSSS4LUAD/masks/22/007_000.png
+data/WSSS4LUAD/masks/22/007_001.png
+data/WSSS4LUAD/masks/22/007_002.png
+data/WSSS4LUAD/masks/22/007_003.png
+data/WSSS4LUAD/masks/22/007_004.png
+data/WSSS4LUAD/masks/22/007_005.png
+data/WSSS4LUAD/masks/22/007_006.png
+data/WSSS4LUAD/masks/22/007_007.png
+data/WSSS4LUAD/masks/22/007_008.png
+data/WSSS4LUAD/masks/22/007_009.png
+data/WSSS4LUAD/masks/22/007_010.png
+data/WSSS4LUAD/masks/22/007_011.png
+data/WSSS4LUAD/masks/22/008_000.png
+data/WSSS4LUAD/masks/22/008_001.png
+data/WSSS4LUAD/masks/22/008_002.png
+data/WSSS4LUAD/masks/22/008_003.png
+data/WSSS4LUAD/masks/22/008_004.png
+data/WSSS4LUAD/masks/22/008_005.png
+data/WSSS4LUAD/masks/22/008_006.png
+data/WSSS4LUAD/masks/22/008_007.png
+data/WSSS4LUAD/masks/22/008_008.png
+data/WSSS4LUAD/masks/22/008_009.png
+data/WSSS4LUAD/masks/22/008_010.png
+data/WSSS4LUAD/masks/22/008_011.png

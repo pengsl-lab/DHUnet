@@ -1,0 +1,16 @@
+einops==0.3.2
+matplotlib==3.5.1
+MedPy==0.4.0
+numpy==1.21.5
+mmsegmentation==0.27.0
+openslide-python==1.1.2
+Pillow==9.0.0
+scikit-learn==1.0.2
+scipy==1.7.3
+torch==1.7.0
+torchvision==0.5.0
+tqdm==4.62.3
+timm==0.4.12
+wandb==0.12.21
+yacs==0.1.8
+

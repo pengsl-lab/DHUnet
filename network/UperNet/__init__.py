@@ -1,0 +1,1 @@
+from .upernet_convnext_tiny import upernet_ConvNeXt_tiny

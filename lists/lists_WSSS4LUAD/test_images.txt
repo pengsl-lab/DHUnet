@@ -1,0 +1,865 @@
+data/WSSS4LUAD/images/ 9/000_000.jpg
+data/WSSS4LUAD/images/ 9/000_001.jpg
+data/WSSS4LUAD/images/ 9/000_002.jpg
+data/WSSS4LUAD/images/ 9/001_000.jpg
+data/WSSS4LUAD/images/ 9/001_001.jpg
+data/WSSS4LUAD/images/ 9/001_002.jpg
+data/WSSS4LUAD/images/ 9/002_000.jpg
+data/WSSS4LUAD/images/ 9/002_001.jpg
+data/WSSS4LUAD/images/ 9/002_002.jpg
+data/WSSS4LUAD/images/ 9/003_000.jpg
+data/WSSS4LUAD/images/ 9/003_001.jpg
+data/WSSS4LUAD/images/ 9/003_002.jpg
+data/WSSS4LUAD/images/ 9/004_000.jpg
+data/WSSS4LUAD/images/ 9/004_001.jpg
+data/WSSS4LUAD/images/ 9/004_002.jpg
+data/WSSS4LUAD/images/ 9/005_000.jpg
+data/WSSS4LUAD/images/ 9/005_001.jpg
+data/WSSS4LUAD/images/ 9/005_002.jpg
+data/WSSS4LUAD/images/ 9/006_000.jpg
+data/WSSS4LUAD/images/ 9/006_001.jpg
+data/WSSS4LUAD/images/ 9/006_002.jpg
+data/WSSS4LUAD/images/ 9/007_000.jpg
+data/WSSS4LUAD/images/ 9/007_001.jpg
+data/WSSS4LUAD/images/ 9/007_002.jpg
+data/WSSS4LUAD/images/ 9/008_000.jpg
+data/WSSS4LUAD/images/ 9/008_001.jpg
+data/WSSS4LUAD/images/ 9/008_002.jpg
+data/WSSS4LUAD/images/ 9/009_000.jpg
+data/WSSS4LUAD/images/ 9/009_001.jpg
+data/WSSS4LUAD/images/ 9/009_002.jpg
+data/WSSS4LUAD/images/ 9/010_000.jpg
+data/WSSS4LUAD/images/ 9/010_001.jpg
+data/WSSS4LUAD/images/ 9/010_002.jpg
+data/WSSS4LUAD/images/ 5/000_000.jpg
+data/WSSS4LUAD/images/ 5/000_001.jpg
+data/WSSS4LUAD/images/ 5/000_002.jpg
+data/WSSS4LUAD/images/ 5/000_003.jpg
+data/WSSS4LUAD/images/ 5/000_004.jpg
+data/WSSS4LUAD/images/ 5/000_005.jpg
+data/WSSS4LUAD/images/ 5/000_006.jpg
+data/WSSS4LUAD/images/ 5/000_007.jpg
+data/WSSS4LUAD/images/ 5/000_008.jpg
+data/WSSS4LUAD/images/ 5/001_000.jpg
+data/WSSS4LUAD/images/ 5/001_001.jpg
+data/WSSS4LUAD/images/ 5/001_002.jpg
+data/WSSS4LUAD/images/ 5/001_003.jpg
+data/WSSS4LUAD/images/ 5/001_004.jpg
+data/WSSS4LUAD/images/ 5/001_005.jpg
+data/WSSS4LUAD/images/ 5/001_006.jpg
+data/WSSS4LUAD/images/ 5/001_007.jpg
+data/WSSS4LUAD/images/ 5/001_008.jpg
+data/WSSS4LUAD/images/ 5/002_000.jpg
+data/WSSS4LUAD/images/ 5/002_001.jpg
+data/WSSS4LUAD/images/ 5/002_002.jpg
+data/WSSS4LUAD/images/ 5/002_003.jpg
+data/WSSS4LUAD/images/ 5/002_004.jpg
+data/WSSS4LUAD/images/ 5/002_005.jpg
+data/WSSS4LUAD/images/ 5/002_006.jpg
+data/WSSS4LUAD/images/ 5/002_007.jpg
+data/WSSS4LUAD/images/ 5/002_008.jpg
+data/WSSS4LUAD/images/ 5/003_000.jpg
+data/WSSS4LUAD/images/ 5/003_001.jpg
+data/WSSS4LUAD/images/ 5/003_002.jpg
+data/WSSS4LUAD/images/ 5/003_003.jpg
+data/WSSS4LUAD/images/ 5/003_004.jpg
+data/WSSS4LUAD/images/ 5/003_005.jpg
+data/WSSS4LUAD/images/ 5/003_006.jpg
+data/WSSS4LUAD/images/ 5/003_007.jpg
+data/WSSS4LUAD/images/ 5/003_008.jpg
+data/WSSS4LUAD/images/ 5/004_000.jpg
+data/WSSS4LUAD/images/ 5/004_001.jpg
+data/WSSS4LUAD/images/ 5/004_002.jpg
+data/WSSS4LUAD/images/ 5/004_003.jpg
+data/WSSS4LUAD/images/ 5/004_004.jpg
+data/WSSS4LUAD/images/ 5/004_005.jpg
+data/WSSS4LUAD/images/ 5/004_006.jpg
+data/WSSS4LUAD/images/ 5/004_007.jpg
+data/WSSS4LUAD/images/ 5/004_008.jpg
+data/WSSS4LUAD/images/ 5/005_000.jpg
+data/WSSS4LUAD/images/ 5/005_001.jpg
+data/WSSS4LUAD/images/ 5/005_002.jpg
+data/WSSS4LUAD/images/ 5/005_003.jpg
+data/WSSS4LUAD/images/ 5/005_004.jpg
+data/WSSS4LUAD/images/ 5/005_005.jpg
+data/WSSS4LUAD/images/ 5/005_006.jpg
+data/WSSS4LUAD/images/ 5/005_007.jpg
+data/WSSS4LUAD/images/ 5/005_008.jpg
+data/WSSS4LUAD/images/ 5/006_000.jpg
+data/WSSS4LUAD/images/ 5/006_001.jpg
+data/WSSS4LUAD/images/ 5/006_002.jpg
+data/WSSS4LUAD/images/ 5/006_003.jpg
+data/WSSS4LUAD/images/ 5/006_004.jpg
+data/WSSS4LUAD/images/ 5/006_005.jpg
+data/WSSS4LUAD/images/ 5/006_006.jpg
+data/WSSS4LUAD/images/ 5/006_007.jpg
+data/WSSS4LUAD/images/ 5/006_008.jpg
+data/WSSS4LUAD/images/ 5/007_000.jpg
+data/WSSS4LUAD/images/ 5/007_001.jpg
+data/WSSS4LUAD/images/ 5/007_002.jpg
+data/WSSS4LUAD/images/ 5/007_003.jpg
+data/WSSS4LUAD/images/ 5/007_004.jpg
+data/WSSS4LUAD/images/ 5/007_005.jpg
+data/WSSS4LUAD/images/ 5/007_006.jpg
+data/WSSS4LUAD/images/ 5/007_007.jpg
+data/WSSS4LUAD/images/ 5/007_008.jpg
+data/WSSS4LUAD/images/ 5/008_000.jpg
+data/WSSS4LUAD/images/ 5/008_001.jpg
+data/WSSS4LUAD/images/ 5/008_002.jpg
+data/WSSS4LUAD/images/ 5/008_003.jpg
+data/WSSS4LUAD/images/ 5/008_004.jpg
+data/WSSS4LUAD/images/ 5/008_005.jpg
+data/WSSS4LUAD/images/ 5/008_006.jpg
+data/WSSS4LUAD/images/ 5/008_007.jpg
+data/WSSS4LUAD/images/ 5/008_008.jpg
+data/WSSS4LUAD/images/ 0/000_000.jpg
+data/WSSS4LUAD/images/ 0/000_001.jpg
+data/WSSS4LUAD/images/ 0/000_002.jpg
+data/WSSS4LUAD/images/ 0/000_003.jpg
+data/WSSS4LUAD/images/ 0/000_004.jpg
+data/WSSS4LUAD/images/ 0/000_005.jpg
+data/WSSS4LUAD/images/ 0/000_006.jpg
+data/WSSS4LUAD/images/ 0/000_007.jpg
+data/WSSS4LUAD/images/ 0/000_008.jpg
+data/WSSS4LUAD/images/ 0/000_009.jpg
+data/WSSS4LUAD/images/ 0/000_010.jpg
+data/WSSS4LUAD/images/ 0/000_011.jpg
+data/WSSS4LUAD/images/ 0/000_012.jpg
+data/WSSS4LUAD/images/ 0/000_013.jpg
+data/WSSS4LUAD/images/ 0/000_014.jpg
+data/WSSS4LUAD/images/ 0/000_015.jpg
+data/WSSS4LUAD/images/ 0/001_000.jpg
+data/WSSS4LUAD/images/ 0/001_001.jpg
+data/WSSS4LUAD/images/ 0/001_002.jpg
+data/WSSS4LUAD/images/ 0/001_003.jpg
+data/WSSS4LUAD/images/ 0/001_004.jpg
+data/WSSS4LUAD/images/ 0/001_005.jpg
+data/WSSS4LUAD/images/ 0/001_006.jpg
+data/WSSS4LUAD/images/ 0/001_007.jpg
+data/WSSS4LUAD/images/ 0/001_008.jpg
+data/WSSS4LUAD/images/ 0/001_009.jpg
+data/WSSS4LUAD/images/ 0/001_010.jpg
+data/WSSS4LUAD/images/ 0/001_011.jpg
+data/WSSS4LUAD/images/ 0/001_012.jpg
+data/WSSS4LUAD/images/ 0/001_013.jpg
+data/WSSS4LUAD/images/ 0/001_014.jpg
+data/WSSS4LUAD/images/ 0/001_015.jpg
+data/WSSS4LUAD/images/ 0/002_000.jpg
+data/WSSS4LUAD/images/ 0/002_001.jpg
+data/WSSS4LUAD/images/ 0/002_002.jpg
+data/WSSS4LUAD/images/ 0/002_003.jpg
+data/WSSS4LUAD/images/ 0/002_004.jpg
+data/WSSS4LUAD/images/ 0/002_005.jpg
+data/WSSS4LUAD/images/ 0/002_006.jpg
+data/WSSS4LUAD/images/ 0/002_007.jpg
+data/WSSS4LUAD/images/ 0/002_008.jpg
+data/WSSS4LUAD/images/ 0/002_009.jpg
+data/WSSS4LUAD/images/ 0/002_010.jpg
+data/WSSS4LUAD/images/ 0/002_011.jpg
+data/WSSS4LUAD/images/ 0/002_012.jpg
+data/WSSS4LUAD/images/ 0/002_013.jpg
+data/WSSS4LUAD/images/ 0/002_014.jpg
+data/WSSS4LUAD/images/ 0/002_015.jpg
+data/WSSS4LUAD/images/ 0/003_000.jpg
+data/WSSS4LUAD/images/ 0/003_001.jpg
+data/WSSS4LUAD/images/ 0/003_002.jpg
+data/WSSS4LUAD/images/ 0/003_003.jpg
+data/WSSS4LUAD/images/ 0/003_004.jpg
+data/WSSS4LUAD/images/ 0/003_005.jpg
+data/WSSS4LUAD/images/ 0/003_006.jpg
+data/WSSS4LUAD/images/ 0/003_007.jpg
+data/WSSS4LUAD/images/ 0/003_008.jpg
+data/WSSS4LUAD/images/ 0/003_009.jpg
+data/WSSS4LUAD/images/ 0/003_010.jpg
+data/WSSS4LUAD/images/ 0/003_011.jpg
+data/WSSS4LUAD/images/ 0/003_012.jpg
+data/WSSS4LUAD/images/ 0/003_013.jpg
+data/WSSS4LUAD/images/ 0/003_014.jpg
+data/WSSS4LUAD/images/ 0/003_015.jpg
+data/WSSS4LUAD/images/ 0/004_000.jpg
+data/WSSS4LUAD/images/ 0/004_001.jpg
+data/WSSS4LUAD/images/ 0/004_002.jpg
+data/WSSS4LUAD/images/ 0/004_003.jpg
+data/WSSS4LUAD/images/ 0/004_004.jpg
+data/WSSS4LUAD/images/ 0/004_005.jpg
+data/WSSS4LUAD/images/ 0/004_006.jpg
+data/WSSS4LUAD/images/ 0/004_007.jpg
+data/WSSS4LUAD/images/ 0/004_008.jpg
+data/WSSS4LUAD/images/ 0/004_009.jpg
+data/WSSS4LUAD/images/ 0/004_010.jpg
+data/WSSS4LUAD/images/ 0/004_011.jpg
+data/WSSS4LUAD/images/ 0/004_012.jpg
+data/WSSS4LUAD/images/ 0/004_013.jpg
+data/WSSS4LUAD/images/ 0/004_014.jpg
+data/WSSS4LUAD/images/ 0/004_015.jpg
+data/WSSS4LUAD/images/ 0/005_000.jpg
+data/WSSS4LUAD/images/ 0/005_001.jpg
+data/WSSS4LUAD/images/ 0/005_002.jpg
+data/WSSS4LUAD/images/ 0/005_003.jpg
+data/WSSS4LUAD/images/ 0/005_004.jpg
+data/WSSS4LUAD/images/ 0/005_005.jpg
+data/WSSS4LUAD/images/ 0/005_006.jpg
+data/WSSS4LUAD/images/ 0/005_007.jpg
+data/WSSS4LUAD/images/ 0/005_008.jpg
+data/WSSS4LUAD/images/ 0/005_009.jpg
+data/WSSS4LUAD/images/ 0/005_010.jpg
+data/WSSS4LUAD/images/ 0/005_011.jpg
+data/WSSS4LUAD/images/ 0/005_012.jpg
+data/WSSS4LUAD/images/ 0/005_013.jpg
+data/WSSS4LUAD/images/ 0/005_014.jpg
+data/WSSS4LUAD/images/ 0/005_015.jpg
+data/WSSS4LUAD/images/ 0/006_000.jpg
+data/WSSS4LUAD/images/ 0/006_001.jpg
+data/WSSS4LUAD/images/ 0/006_002.jpg
+data/WSSS4LUAD/images/ 0/006_003.jpg
+data/WSSS4LUAD/images/ 0/006_004.jpg
+data/WSSS4LUAD/images/ 0/006_005.jpg
+data/WSSS4LUAD/images/ 0/006_006.jpg
+data/WSSS4LUAD/images/ 0/006_007.jpg
+data/WSSS4LUAD/images/ 0/006_008.jpg
+data/WSSS4LUAD/images/ 0/006_009.jpg
+data/WSSS4LUAD/images/ 0/006_010.jpg
+data/WSSS4LUAD/images/ 0/006_011.jpg
+data/WSSS4LUAD/images/ 0/006_012.jpg
+data/WSSS4LUAD/images/ 0/006_013.jpg
+data/WSSS4LUAD/images/ 0/006_014.jpg
+data/WSSS4LUAD/images/ 0/006_015.jpg
+data/WSSS4LUAD/images/ 0/007_000.jpg
+data/WSSS4LUAD/images/ 0/007_001.jpg
+data/WSSS4LUAD/images/ 0/007_002.jpg
+data/WSSS4LUAD/images/ 0/007_003.jpg
+data/WSSS4LUAD/images/ 0/007_004.jpg
+data/WSSS4LUAD/images/ 0/007_005.jpg
+data/WSSS4LUAD/images/ 0/007_006.jpg
+data/WSSS4LUAD/images/ 0/007_007.jpg
+data/WSSS4LUAD/images/ 0/007_008.jpg
+data/WSSS4LUAD/images/ 0/007_009.jpg
+data/WSSS4LUAD/images/ 0/007_010.jpg
+data/WSSS4LUAD/images/ 0/007_011.jpg
+data/WSSS4LUAD/images/ 0/007_012.jpg
+data/WSSS4LUAD/images/ 0/007_013.jpg
+data/WSSS4LUAD/images/ 0/007_014.jpg
+data/WSSS4LUAD/images/ 0/007_015.jpg
+data/WSSS4LUAD/images/ 0/008_000.jpg
+data/WSSS4LUAD/images/ 0/008_001.jpg
+data/WSSS4LUAD/images/ 0/008_002.jpg
+data/WSSS4LUAD/images/ 0/008_003.jpg
+data/WSSS4LUAD/images/ 0/008_004.jpg
+data/WSSS4LUAD/images/ 0/008_005.jpg
+data/WSSS4LUAD/images/ 0/008_006.jpg
+data/WSSS4LUAD/images/ 0/008_007.jpg
+data/WSSS4LUAD/images/ 0/008_008.jpg
+data/WSSS4LUAD/images/ 0/008_009.jpg
+data/WSSS4LUAD/images/ 0/008_010.jpg
+data/WSSS4LUAD/images/ 0/008_011.jpg
+data/WSSS4LUAD/images/ 0/008_012.jpg
+data/WSSS4LUAD/images/ 0/008_013.jpg
+data/WSSS4LUAD/images/ 0/008_014.jpg
+data/WSSS4LUAD/images/ 0/008_015.jpg
+data/WSSS4LUAD/images/ 0/009_000.jpg
+data/WSSS4LUAD/images/ 0/009_001.jpg
+data/WSSS4LUAD/images/ 0/009_002.jpg
+data/WSSS4LUAD/images/ 0/009_003.jpg
+data/WSSS4LUAD/images/ 0/009_004.jpg
+data/WSSS4LUAD/images/ 0/009_005.jpg
+data/WSSS4LUAD/images/ 0/009_006.jpg
+data/WSSS4LUAD/images/ 0/009_007.jpg
+data/WSSS4LUAD/images/ 0/009_008.jpg
+data/WSSS4LUAD/images/ 0/009_009.jpg
+data/WSSS4LUAD/images/ 0/009_010.jpg
+data/WSSS4LUAD/images/ 0/009_011.jpg
+data/WSSS4LUAD/images/ 0/009_012.jpg
+data/WSSS4LUAD/images/ 0/009_013.jpg
+data/WSSS4LUAD/images/ 0/009_014.jpg
+data/WSSS4LUAD/images/ 0/009_015.jpg
+data/WSSS4LUAD/images/15/000_000.jpg
+data/WSSS4LUAD/images/15/000_001.jpg
+data/WSSS4LUAD/images/15/000_002.jpg
+data/WSSS4LUAD/images/15/000_003.jpg
+data/WSSS4LUAD/images/15/000_004.jpg
+data/WSSS4LUAD/images/15/000_005.jpg
+data/WSSS4LUAD/images/15/000_006.jpg
+data/WSSS4LUAD/images/15/000_007.jpg
+data/WSSS4LUAD/images/15/000_008.jpg
+data/WSSS4LUAD/images/15/000_009.jpg
+data/WSSS4LUAD/images/15/001_000.jpg
+data/WSSS4LUAD/images/15/001_001.jpg
+data/WSSS4LUAD/images/15/001_002.jpg
+data/WSSS4LUAD/images/15/001_003.jpg
+data/WSSS4LUAD/images/15/001_004.jpg
+data/WSSS4LUAD/images/15/001_005.jpg
+data/WSSS4LUAD/images/15/001_006.jpg
+data/WSSS4LUAD/images/15/001_007.jpg
+data/WSSS4LUAD/images/15/001_008.jpg
+data/WSSS4LUAD/images/15/001_009.jpg
+data/WSSS4LUAD/images/15/002_000.jpg
+data/WSSS4LUAD/images/15/002_001.jpg
+data/WSSS4LUAD/images/15/002_002.jpg
+data/WSSS4LUAD/images/15/002_003.jpg
+data/WSSS4LUAD/images/15/002_004.jpg
+data/WSSS4LUAD/images/15/002_005.jpg
+data/WSSS4LUAD/images/15/002_006.jpg
+data/WSSS4LUAD/images/15/002_007.jpg
+data/WSSS4LUAD/images/15/002_008.jpg
+data/WSSS4LUAD/images/15/002_009.jpg
+data/WSSS4LUAD/images/15/003_000.jpg
+data/WSSS4LUAD/images/15/003_001.jpg
+data/WSSS4LUAD/images/15/003_002.jpg
+data/WSSS4LUAD/images/15/003_003.jpg
+data/WSSS4LUAD/images/15/003_004.jpg
+data/WSSS4LUAD/images/15/003_005.jpg
+data/WSSS4LUAD/images/15/003_006.jpg
+data/WSSS4LUAD/images/15/003_007.jpg
+data/WSSS4LUAD/images/15/003_008.jpg
+data/WSSS4LUAD/images/15/003_009.jpg
+data/WSSS4LUAD/images/15/004_000.jpg
+data/WSSS4LUAD/images/15/004_001.jpg
+data/WSSS4LUAD/images/15/004_002.jpg
+data/WSSS4LUAD/images/15/004_003.jpg
+data/WSSS4LUAD/images/15/004_004.jpg
+data/WSSS4LUAD/images/15/004_005.jpg
+data/WSSS4LUAD/images/15/004_006.jpg
+data/WSSS4LUAD/images/15/004_007.jpg
+data/WSSS4LUAD/images/15/004_008.jpg
+data/WSSS4LUAD/images/15/004_009.jpg
+data/WSSS4LUAD/images/15/005_000.jpg
+data/WSSS4LUAD/images/15/005_001.jpg
+data/WSSS4LUAD/images/15/005_002.jpg
+data/WSSS4LUAD/images/15/005_003.jpg
+data/WSSS4LUAD/images/15/005_004.jpg
+data/WSSS4LUAD/images/15/005_005.jpg
+data/WSSS4LUAD/images/15/005_006.jpg
+data/WSSS4LUAD/images/15/005_007.jpg
+data/WSSS4LUAD/images/15/005_008.jpg
+data/WSSS4LUAD/images/15/005_009.jpg
+data/WSSS4LUAD/images/15/006_000.jpg
+data/WSSS4LUAD/images/15/006_001.jpg
+data/WSSS4LUAD/images/15/006_002.jpg
+data/WSSS4LUAD/images/15/006_003.jpg
+data/WSSS4LUAD/images/15/006_004.jpg
+data/WSSS4LUAD/images/15/006_005.jpg
+data/WSSS4LUAD/images/15/006_006.jpg
+data/WSSS4LUAD/images/15/006_007.jpg
+data/WSSS4LUAD/images/15/006_008.jpg
+data/WSSS4LUAD/images/15/006_009.jpg
+data/WSSS4LUAD/images/15/007_000.jpg
+data/WSSS4LUAD/images/15/007_001.jpg
+data/WSSS4LUAD/images/15/007_002.jpg
+data/WSSS4LUAD/images/15/007_003.jpg
+data/WSSS4LUAD/images/15/007_004.jpg
+data/WSSS4LUAD/images/15/007_005.jpg
+data/WSSS4LUAD/images/15/007_006.jpg
+data/WSSS4LUAD/images/15/007_007.jpg
+data/WSSS4LUAD/images/15/007_008.jpg
+data/WSSS4LUAD/images/15/007_009.jpg
+data/WSSS4LUAD/images/15/008_000.jpg
+data/WSSS4LUAD/images/15/008_001.jpg
+data/WSSS4LUAD/images/15/008_002.jpg
+data/WSSS4LUAD/images/15/008_003.jpg
+data/WSSS4LUAD/images/15/008_004.jpg
+data/WSSS4LUAD/images/15/008_005.jpg
+data/WSSS4LUAD/images/15/008_006.jpg
+data/WSSS4LUAD/images/15/008_007.jpg
+data/WSSS4LUAD/images/15/008_008.jpg
+data/WSSS4LUAD/images/15/008_009.jpg
+data/WSSS4LUAD/images/15/009_000.jpg
+data/WSSS4LUAD/images/15/009_001.jpg
+data/WSSS4LUAD/images/15/009_002.jpg
+data/WSSS4LUAD/images/15/009_003.jpg
+data/WSSS4LUAD/images/15/009_004.jpg
+data/WSSS4LUAD/images/15/009_005.jpg
+data/WSSS4LUAD/images/15/009_006.jpg
+data/WSSS4LUAD/images/15/009_007.jpg
+data/WSSS4LUAD/images/15/009_008.jpg
+data/WSSS4LUAD/images/15/009_009.jpg
+data/WSSS4LUAD/images/20/000_000.jpg
+data/WSSS4LUAD/images/20/000_001.jpg
+data/WSSS4LUAD/images/20/000_002.jpg
+data/WSSS4LUAD/images/20/000_003.jpg
+data/WSSS4LUAD/images/20/000_004.jpg
+data/WSSS4LUAD/images/20/000_005.jpg
+data/WSSS4LUAD/images/20/000_006.jpg
+data/WSSS4LUAD/images/20/000_007.jpg
+data/WSSS4LUAD/images/20/000_008.jpg
+data/WSSS4LUAD/images/20/000_009.jpg
+data/WSSS4LUAD/images/20/000_010.jpg
+data/WSSS4LUAD/images/20/000_011.jpg
+data/WSSS4LUAD/images/20/000_012.jpg
+data/WSSS4LUAD/images/20/001_000.jpg
+data/WSSS4LUAD/images/20/001_001.jpg
+data/WSSS4LUAD/images/20/001_002.jpg
+data/WSSS4LUAD/images/20/001_003.jpg
+data/WSSS4LUAD/images/20/001_004.jpg
+data/WSSS4LUAD/images/20/001_005.jpg
+data/WSSS4LUAD/images/20/001_006.jpg
+data/WSSS4LUAD/images/20/001_007.jpg
+data/WSSS4LUAD/images/20/001_008.jpg
+data/WSSS4LUAD/images/20/001_009.jpg
+data/WSSS4LUAD/images/20/001_010.jpg
+data/WSSS4LUAD/images/20/001_011.jpg
+data/WSSS4LUAD/images/20/001_012.jpg
+data/WSSS4LUAD/images/20/002_000.jpg
+data/WSSS4LUAD/images/20/002_001.jpg
+data/WSSS4LUAD/images/20/002_002.jpg
+data/WSSS4LUAD/images/20/002_003.jpg
+data/WSSS4LUAD/images/20/002_004.jpg
+data/WSSS4LUAD/images/20/002_005.jpg
+data/WSSS4LUAD/images/20/002_006.jpg
+data/WSSS4LUAD/images/20/002_007.jpg
+data/WSSS4LUAD/images/20/002_008.jpg
+data/WSSS4LUAD/images/20/002_009.jpg
+data/WSSS4LUAD/images/20/002_010.jpg
+data/WSSS4LUAD/images/20/002_011.jpg
+data/WSSS4LUAD/images/20/002_012.jpg
+data/WSSS4LUAD/images/20/003_000.jpg
+data/WSSS4LUAD/images/20/003_001.jpg
+data/WSSS4LUAD/images/20/003_002.jpg
+data/WSSS4LUAD/images/20/003_003.jpg
+data/WSSS4LUAD/images/20/003_004.jpg
+data/WSSS4LUAD/images/20/003_005.jpg
+data/WSSS4LUAD/images/20/003_006.jpg
+data/WSSS4LUAD/images/20/003_007.jpg
+data/WSSS4LUAD/images/20/003_008.jpg
+data/WSSS4LUAD/images/20/003_009.jpg
+data/WSSS4LUAD/images/20/003_010.jpg
+data/WSSS4LUAD/images/20/003_011.jpg
+data/WSSS4LUAD/images/20/003_012.jpg
+data/WSSS4LUAD/images/20/004_000.jpg
+data/WSSS4LUAD/images/20/004_001.jpg
+data/WSSS4LUAD/images/20/004_002.jpg
+data/WSSS4LUAD/images/20/004_003.jpg
+data/WSSS4LUAD/images/20/004_004.jpg
+data/WSSS4LUAD/images/20/004_005.jpg
+data/WSSS4LUAD/images/20/004_006.jpg
+data/WSSS4LUAD/images/20/004_007.jpg
+data/WSSS4LUAD/images/20/004_008.jpg
+data/WSSS4LUAD/images/20/004_009.jpg
+data/WSSS4LUAD/images/20/004_010.jpg
+data/WSSS4LUAD/images/20/004_011.jpg
+data/WSSS4LUAD/images/20/004_012.jpg
+data/WSSS4LUAD/images/20/005_000.jpg
+data/WSSS4LUAD/images/20/005_001.jpg
+data/WSSS4LUAD/images/20/005_002.jpg
+data/WSSS4LUAD/images/20/005_003.jpg
+data/WSSS4LUAD/images/20/005_004.jpg
+data/WSSS4LUAD/images/20/005_005.jpg
+data/WSSS4LUAD/images/20/005_006.jpg
+data/WSSS4LUAD/images/20/005_007.jpg
+data/WSSS4LUAD/images/20/005_008.jpg
+data/WSSS4LUAD/images/20/005_009.jpg
+data/WSSS4LUAD/images/20/005_010.jpg
+data/WSSS4LUAD/images/20/005_011.jpg
+data/WSSS4LUAD/images/20/005_012.jpg
+data/WSSS4LUAD/images/20/006_000.jpg
+data/WSSS4LUAD/images/20/006_001.jpg
+data/WSSS4LUAD/images/20/006_002.jpg
+data/WSSS4LUAD/images/20/006_003.jpg
+data/WSSS4LUAD/images/20/006_004.jpg
+data/WSSS4LUAD/images/20/006_005.jpg
+data/WSSS4LUAD/images/20/006_006.jpg
+data/WSSS4LUAD/images/20/006_007.jpg
+data/WSSS4LUAD/images/20/006_008.jpg
+data/WSSS4LUAD/images/20/006_009.jpg
+data/WSSS4LUAD/images/20/006_010.jpg
+data/WSSS4LUAD/images/20/006_011.jpg
+data/WSSS4LUAD/images/20/006_012.jpg
+data/WSSS4LUAD/images/20/007_000.jpg
+data/WSSS4LUAD/images/20/007_001.jpg
+data/WSSS4LUAD/images/20/007_002.jpg
+data/WSSS4LUAD/images/20/007_003.jpg
+data/WSSS4LUAD/images/20/007_004.jpg
+data/WSSS4LUAD/images/20/007_005.jpg
+data/WSSS4LUAD/images/20/007_006.jpg
+data/WSSS4LUAD/images/20/007_007.jpg
+data/WSSS4LUAD/images/20/007_008.jpg
+data/WSSS4LUAD/images/20/007_009.jpg
+data/WSSS4LUAD/images/20/007_010.jpg
+data/WSSS4LUAD/images/20/007_011.jpg
+data/WSSS4LUAD/images/20/007_012.jpg
+data/WSSS4LUAD/images/20/008_000.jpg
+data/WSSS4LUAD/images/20/008_001.jpg
+data/WSSS4LUAD/images/20/008_002.jpg
+data/WSSS4LUAD/images/20/008_003.jpg
+data/WSSS4LUAD/images/20/008_004.jpg
+data/WSSS4LUAD/images/20/008_005.jpg
+data/WSSS4LUAD/images/20/008_006.jpg
+data/WSSS4LUAD/images/20/008_007.jpg
+data/WSSS4LUAD/images/20/008_008.jpg
+data/WSSS4LUAD/images/20/008_009.jpg
+data/WSSS4LUAD/images/20/008_010.jpg
+data/WSSS4LUAD/images/20/008_011.jpg
+data/WSSS4LUAD/images/20/008_012.jpg
+data/WSSS4LUAD/images/20/009_000.jpg
+data/WSSS4LUAD/images/20/009_001.jpg
+data/WSSS4LUAD/images/20/009_002.jpg
+data/WSSS4LUAD/images/20/009_003.jpg
+data/WSSS4LUAD/images/20/009_004.jpg
+data/WSSS4LUAD/images/20/009_005.jpg
+data/WSSS4LUAD/images/20/009_006.jpg
+data/WSSS4LUAD/images/20/009_007.jpg
+data/WSSS4LUAD/images/20/009_008.jpg
+data/WSSS4LUAD/images/20/009_009.jpg
+data/WSSS4LUAD/images/20/009_010.jpg
+data/WSSS4LUAD/images/20/009_011.jpg
+data/WSSS4LUAD/images/20/009_012.jpg
+data/WSSS4LUAD/images/20/010_000.jpg
+data/WSSS4LUAD/images/20/010_001.jpg
+data/WSSS4LUAD/images/20/010_002.jpg
+data/WSSS4LUAD/images/20/010_003.jpg
+data/WSSS4LUAD/images/20/010_004.jpg
+data/WSSS4LUAD/images/20/010_005.jpg
+data/WSSS4LUAD/images/20/010_006.jpg
+data/WSSS4LUAD/images/20/010_007.jpg
+data/WSSS4LUAD/images/20/010_008.jpg
+data/WSSS4LUAD/images/20/010_009.jpg
+data/WSSS4LUAD/images/20/010_010.jpg
+data/WSSS4LUAD/images/20/010_011.jpg
+data/WSSS4LUAD/images/20/010_012.jpg
+data/WSSS4LUAD/images/20/011_000.jpg
+data/WSSS4LUAD/images/20/011_001.jpg
+data/WSSS4LUAD/images/20/011_002.jpg
+data/WSSS4LUAD/images/20/011_003.jpg
+data/WSSS4LUAD/images/20/011_004.jpg
+data/WSSS4LUAD/images/20/011_005.jpg
+data/WSSS4LUAD/images/20/011_006.jpg
+data/WSSS4LUAD/images/20/011_007.jpg
+data/WSSS4LUAD/images/20/011_008.jpg
+data/WSSS4LUAD/images/20/011_009.jpg
+data/WSSS4LUAD/images/20/011_010.jpg
+data/WSSS4LUAD/images/20/011_011.jpg
+data/WSSS4LUAD/images/20/011_012.jpg
+data/WSSS4LUAD/images/20/012_000.jpg
+data/WSSS4LUAD/images/20/012_001.jpg
+data/WSSS4LUAD/images/20/012_002.jpg
+data/WSSS4LUAD/images/20/012_003.jpg
+data/WSSS4LUAD/images/20/012_004.jpg
+data/WSSS4LUAD/images/20/012_005.jpg
+data/WSSS4LUAD/images/20/012_006.jpg
+data/WSSS4LUAD/images/20/012_007.jpg
+data/WSSS4LUAD/images/20/012_008.jpg
+data/WSSS4LUAD/images/20/012_009.jpg
+data/WSSS4LUAD/images/20/012_010.jpg
+data/WSSS4LUAD/images/20/012_011.jpg
+data/WSSS4LUAD/images/20/012_012.jpg
+data/WSSS4LUAD/images/20/013_000.jpg
+data/WSSS4LUAD/images/20/013_001.jpg
+data/WSSS4LUAD/images/20/013_002.jpg
+data/WSSS4LUAD/images/20/013_003.jpg
+data/WSSS4LUAD/images/20/013_004.jpg
+data/WSSS4LUAD/images/20/013_005.jpg
+data/WSSS4LUAD/images/20/013_006.jpg
+data/WSSS4LUAD/images/20/013_007.jpg
+data/WSSS4LUAD/images/20/013_008.jpg
+data/WSSS4LUAD/images/20/013_009.jpg
+data/WSSS4LUAD/images/20/013_010.jpg
+data/WSSS4LUAD/images/20/013_011.jpg
+data/WSSS4LUAD/images/20/013_012.jpg
+data/WSSS4LUAD/images/20/014_000.jpg
+data/WSSS4LUAD/images/20/014_001.jpg
+data/WSSS4LUAD/images/20/014_002.jpg
+data/WSSS4LUAD/images/20/014_003.jpg
+data/WSSS4LUAD/images/20/014_004.jpg
+data/WSSS4LUAD/images/20/014_005.jpg
+data/WSSS4LUAD/images/20/014_006.jpg
+data/WSSS4LUAD/images/20/014_007.jpg
+data/WSSS4LUAD/images/20/014_008.jpg
+data/WSSS4LUAD/images/20/014_009.jpg
+data/WSSS4LUAD/images/20/014_010.jpg
+data/WSSS4LUAD/images/20/014_011.jpg
+data/WSSS4LUAD/images/20/014_012.jpg
+data/WSSS4LUAD/images/20/015_000.jpg
+data/WSSS4LUAD/images/20/015_001.jpg
+data/WSSS4LUAD/images/20/015_002.jpg
+data/WSSS4LUAD/images/20/015_003.jpg
+data/WSSS4LUAD/images/20/015_004.jpg
+data/WSSS4LUAD/images/20/015_005.jpg
+data/WSSS4LUAD/images/20/015_006.jpg
+data/WSSS4LUAD/images/20/015_007.jpg
+data/WSSS4LUAD/images/20/015_008.jpg
+data/WSSS4LUAD/images/20/015_009.jpg
+data/WSSS4LUAD/images/20/015_010.jpg
+data/WSSS4LUAD/images/20/015_011.jpg
+data/WSSS4LUAD/images/20/015_012.jpg
+data/WSSS4LUAD/images/20/016_000.jpg
+data/WSSS4LUAD/images/20/016_001.jpg
+data/WSSS4LUAD/images/20/016_002.jpg
+data/WSSS4LUAD/images/20/016_003.jpg
+data/WSSS4LUAD/images/20/016_004.jpg
+data/WSSS4LUAD/images/20/016_005.jpg
+data/WSSS4LUAD/images/20/016_006.jpg
+data/WSSS4LUAD/images/20/016_007.jpg
+data/WSSS4LUAD/images/20/016_008.jpg
+data/WSSS4LUAD/images/20/016_009.jpg
+data/WSSS4LUAD/images/20/016_010.jpg
+data/WSSS4LUAD/images/20/016_011.jpg
+data/WSSS4LUAD/images/20/016_012.jpg
+data/WSSS4LUAD/images/20/017_000.jpg
+data/WSSS4LUAD/images/20/017_001.jpg
+data/WSSS4LUAD/images/20/017_002.jpg
+data/WSSS4LUAD/images/20/017_003.jpg
+data/WSSS4LUAD/images/20/017_004.jpg
+data/WSSS4LUAD/images/20/017_005.jpg
+data/WSSS4LUAD/images/20/017_006.jpg
+data/WSSS4LUAD/images/20/017_007.jpg
+data/WSSS4LUAD/images/20/017_008.jpg
+data/WSSS4LUAD/images/20/017_009.jpg
+data/WSSS4LUAD/images/20/017_010.jpg
+data/WSSS4LUAD/images/20/017_011.jpg
+data/WSSS4LUAD/images/20/017_012.jpg
+data/WSSS4LUAD/images/20/018_000.jpg
+data/WSSS4LUAD/images/20/018_001.jpg
+data/WSSS4LUAD/images/20/018_002.jpg
+data/WSSS4LUAD/images/20/018_003.jpg
+data/WSSS4LUAD/images/20/018_004.jpg
+data/WSSS4LUAD/images/20/018_005.jpg
+data/WSSS4LUAD/images/20/018_006.jpg
+data/WSSS4LUAD/images/20/018_007.jpg
+data/WSSS4LUAD/images/20/018_008.jpg
+data/WSSS4LUAD/images/20/018_009.jpg
+data/WSSS4LUAD/images/20/018_010.jpg
+data/WSSS4LUAD/images/20/018_011.jpg
+data/WSSS4LUAD/images/20/018_012.jpg
+data/WSSS4LUAD/images/ 7/000_000.jpg
+data/WSSS4LUAD/images/ 7/000_001.jpg
+data/WSSS4LUAD/images/ 7/000_002.jpg
+data/WSSS4LUAD/images/ 7/000_003.jpg
+data/WSSS4LUAD/images/ 7/000_004.jpg
+data/WSSS4LUAD/images/ 7/000_005.jpg
+data/WSSS4LUAD/images/ 7/000_006.jpg
+data/WSSS4LUAD/images/ 7/000_007.jpg
+data/WSSS4LUAD/images/ 7/000_008.jpg
+data/WSSS4LUAD/images/ 7/000_009.jpg
+data/WSSS4LUAD/images/ 7/000_010.jpg
+data/WSSS4LUAD/images/ 7/000_011.jpg
+data/WSSS4LUAD/images/ 7/001_000.jpg
+data/WSSS4LUAD/images/ 7/001_001.jpg
+data/WSSS4LUAD/images/ 7/001_002.jpg
+data/WSSS4LUAD/images/ 7/001_003.jpg
+data/WSSS4LUAD/images/ 7/001_004.jpg
+data/WSSS4LUAD/images/ 7/001_005.jpg
+data/WSSS4LUAD/images/ 7/001_006.jpg
+data/WSSS4LUAD/images/ 7/001_007.jpg
+data/WSSS4LUAD/images/ 7/001_008.jpg
+data/WSSS4LUAD/images/ 7/001_009.jpg
+data/WSSS4LUAD/images/ 7/001_010.jpg
+data/WSSS4LUAD/images/ 7/001_011.jpg
+data/WSSS4LUAD/images/ 7/002_000.jpg
+data/WSSS4LUAD/images/ 7/002_001.jpg
+data/WSSS4LUAD/images/ 7/002_002.jpg
+data/WSSS4LUAD/images/ 7/002_003.jpg
+data/WSSS4LUAD/images/ 7/002_004.jpg
+data/WSSS4LUAD/images/ 7/002_005.jpg
+data/WSSS4LUAD/images/ 7/002_006.jpg
+data/WSSS4LUAD/images/ 7/002_007.jpg
+data/WSSS4LUAD/images/ 7/002_008.jpg
+data/WSSS4LUAD/images/ 7/002_009.jpg
+data/WSSS4LUAD/images/ 7/002_010.jpg
+data/WSSS4LUAD/images/ 7/002_011.jpg
+data/WSSS4LUAD/images/ 7/003_000.jpg
+data/WSSS4LUAD/images/ 7/003_001.jpg
+data/WSSS4LUAD/images/ 7/003_002.jpg
+data/WSSS4LUAD/images/ 7/003_003.jpg
+data/WSSS4LUAD/images/ 7/003_004.jpg
+data/WSSS4LUAD/images/ 7/003_005.jpg
+data/WSSS4LUAD/images/ 7/003_006.jpg
+data/WSSS4LUAD/images/ 7/003_007.jpg
+data/WSSS4LUAD/images/ 7/003_008.jpg
+data/WSSS4LUAD/images/ 7/003_009.jpg
+data/WSSS4LUAD/images/ 7/003_010.jpg
+data/WSSS4LUAD/images/ 7/003_011.jpg
+data/WSSS4LUAD/images/ 7/004_000.jpg
+data/WSSS4LUAD/images/ 7/004_001.jpg
+data/WSSS4LUAD/images/ 7/004_002.jpg
+data/WSSS4LUAD/images/ 7/004_003.jpg
+data/WSSS4LUAD/images/ 7/004_004.jpg
+data/WSSS4LUAD/images/ 7/004_005.jpg
+data/WSSS4LUAD/images/ 7/004_006.jpg
+data/WSSS4LUAD/images/ 7/004_007.jpg
+data/WSSS4LUAD/images/ 7/004_008.jpg
+data/WSSS4LUAD/images/ 7/004_009.jpg
+data/WSSS4LUAD/images/ 7/004_010.jpg
+data/WSSS4LUAD/images/ 7/004_011.jpg
+data/WSSS4LUAD/images/ 7/005_000.jpg
+data/WSSS4LUAD/images/ 7/005_001.jpg
+data/WSSS4LUAD/images/ 7/005_002.jpg
+data/WSSS4LUAD/images/ 7/005_003.jpg
+data/WSSS4LUAD/images/ 7/005_004.jpg
+data/WSSS4LUAD/images/ 7/005_005.jpg
+data/WSSS4LUAD/images/ 7/005_006.jpg
+data/WSSS4LUAD/images/ 7/005_007.jpg
+data/WSSS4LUAD/images/ 7/005_008.jpg
+data/WSSS4LUAD/images/ 7/005_009.jpg
+data/WSSS4LUAD/images/ 7/005_010.jpg
+data/WSSS4LUAD/images/ 7/005_011.jpg
+data/WSSS4LUAD/images/ 7/006_000.jpg
+data/WSSS4LUAD/images/ 7/006_001.jpg
+data/WSSS4LUAD/images/ 7/006_002.jpg
+data/WSSS4LUAD/images/ 7/006_003.jpg
+data/WSSS4LUAD/images/ 7/006_004.jpg
+data/WSSS4LUAD/images/ 7/006_005.jpg
+data/WSSS4LUAD/images/ 7/006_006.jpg
+data/WSSS4LUAD/images/ 7/006_007.jpg
+data/WSSS4LUAD/images/ 7/006_008.jpg
+data/WSSS4LUAD/images/ 7/006_009.jpg
+data/WSSS4LUAD/images/ 7/006_010.jpg
+data/WSSS4LUAD/images/ 7/006_011.jpg
+data/WSSS4LUAD/images/ 7/007_000.jpg
+data/WSSS4LUAD/images/ 7/007_001.jpg
+data/WSSS4LUAD/images/ 7/007_002.jpg
+data/WSSS4LUAD/images/ 7/007_003.jpg
+data/WSSS4LUAD/images/ 7/007_004.jpg
+data/WSSS4LUAD/images/ 7/007_005.jpg
+data/WSSS4LUAD/images/ 7/007_006.jpg
+data/WSSS4LUAD/images/ 7/007_007.jpg
+data/WSSS4LUAD/images/ 7/007_008.jpg
+data/WSSS4LUAD/images/ 7/007_009.jpg
+data/WSSS4LUAD/images/ 7/007_010.jpg
+data/WSSS4LUAD/images/ 7/007_011.jpg
+data/WSSS4LUAD/images/ 7/008_000.jpg
+data/WSSS4LUAD/images/ 7/008_001.jpg
+data/WSSS4LUAD/images/ 7/008_002.jpg
+data/WSSS4LUAD/images/ 7/008_003.jpg
+data/WSSS4LUAD/images/ 7/008_004.jpg
+data/WSSS4LUAD/images/ 7/008_005.jpg
+data/WSSS4LUAD/images/ 7/008_006.jpg
+data/WSSS4LUAD/images/ 7/008_007.jpg
+data/WSSS4LUAD/images/ 7/008_008.jpg
+data/WSSS4LUAD/images/ 7/008_009.jpg
+data/WSSS4LUAD/images/ 7/008_010.jpg
+data/WSSS4LUAD/images/ 7/008_011.jpg
+data/WSSS4LUAD/images/ 7/009_000.jpg
+data/WSSS4LUAD/images/ 7/009_001.jpg
+data/WSSS4LUAD/images/ 7/009_002.jpg
+data/WSSS4LUAD/images/ 7/009_003.jpg
+data/WSSS4LUAD/images/ 7/009_004.jpg
+data/WSSS4LUAD/images/ 7/009_005.jpg
+data/WSSS4LUAD/images/ 7/009_006.jpg
+data/WSSS4LUAD/images/ 7/009_007.jpg
+data/WSSS4LUAD/images/ 7/009_008.jpg
+data/WSSS4LUAD/images/ 7/009_009.jpg
+data/WSSS4LUAD/images/ 7/009_010.jpg
+data/WSSS4LUAD/images/ 7/009_011.jpg
+data/WSSS4LUAD/images/ 7/010_000.jpg
+data/WSSS4LUAD/images/ 7/010_001.jpg
+data/WSSS4LUAD/images/ 7/010_002.jpg
+data/WSSS4LUAD/images/ 7/010_003.jpg
+data/WSSS4LUAD/images/ 7/010_004.jpg
+data/WSSS4LUAD/images/ 7/010_005.jpg
+data/WSSS4LUAD/images/ 7/010_006.jpg
+data/WSSS4LUAD/images/ 7/010_007.jpg
+data/WSSS4LUAD/images/ 7/010_008.jpg
+data/WSSS4LUAD/images/ 7/010_009.jpg
+data/WSSS4LUAD/images/ 7/010_010.jpg
+data/WSSS4LUAD/images/ 7/010_011.jpg
+data/WSSS4LUAD/images/ 7/011_000.jpg
+data/WSSS4LUAD/images/ 7/011_001.jpg
+data/WSSS4LUAD/images/ 7/011_002.jpg
+data/WSSS4LUAD/images/ 7/011_003.jpg
+data/WSSS4LUAD/images/ 7/011_004.jpg
+data/WSSS4LUAD/images/ 7/011_005.jpg
+data/WSSS4LUAD/images/ 7/011_006.jpg
+data/WSSS4LUAD/images/ 7/011_007.jpg
+data/WSSS4LUAD/images/ 7/011_008.jpg
+data/WSSS4LUAD/images/ 7/011_009.jpg
+data/WSSS4LUAD/images/ 7/011_010.jpg
+data/WSSS4LUAD/images/ 7/011_011.jpg
+data/WSSS4LUAD/images/21/000_000.jpg
+data/WSSS4LUAD/images/21/000_001.jpg
+data/WSSS4LUAD/images/21/000_002.jpg
+data/WSSS4LUAD/images/21/000_003.jpg
+data/WSSS4LUAD/images/21/000_004.jpg
+data/WSSS4LUAD/images/21/000_005.jpg
+data/WSSS4LUAD/images/21/000_006.jpg
+data/WSSS4LUAD/images/21/000_007.jpg
+data/WSSS4LUAD/images/21/000_008.jpg
+data/WSSS4LUAD/images/21/000_009.jpg
+data/WSSS4LUAD/images/21/001_000.jpg
+data/WSSS4LUAD/images/21/001_001.jpg
+data/WSSS4LUAD/images/21/001_002.jpg
+data/WSSS4LUAD/images/21/001_003.jpg
+data/WSSS4LUAD/images/21/001_004.jpg
+data/WSSS4LUAD/images/21/001_005.jpg
+data/WSSS4LUAD/images/21/001_006.jpg
+data/WSSS4LUAD/images/21/001_007.jpg
+data/WSSS4LUAD/images/21/001_008.jpg
+data/WSSS4LUAD/images/21/001_009.jpg
+data/WSSS4LUAD/images/21/002_000.jpg
+data/WSSS4LUAD/images/21/002_001.jpg
+data/WSSS4LUAD/images/21/002_002.jpg
+data/WSSS4LUAD/images/21/002_003.jpg
+data/WSSS4LUAD/images/21/002_004.jpg
+data/WSSS4LUAD/images/21/002_005.jpg
+data/WSSS4LUAD/images/21/002_006.jpg
+data/WSSS4LUAD/images/21/002_007.jpg
+data/WSSS4LUAD/images/21/002_008.jpg
+data/WSSS4LUAD/images/21/002_009.jpg
+data/WSSS4LUAD/images/21/003_000.jpg
+data/WSSS4LUAD/images/21/003_001.jpg
+data/WSSS4LUAD/images/21/003_002.jpg
+data/WSSS4LUAD/images/21/003_003.jpg
+data/WSSS4LUAD/images/21/003_004.jpg
+data/WSSS4LUAD/images/21/003_005.jpg
+data/WSSS4LUAD/images/21/003_006.jpg
+data/WSSS4LUAD/images/21/003_007.jpg
+data/WSSS4LUAD/images/21/003_008.jpg
+data/WSSS4LUAD/images/21/003_009.jpg
+data/WSSS4LUAD/images/21/004_000.jpg
+data/WSSS4LUAD/images/21/004_001.jpg
+data/WSSS4LUAD/images/21/004_002.jpg
+data/WSSS4LUAD/images/21/004_003.jpg
+data/WSSS4LUAD/images/21/004_004.jpg
+data/WSSS4LUAD/images/21/004_005.jpg
+data/WSSS4LUAD/images/21/004_006.jpg
+data/WSSS4LUAD/images/21/004_007.jpg
+data/WSSS4LUAD/images/21/004_008.jpg
+data/WSSS4LUAD/images/21/004_009.jpg
+data/WSSS4LUAD/images/21/005_000.jpg
+data/WSSS4LUAD/images/21/005_001.jpg
+data/WSSS4LUAD/images/21/005_002.jpg
+data/WSSS4LUAD/images/21/005_003.jpg
+data/WSSS4LUAD/images/21/005_004.jpg
+data/WSSS4LUAD/images/21/005_005.jpg
+data/WSSS4LUAD/images/21/005_006.jpg
+data/WSSS4LUAD/images/21/005_007.jpg
+data/WSSS4LUAD/images/21/005_008.jpg
+data/WSSS4LUAD/images/21/005_009.jpg
+data/WSSS4LUAD/images/21/006_000.jpg
+data/WSSS4LUAD/images/21/006_001.jpg
+data/WSSS4LUAD/images/21/006_002.jpg
+data/WSSS4LUAD/images/21/006_003.jpg
+data/WSSS4LUAD/images/21/006_004.jpg
+data/WSSS4LUAD/images/21/006_005.jpg
+data/WSSS4LUAD/images/21/006_006.jpg
+data/WSSS4LUAD/images/21/006_007.jpg
+data/WSSS4LUAD/images/21/006_008.jpg
+data/WSSS4LUAD/images/21/006_009.jpg
+data/WSSS4LUAD/images/21/007_000.jpg
+data/WSSS4LUAD/images/21/007_001.jpg
+data/WSSS4LUAD/images/21/007_002.jpg
+data/WSSS4LUAD/images/21/007_003.jpg
+data/WSSS4LUAD/images/21/007_004.jpg
+data/WSSS4LUAD/images/21/007_005.jpg
+data/WSSS4LUAD/images/21/007_006.jpg
+data/WSSS4LUAD/images/21/007_007.jpg
+data/WSSS4LUAD/images/21/007_008.jpg
+data/WSSS4LUAD/images/21/007_009.jpg
+data/WSSS4LUAD/images/21/008_000.jpg
+data/WSSS4LUAD/images/21/008_001.jpg
+data/WSSS4LUAD/images/21/008_002.jpg
+data/WSSS4LUAD/images/21/008_003.jpg
+data/WSSS4LUAD/images/21/008_004.jpg
+data/WSSS4LUAD/images/21/008_005.jpg
+data/WSSS4LUAD/images/21/008_006.jpg
+data/WSSS4LUAD/images/21/008_007.jpg
+data/WSSS4LUAD/images/21/008_008.jpg
+data/WSSS4LUAD/images/21/008_009.jpg
+data/WSSS4LUAD/images/21/009_000.jpg
+data/WSSS4LUAD/images/21/009_001.jpg
+data/WSSS4LUAD/images/21/009_002.jpg
+data/WSSS4LUAD/images/21/009_003.jpg
+data/WSSS4LUAD/images/21/009_004.jpg
+data/WSSS4LUAD/images/21/009_005.jpg
+data/WSSS4LUAD/images/21/009_006.jpg
+data/WSSS4LUAD/images/21/009_007.jpg
+data/WSSS4LUAD/images/21/009_008.jpg
+data/WSSS4LUAD/images/21/009_009.jpg
