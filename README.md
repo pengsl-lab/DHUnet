@@ -57,7 +57,6 @@ python train.py --dataset Liver --network [DHUnet or Other optional networks] --
 python test.py --dataset Liver --network [DHUnet or Other optional networks] --cfg configs/DHUnet_224.yaml --is_saveni --volume_path data --output_dir model-Liver/DHUnet/lr0.005 --max_epochs 50 --base_lr 0.005 --img_size 224 --batch_size 24
 ```
 ## Optional implementation networks 
-<style>table{margin: auto;}</style> 
 | CNNs-based network | Transformer-based network |
 |:---:|:---:|
 [UNet](https://github.com/ZJUGiveLab/UNet-Version) | [Medical Transformer](https://github.com/jeya-maria-jose/Medical-Transformer)  
