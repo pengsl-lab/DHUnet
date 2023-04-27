@@ -79,5 +79,15 @@ python test.py --dataset Liver --network [DHUnet or Other optional networks] --c
    * [Medical Transformer](https://github.com/jeya-maria-jose/Medical-Transformer)
 ## Citation
 ```bibtex
-
+@article{wang2023dhunet,
+  title={DHUnet: Dual-branch hierarchical global–local fusion network for whole slide image segmentation},
+  author={Wang, Lian and Pan, Liangrui and Wang, Hetian and Liu, Mingting and Feng, Zhichao and Rong, Pengfei and Chen, Zuo and Peng, Shaoliang},
+  journal={Biomedical Signal Processing and Control},
+  volume={85},
+  pages={104976},
+  year={2023},
+  publisher={Elsevier}
+}
 ```
+
+## If you have any questions or comments, please feel free to email: lianwang@hnu.edu.cn
