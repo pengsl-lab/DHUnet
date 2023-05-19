@@ -62,7 +62,6 @@ class ConvNeXtUnet(nn.Module):
                     encoder_k = "encoder." + k
                     full_dict.update({encoder_k:v})  
                     
-                    # 等距间隔预训练
                     if "stages.2" in k:
                         num = int(k.split(".",3)[2])
                         if (num + 1)%3 == 0:
@@ -97,7 +96,6 @@ class ConvNeXtUnet(nn.Module):
         else:
             print("none pretrain")
 
-# PatchExpanding 模块，使得宽高都扩大两倍，channel减半
 class PatchExpand(nn.Module):
     def __init__(self, dim, norm_layer=nn.LayerNorm, dim_scale=2):
         super().__init__()
@@ -109,14 +107,12 @@ class PatchExpand(nn.Module):
         # print("dim:",self.dim)
         x = self.expand(x) 
         B,C,H,W = x.shape
-        # ？channel缩小四倍，长宽缩小两倍
         x = rearrange(x, 'b (p1 p2 c) h w -> b c (h p1) (w p2)', p1=2, p2=2, c=C//4)
         # print(x.shape)
         x= self.norm(x) # norm_layer
         return x
 
 class PatchExpandCel(nn.Module):
-    #上采样nn.UpsamplingBilinear2d(scale_factor=2)
     def __init__(self, dim,norm_layer=nn.LayerNorm, patch_size=[2,4], input_resolution=[],dim_scale=2, num_input_patch_size=1):
         super().__init__()
         
@@ -168,13 +164,11 @@ class FinalPatchExpand_X4(nn.Module):
         """
         x = self.expand(x) # [B, 16C,H, W]
         _,C,_,_ = x.shape
-        # ????长宽扩大dim_scale倍，channel缩小dim_scale*dim_scale倍
         x = rearrange(x, 'b (p1 p2 c) h w -> b c (h p1) (w p2)', p1=self.dim_scale, p2=self.dim_scale, c=C//(self.dim_scale**2))
         x= self.norm(x)
         return x
 
 class FinalPatchExpand_X4_cel(nn.Module):
-    #上采样nn.UpsamplingBilinear2d(scale_factor=2)
     def __init__(self,dim,norm_layer=nn.LayerNorm, patch_size=[4,8], input_resolution=[], dim_scale=4, num_input_patch_size=1):
         super().__init__()
 
@@ -230,10 +224,10 @@ class Conv2dAct(nn.Sequential):
         if use_GELU:
             act = nn.GELU()
         else:
-            act = nn.ReLU(inplace=True) # ReLU激活函数
+            act = nn.ReLU(inplace=True)
 
         if not use_layernorm:
-            norm = nn.BatchNorm2d(out_channels) # BatchNorm2d 和 LayerNorm的异同？？？
+            norm = nn.BatchNorm2d(out_channels) 
         else:
             norm = use_layernorm(out_channels)
 
@@ -268,15 +262,15 @@ class DecoderBlock(nn.Module):
         # self.up = nn.ConvTranspose2d(in_channels=out_channels,out_channels=out_channels//2,kernel_size=2,stride=2)
 
     def forward(self, x, skip=None):
-        # x = self.up(x) #先上采样
+        # x = self.up(x) 
         if skip is not None:
-            x = torch.cat([x, skip], dim=1) # skip-connection跳跃连接
+            x = torch.cat([x, skip], dim=1) 
         # print(x.shape)
         # print("309:",x.shape)
         x = self.conv1(x)
         x = self.conv2(x)
         # print(x.shape)
-        x = self.up(x) #后上采样
+        x = self.up(x) 
 
         return x
 
@@ -311,12 +305,10 @@ class Final3DecoderBlock(nn.Module):
 
     def forward(self, x, skip=None):
         if skip is not None:
-            x = torch.cat([x, skip], dim=1) # skip-connection跳跃连接
+            x = torch.cat([x, skip], dim=1) 
 
         x = self.conv1(x)
         x = self.conv2(x)
-
-        # x = self.upx4(x) #后上采样
 
         return x
 class Unet_Decoder3(nn.Module):
@@ -360,10 +352,9 @@ class Unet_Decoder3(nn.Module):
         # print("338:",x.shape)
         x = self.upx4(x)
         # print("340:",x.shape)
-        x = self.output(x) # 输出结果
+        x = self.output(x) 
         return x
 
-# Block + PatchExpand 模块
 class BasicLayer_up(nn.Module):
     def __init__(self, dim, depth, drop_path=0.,
                 norm_layer=nn.LayerNorm, upsample=None,use_checkpoint=False,layer_scale_init_value=1e-6,
@@ -415,7 +406,6 @@ class ConvNeXt_Decoder(nn.Module):
         self.concat_back_dim = nn.ModuleList()
         # decoder_depth = [3,3,9,3] 
         for i_layer in range(self.num_layers):# num_layers = 4
-            # 用于将skip connection拼接成的两倍的channel生成channel
             # concat_linear = nn.Linear(2*int(embed_dim*2**(self.num_layers-1-i_layer)),int(embed_dim*2**(self.num_layers-1-i_layer)))
             concat_linear = nn.Conv2d(in_channels=2*int(embed_dim*2**(self.num_layers-1-i_layer)),
                             out_channels=int(embed_dim*2**(self.num_layers-1-i_layer)),
@@ -429,7 +419,7 @@ class ConvNeXt_Decoder(nn.Module):
                                 depth=depths[(self.num_layers-1-i_layer)],
                                 drop_path=dp_rates[sum(depths[:(self.num_layers-1-i_layer)]):sum(depths[:(self.num_layers-1-i_layer) + 1])],
                                 norm_layer=norm_layer,
-                                upsample=PatchExpandCel if (i_layer < self.num_layers - 1) else FinalPatchExpand_X4_cel, # 最后一层没有PatchExpand，将会由FinalPatchExpand_X4替代
+                                upsample=PatchExpandCel if (i_layer < self.num_layers - 1) else FinalPatchExpand_X4_cel, 
                                 use_checkpoint=use_checkpoint)
             
             self.layers_up.append(layer_up)
@@ -447,7 +437,7 @@ class ConvNeXt_Decoder(nn.Module):
         for inx, layer_up in enumerate(self.layers_up):
             # print(x.shape,x_downsample[3-inx].shape)
             x = torch.cat([x,x_downsample[3-inx]],1)
-            x = self.concat_back_dim[inx](x)  # Skip connection：降低channel为原来的一半
+            x = self.concat_back_dim[inx](x) 
             # print("300:",x.shape)
             x = layer_up(x) 
             
@@ -456,6 +446,6 @@ class ConvNeXt_Decoder(nn.Module):
 
     def forward(self, x, x_downsample):
         x = self.forward_up_features(x,x_downsample) # #Dencoder and Skip connection
-        # x = self.upx4(x) # FinalPatchExpand_X4，并输出结果
-        x = self.output(x) # 输出结果
+        # x = self.upx4(x) 
+        x = self.output(x) 
         return x

@@ -79,7 +79,7 @@ _C.MODEL.PRETRAIN_CKPT_L = "./pretrained_ckpt/convnext_tiny_1k_224.pth"
 _C.MODEL.FINAL_UPSAMPLE = "FinalPatchExpand_X4_cel"
 
 # -----------------------------------------------------------------------------
-# Training settings ###有不同
+# Training settings 
 # -----------------------------------------------------------------------------
 _C.TRAIN = CN()
 _C.TRAIN.START_EPOCH = 0

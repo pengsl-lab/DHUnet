@@ -83,7 +83,6 @@ if args.dataset == "Synapse":
 config = get_config(args)
 
 def get_dataloader(args, fold_no=0, total_fold=5, split = "train", batch_size=1, shuffle = False):
-    # 固定每次进入随机交叉验证的随机种子(只在训练的最开头固定不行，第二次的时候就乱了*)
     random.seed(args.seed)
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
@@ -116,10 +115,8 @@ def inference(args, model, test_save_path=None):
     eval_save_dir = os.path.join(args.output_dir, split)
     concate_path_txt = os.path.join(args.list_dir, "test_concat.txt")
     logging.info('Start slide concate...')
-    # patch 拼接
     slide_concate(test_save_path, eval_save_dir, concate_path_txt)
     
-    # 评价指标计算
     metric_list = []
     result_gt_dir = os.path.join('data', args.dataset, 'WSI')
     for test_pred_file in os.listdir(eval_save_dir):
@@ -133,12 +130,12 @@ def inference(args, model, test_save_path=None):
         elif args.dataset == 'BCSS':
             test_pred_file = 'gt_' + test_pred_file
         elif args.dataset == "WSSS4LUAD":
-            # 添加背景蒙版
+            # add background
             back_ground_mask_dir = os.path.join('data', args.dataset, 'background-mask')
             background_img = Image.open(os.path.join(back_ground_mask_dir, test_pred_file))
             background = np.array(background_img, np.uint8)
             prediction *= background 
-            # 存储最终结果
+            # save result
             prediction_final = Image.fromarray(prediction)
             from utils import savePalette
             savePalette(prediction_final, os.path.join(eval_save_dir, test_pred_file))
@@ -147,11 +144,9 @@ def inference(args, model, test_save_path=None):
         label_img = Image.open(os.path.join(result_gt_dir, test_pred_file))
         label = np.array(label_img, np.uint8) # .resize((label_img.size[0]//10, label_img.size[1]//10))
         if args.dataset == 'BCSS':
-            # 不计算outside_roi的指标
             prediction[label == 0] = 0
-            # 合5为0
             label[label==5] = 0
-        metric = [] # n_classes * 3
+        metric = [] 
         for i in range(1, args.num_classes):
             metric.append(calculate_metric_perpatch(prediction==i, label==i)) 
         
@@ -160,8 +155,8 @@ def inference(args, model, test_save_path=None):
         logging.info('case %s dice %f yc %f acc %f' % (test_pred_file, mean_metric[0], mean_metric[1], mean_metric[2]))
         metric_list.append(np.array(metric))
 
-    metric_array = np.array(metric_list) #  N * n_classes * 3
-    mean_metric = np.nanmean(metric_array, axis=0) #  n_classes * 3
+    metric_array = np.array(metric_list) 
+    mean_metric = np.nanmean(metric_array, axis=0)
     for i in range(1, args.num_classes):
         logging.info('class %d dice %f yc %f acc %f' % (i, mean_metric[i-1][0], mean_metric[i-1][1], mean_metric[i-1][2]))
     performance = np.nanmean(mean_metric, axis=0) 
@@ -285,7 +280,7 @@ if __name__ == "__main__":
     msg = net.load_state_dict(torch.load(snapshot,map_location=device))
     print("self trained DHUnet ",msg)
 
-    # 计算FLOPs和参数
+    # Calculate FLOPs and parameters
     total = sum([param.nelement() for param in net.parameters()])
     print("Number of parameter: %.2fM" % (total/1e6))
     from thop import profile

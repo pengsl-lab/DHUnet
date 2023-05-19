@@ -27,7 +27,6 @@ class Structure_Loss(nn.Module):
         return loss
 
 def get_dataloader(args, fold_no=0, total_fold=5, split = "train", batch_size=1, shuffle = False):
-    # 固定每次进入随机交叉验证的随机种子(只在训练的最开头固定不行，第二次的时候就乱了*)
     random.seed(args.seed)
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
@@ -48,13 +47,13 @@ def validate(args, model, valloader):
         image, label, case_name = sampled_batch["image"], sampled_batch["mask"], sampled_batch['case_name'][0]
         metric_i = validate_single_patch(image, label, model, classes=args.num_classes, test_save_path=None, case=case_name, network=args.network)
         metric_i = np.array(metric_i)
-        metric_list.append(metric_i) # n_classes * 3
+        metric_list.append(metric_i) 
 
         # mean_metric_i = np.nanmean(metric_i,axis=0)
         # logging.info('idx %d case %s dice %f yc %f acc %f' % (i_batch, case_name, mean_metric_i[0], mean_metric_i[1], mean_metric_i[2]))
     
-    metric_array = np.array(metric_list) #   N * n_classes * 5
-    mean_metric = np.nanmean(metric_array, axis=0) #  n_classes * 5
+    metric_array = np.array(metric_list) 
+    mean_metric = np.nanmean(metric_array, axis=0) 
     for i in range(1, args.num_classes):
         logging.info('class %d dice %f yc %f acc %f' % (i, mean_metric[i-1][0], mean_metric[i-1][1], mean_metric[i-1][2]))
     
@@ -82,22 +81,13 @@ def trainer_KFold(args, model, snapshot_path, trainloader):
         model.train()
         for i_batch, sampled_batch in enumerate(trainloader):
             image_batch, label_batch = sampled_batch["image"], sampled_batch["mask"]
-            label_batch = label_batch.squeeze(1).cuda() # [24, 1, 224, 224] -> [24, 224, 224] 若第 dim=1 维度是1，则移除， 否则保持
+            label_batch = label_batch.squeeze(1).cuda() 
             image_batch = image_batch.cuda()
             if args.dataset == 'BCSS': 
                 mask_label = label_batch.unsqueeze(1).repeat(1,3,1,1)
                 mask_label[mask_label > 0] = 1
                 image_batch = image_batch * mask_label
-                # 将label 5变成0
                 label_batch[label_batch==5] = 0
-                # for i in range(image_batch.shape[0]):
-                #     from PIL import Image
-                #     img_arr = image_batch[i].cpu().detach().numpy() * 255
-                #     # print(img_arr)
-                #     img_arr = np.array(img_arr.transpose(1,2,0), np.uint8)  # C,H,W -> H,W,C
-                #     print(i, img_arr.shape, sampled_batch['case_name'][i])
-                #     Image.fromarray(img_arr).save('visualization/BCSS/' + str(i) + '.jpg')
-                # exit(0)
             if args.network == "DHUnet":
                 outputs0, outputs1, outputs2, outputs3, outputs4 = model(image_batch, image_batch)
             else:
@@ -108,14 +98,7 @@ def trainer_KFold(args, model, snapshot_path, trainloader):
                 loss2 = structure_loss(outputs2, label_batch)
                 loss3 = structure_loss(outputs3, label_batch)
                 loss4 = structure_loss(outputs4, label_batch)
-                
-                ds = True
-                if ds:
-                    # loss = 0.34*loss0 + 0.33*loss2 + 0.33*loss4  # revision_loss1	1. average
-                    loss = 0.5*loss0 + 0.3*loss2 + 0.2*loss4 # loss skip revision_loss2	2. TransFuse
-                    # loss = 0.57*loss0 + 0.29*loss2 + 0.14*loss4 # revision_loss3	3. nnUNet
-                else:
-                    loss = loss0
+                loss = 0.5*loss0 + 0.3*loss2 + 0.2*loss4 
             else:
                 loss = structure_loss(outputs, label_batch)
 

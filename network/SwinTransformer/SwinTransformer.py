@@ -393,7 +393,6 @@ class BasicLayer(nn.Module):
             else:
                 x = blk(x)
         
-        # 从block最后抽取特征返回
         feature = x 
         H,W = self.input_resolution
         B,_,C = feature.shape
@@ -401,7 +400,7 @@ class BasicLayer(nn.Module):
 
         if self.downsample is not None:
             x = self.downsample(x)
-        # 经过downsample层后，宽高减半，通道增倍
+        
         return feature, x
 
     def extra_repr(self) -> str:
@@ -588,12 +587,10 @@ class SwinTransformer(nn.Module):
 
         x = self.pos_drop(x)
 
-        features = [] # 收集各层的特征
+        features = [] #
         for i_layer, layer in enumerate(self.layers):
-            
-            feature, x = layer(x) # 返回B,C,H,W
-            
-            # 从block最后抽取特征
+
+            feature, x = layer(x)
             features.append(feature)
         
         # x = self.norm(x)  # B L C
@@ -602,7 +599,7 @@ class SwinTransformer(nn.Module):
 
         # return x
 
-        return features[::-1]# 翻转一下,变成从底层到高层
+        return features[::-1]
 
     def forward(self, x, local_ape=None):
         x = self.forward_features(x, local_ape)
@@ -637,13 +634,13 @@ class SwinTransformer(nn.Module):
             full_dict = copy.deepcopy(pretrained_dict)
             
             for k, v in pretrained_dict.items(): 
-                # 等距间隔预训练
+                
                 if "layers.2.blocks." in k:
                     num = int(k.split(".",4)[3])
                     if (num + 1) % 3 == 0:
                         #print(num)
                         divnum = (num + 1) // 3
-                        encoder_k = "layers.2.blocks." + str(divnum - 1) + "." + k.split(".",4)[-1] # 分割成四段
+                        encoder_k = "layers.2.blocks." + str(divnum - 1) + "." + k.split(".",4)[-1] 
                         #print(k)
                         #print(encoder_k)
                         full_dict.update({encoder_k:v})  
@@ -657,7 +654,6 @@ class SwinTransformer(nn.Module):
                         # print("{} matched!".format(k))
                         continue
                 else:
-                    #print("删除",k)
                     del full_dict[k]
             
             with open('full_dict.txt','w') as f:

@@ -123,7 +123,6 @@ class ConvNeXt(nn.Module):
             self.stages.append(stage)
             cur += depths[i]
 
-        # 绝对位置偏置
         # absolute position embedding
         self.ape = False
         self.absolute_pos_embed = None
@@ -162,7 +161,6 @@ class ConvNeXt(nn.Module):
             #     x_out = norm_layer(x)
             #     outs.append(x_out)
 
-            # 从block最后抽取特征
             out_features.append(x)
 
         return out_features[::-1] , self.absolute_pos_embed
@@ -186,13 +184,12 @@ class ConvNeXt(nn.Module):
             full_dict = copy.deepcopy(pretrained_dict)
 
             for k, v in pretrained_dict.items(): 
-                # 等距间隔预训练
                 if "stages.2." in k:
                     num = int(k.split(".",3)[2])
                     if (num + 1) % 3 == 0:
                         #print(num)
                         divnum = (num + 1) // 3
-                        encoder_k = "stages.2." + str(divnum - 1) + "." + k.split(".",3)[-1] # 分割成四段
+                        encoder_k = "stages.2." + str(divnum - 1) + "." + k.split(".",3)[-1] 
                         #print(k)
                         #print(encoder_k)
                         full_dict.update({encoder_k:v})  
@@ -206,7 +203,6 @@ class ConvNeXt(nn.Module):
                         # print("{} matched!".format(k))
                         continue
                 else:
-                    #print("删除",k)
                     del full_dict[k]
 
             with open('full_dict.txt','w') as f:

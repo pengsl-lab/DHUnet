@@ -156,22 +156,10 @@ class TransFuse_S(nn.Module):
         map_x = F.interpolate(self.final_x(x_c), scale_factor=16, mode='bilinear')
         map_1 = F.interpolate(self.final_1(x_b_2), scale_factor=4, mode='bilinear')
         map_2 = F.interpolate(self.final_2(x_c_2), scale_factor=4, mode='bilinear')
-        
-        # 多loss损失
+          
         # return map_x, map_1, map_2
 
-        # 暂时先一个loss
         return map_2
-
-        # # ---- forward ----
-        # lateral_map_4, lateral_map_3, lateral_map_2 = model(images)
-
-        # # ---- loss function ----
-        # loss4 = structure_loss(lateral_map_4, gts)
-        # loss3 = structure_loss(lateral_map_3, gts)
-        # loss2 = structure_loss(lateral_map_2, gts)
-
-        # loss = 0.5 * loss2 + 0.3 * loss3 + 0.2 * loss4
 
     def init_weights(self):
         self.up1.apply(init_weights)

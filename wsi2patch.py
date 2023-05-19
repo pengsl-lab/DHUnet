@@ -10,22 +10,13 @@ import numpy as np
 Image.MAX_IMAGE_PIXELS = None
 
 def split_data(data,train_ratio=0.7,test_ratio=0.3):
-    '''
-        data:数据集
-        test_ratio:测试集占比
-        如果data为numpy.numpy.ndarray直接使用此代码
-        如果data为pandas.DatFrame类型则
-            return data[train_indices],data[test_indices]
-        修改为
-            return data.iloc[train_indices],data.iloc[test_indices]
-    '''
     # specific the test for BCSS dataset
     if args.dataset == 'BCSS':
         train = []
         test = []
         for image in data:
             image_set = image.split('-')[1]
-            if image_set in ['OL', 'LL', 'E2', 'EW', 'GM', 'S3']:
+            if image_set in ['OL', 'LL', 'E2', 'EW', 'GM', 'S3']: # References to the division of the original data set literature
                 test.append(image)
             else:
                 train.append(image)
@@ -38,22 +29,6 @@ def split_data(data,train_ratio=0.7,test_ratio=0.3):
     train = data[:train_set_size]
     test = data[train_set_size:]
     return train,test
-
-def savePalette(mask):
-    mask = mask.convert("L")
-    palette=[]
-    for j in range(256):
-        palette.extend((j,j,j))    
-        palette[:3*10]=np.array([
-                                [0, 0, 0], # 黑色非组织区域
-                                [0,255,0], # 绿色 label 1 
-                                [0,0,255], # 蓝色：label 2
-                                [255,255,0], # 黄色 label 3 
-                                [255,0,0], # 红色：label 4
-                            ], dtype='uint8').flatten()
-    mask = mask.convert('P')
-    mask.putpalette(palette)
-    return mask
 
 def get_bbox(position, dimension, patch_size):
     left,upper = position
@@ -94,10 +69,6 @@ def crop_mask(mask, save_mask_path, bbox=(0, 0,0,0), step=(0, 0),resize=(224,224
     else:
         crop_mask = crop_mask.convert("L") 
 
-    # from collections import Counter
-    # print(Counter(np.array(crop_mask).flatten()))
-    # crop_mask = savePalette(crop_mask)
-
     crop_mask.save(out_file)
 
 def slide_to_patch(wsi_file, mask_file, args):
@@ -130,22 +101,22 @@ def slide_to_patch(wsi_file, mask_file, args):
     os.makedirs(img_patch_path, exist_ok=True)
     os.makedirs(anno_bag_path, exist_ok=True)
 
-    # 读取image
+    # read image
     if args.dataset == 'Gleason' or args.dataset == 'Gleason2018' or args.dataset == 'WSSS4LUAD' or args.dataset == 'BCSS':
         img = Image.open(wsi_file)
     else:
         scan = slide.OpenSlide(wsi_file)
         img = scan.read_region((0,0),0,scan.dimensions)
 
-    # 读取mask
+    # read mask
     mask = Image.open(mask_file)
     assert mask.size == img.size, (mask.size, img.size)
     print(mask.size, img.size)
     dimension = img.size
 
     # step = (dimension[1] - step_size)/step_size
-    step_y_max = int(np.ceil((dimension[1] - step_size)/step_size)) # ceil rows(向上取整) floor 向下取整
-    step_x_max = int(np.ceil((dimension[0] - step_size)/step_size)) # columns(向上取整)
+    step_y_max = int(np.ceil((dimension[1] - step_size)/step_size)) 
+    step_x_max = int(np.ceil((dimension[0] - step_size)/step_size)) 
     print(step_x_max, step_y_max)
 
     for i in range(step_x_max): # columns
@@ -153,9 +124,9 @@ def slide_to_patch(wsi_file, mask_file, args):
             position = (i*step_size, j*step_size)
             bbox = get_bbox(position, dimension, args.patch_size)
             resize = (args.img_size,args.img_size)
-            # 存储patch img
+            # save patch img
             crop_slide(img, img_patch_path, bbox=bbox, step=(i,j), resize=resize)
-            # 存储mask
+            # save patch mask
             crop_mask(mask, anno_bag_path, bbox=bbox, step=(i,j), resize=resize)
         sys.stdout.write('\r Cropped: {}/{}'.format(i+1, step_x_max))
     print(img_name, " spend time: ",time.time()-st)       
@@ -170,16 +141,16 @@ if __name__ == '__main__':
     parser.add_argument('--patch_size', type=int, default=1000)
     parser.add_argument('--img_size', type=int, default=224) # resize to img_size
 
-    # 示例
-    # python wsi2patch.py --dataset Liver --data_dir data/Liver/WSI --output data/Liver --lists_dir lists/lists_Liver/  --lists_dir lists/lists_Liver/ # 注意训练集测试集比例为0.8:0.2
+    # for examples:
+    # python wsi2patch.py --dataset Liver --data_dir data/Liver/WSI --output data/Liver --lists_dir lists/lists_Liver/  --lists_dir lists/lists_Liver/ # train:test = 0.8:0.2
     # python wsi2patch.py --dataset WSSS4LUAD --data_dir data/WSSS4LUAD/WSI --output data/WSSS4LUAD --lists_dir lists/lists_WSSS4LUAD/  --lists_dir lists/lists_WSSS4LUAD/ --overlap 224 --patch_size 448 # 0.7:0.3
     # python wsi2patch.py --dataset Gleason --data_dir data/Gleason/WSI --output data/Gleason --lists_dir lists/lists_Gleason/  --lists_dir lists/lists_Gleason/ # 0.7:0.3
     # python wsi2patch.py --dataset Gleason2018 --data_dir data/Gleason2018/WSI --output data/Gleason2018 --lists_dir lists/lists_Gleason2018/  --lists_dir lists/lists_Gleason2018/ --overlap 375 --patch_size 750 # 0.7:0.3
-    # python wsi2patch.py --dataset BACH --data_dir data/BACH/WSI --output data/BACH --lists_dir lists/lists_BACH/  --lists_dir lists/lists_BACH/ # 注意训练集测试集比例为0.8:0.2
+    # python wsi2patch.py --dataset BACH --data_dir data/BACH/WSI --output data/BACH --lists_dir lists/lists_BACH/  --lists_dir lists/lists_BACH/ # 0.8:0.2
     # python wsi2patch.py --dataset BCSS --data_dir data/BCSS/WSI --output data/BCSS --lists_dir lists/lists_BCSS/  --lists_dir lists/lists_BCSS/ --overlap 224 --patch_size 448
     # python wsi2patch.py --dataset BCSS --data_dir data/BCSS/WSI --output data/BCSS --lists_dir lists/lists_BCSS/  --lists_dir lists/lists_BCSS/ --overlap 500 --patch_size 1000
 
-    # 标签值
+    # The meaning of the label pixel value
     # Liver {"background": 0, "non-tumor":1, "tumor":2} 
     # BACH {"background": 0, 'Benign':1,'in situ':2,'invasive':3}
     # Gleason {"background": 0, "Benign":1, "Gleason3":2, "Gleason4":3, "Gleason5":4}

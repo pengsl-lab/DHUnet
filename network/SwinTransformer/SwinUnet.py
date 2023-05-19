@@ -40,7 +40,7 @@ class SwinUnet(nn.Module):
                                 qk_scale=config.MODEL.SWIN.QK_SCALE,
                                 drop_rate=config.MODEL.DROP_RATE,
                                 drop_path_rate=config.MODEL.DROP_PATH_RATE,
-                                ape=config.MODEL.SWIN.APE,#绝对位置编码
+                                ape=config.MODEL.SWIN.APE,
                                 patch_norm=config.MODEL.SWIN.PATCH_NORM,
                                 use_checkpoint=config.TRAIN.USE_CHECKPOINT)
 
@@ -53,7 +53,6 @@ class SwinUnet(nn.Module):
     def load_from(self, config):
         # pretrained_path = config.MODEL.PRETRAIN_CKPT
         pretrained_path = "./pretrained_ckpt/swin_tiny_patch4_window7_224.pth"
-        print("加载预训练权重", pretrained_path)
         if pretrained_path is not None:
             print("pretrained_path:{}".format(pretrained_path))
             device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

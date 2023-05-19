@@ -39,11 +39,6 @@ class Unet3Plus(nn.Module):
         self.CatBlocks = 5
         self.UpChannels = self.CatChannels * self.CatBlocks
 
-        ###decoder stage i 策略
-        # 将需要融合的feature map的shape统一成该stage中需要的shape
-        # 将feature map的输出channel统一成self.CatChannels = filters[0]
-        # 将这五个feature map进行concat拼接成(B,5C,Hi,Wi)
-        # 然后 fusion处理(Conv2d,BatchNorm2d,ReLU)
         '''stage 4d'''
         # h1->320*320, hd4->40*40, Pooling 8 times
         self.h1_PT_hd4 = nn.MaxPool2d(8, 8, ceil_mode=True)
@@ -490,9 +485,7 @@ class Unet3Plus_DeepSup(nn.Module):
         hd1 = self.relu1d_1(self.bn1d_1(self.conv1d_1(
             torch.cat((h1_Cat_hd1, hd2_UT_hd1, hd3_UT_hd1, hd4_UT_hd1, hd5_UT_hd1), 1)))) # hd1->320*320*UpChannels
 
-        # outconv将channel调整为num_classes 
-        # upscore将w,h * 相应的倍数，还原成W,H
-        # -> (B,C,W,H)
+
         d5 = self.outconv5(hd5)
         d5 = self.upscore5(d5) # 16->256
 
@@ -696,7 +689,7 @@ class Unet3Plus_DeepSup_CGM(nn.Module):
         self.outconv4 = nn.Conv2d(self.UpChannels, num_classes, 3, padding=1)
         self.outconv5 = nn.Conv2d(filters[4], num_classes, 3, padding=1)
 
-        # 分类引导模块
+        
         self.cls = nn.Sequential(
                     nn.Dropout(p=0.5),
                     nn.Conv2d(filters[4], 2, 1),
@@ -771,9 +764,7 @@ class Unet3Plus_DeepSup_CGM(nn.Module):
         hd1 = self.relu1d_1(self.bn1d_1(self.conv1d_1(
             torch.cat((h1_Cat_hd1, hd2_UT_hd1, hd3_UT_hd1, hd4_UT_hd1, hd5_UT_hd1), 1)))) # hd1->320*320*UpChannels
 
-        # outconv将channel调整为num_classes 
-        # upscore将w,h * 相应的倍数，还原成W,H
-        # -> (B,C,W,H)
+
         d5 = self.outconv5(hd5)
         d5 = self.upscore5(d5) # 16->256
 

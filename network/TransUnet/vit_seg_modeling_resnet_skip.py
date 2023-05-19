@@ -7,10 +7,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-# R50混合模型的不同之处
-# 1.卷积层采用的是StdConv2d而不是Conv2d
-# 2.GroupNorm替换BatchNorm
-# 3.stage4中的3个block移至stage3中
 
 def np2th(weights, conv=False):
     """Possibly convert HWIO to OIHW."""
@@ -123,11 +119,9 @@ class ResNetV2(nn.Module):
         self.width = width
 
         self.root = nn.Sequential(OrderedDict([
-            ('conv', StdConv2d(3, width, kernel_size=7, stride=2, bias=False, padding=3)),#第一个7*7的StdConv2d操作，->112*112*64
-            ('gn', nn.GroupNorm(32, width, eps=1e-6)),# GroupNorm
-            ('relu', nn.ReLU(inplace=True)),# RELU
-            # ('pool', nn.MaxPool2d(kernel_size=3, stride=2, padding=0)) # 最大池化下采样，-> 56*56*64
-            # 与原本有所不同的是，这里没有用最大池化下采样，保证了shape为112*112*64，以致于得到的feature shape为1/2,1/4,1/8
+            ('conv', StdConv2d(3, width, kernel_size=7, stride=2, bias=False, padding=3)),
+            ('gn', nn.GroupNorm(32, width, eps=1e-6)),
+            ('relu', nn.ReLU(inplace=True)),
         ]))
 
         self.body = nn.Sequential(OrderedDict([
@@ -149,19 +143,18 @@ class ResNetV2(nn.Module):
         features = []
         b, c, in_size, _ = x.size()
         x = self.root(x)
-        features.append(x) # feature0 为第一个Stem部分，feature0为56*56*64
-        x = nn.MaxPool2d(kernel_size=3, stride=2, padding=0)(x) # 最大池化下采样
-        for i in range(len(self.body)-1): # feature剩余的两个来自于block1,2
+        features.append(x) 
+        x = nn.MaxPool2d(kernel_size=3, stride=2, padding=0)(x) 
+        for i in range(len(self.body)-1): 
             x = self.body[i](x) 
             right_size = int(in_size / 4 / (i+1))
-            # print(in_size,x.size(),right_size) # 224 torch.Size([9, 256, 55, 55]) 56
-            if x.size()[2] != right_size: #可能由于精度原因导致x.size()[2] != right_size
+            if x.size()[2] != right_size: 
                 pad = right_size - x.size()[2]
                 assert pad < 3 and pad > 0, "x {} should {}".format(x.size(), right_size)
                 feat = torch.zeros((b, x.size()[1], right_size, right_size), device=x.device)
-                feat[:, :, 0:x.size()[2], 0:x.size()[3]] = x[:] # 应该是相当于padding操作
+                feat[:, :, 0:x.size()[2], 0:x.size()[3]] = x[:] 
             else:
                 feat = x
-            features.append(feat) # feature1 为56*56*256 feature2 为28*28*512
-        x = self.body[-1](x)# 经过block3
-        return x, features[::-1] #逆序返回feature，分别为28*28*512，56*56*256，56*56*64 shape，正好应对了skip_channels :[512,256, 64, 0]
+            features.append(feat) 
+        x = self.body[-1](x)
+        return x, features[::-1] 

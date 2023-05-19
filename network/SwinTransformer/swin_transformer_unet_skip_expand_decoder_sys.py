@@ -4,7 +4,7 @@ import torch.utils.checkpoint as checkpoint
 from einops import rearrange
 from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 
-# MLP模块
+
 class Mlp(nn.Module):
     def __init__(self, in_features, hidden_features=None, out_features=None, act_layer=nn.GELU, drop=0.):
         super().__init__()
@@ -23,7 +23,6 @@ class Mlp(nn.Module):
         x = self.drop(x)
         return x
 
-# 将feature map按照window_size划分成一个个没有重叠的window
 def window_partition(x, window_size):
     """
     Args:
@@ -40,7 +39,6 @@ def window_partition(x, window_size):
     windows = x.permute(0, 1, 3, 2, 4, 5).contiguous().view(-1, window_size, window_size, C)
     return windows
 
-# 将一个个window还原成一个feature map
 def window_reverse(windows, window_size, H, W):
     """
     Args:
@@ -60,7 +58,6 @@ def window_reverse(windows, window_size, H, W):
     x = x.permute(0, 1, 3, 2, 4, 5).contiguous().view(B, H, W, -1)
     return x
 
-# W-MSA SW-MSA模块
 class WindowAttention(nn.Module):
     r""" Window based multi-head self attention (W-MSA) module with relative position bias.
     It supports both of shifted and non-shifted window.
@@ -84,7 +81,6 @@ class WindowAttention(nn.Module):
         head_dim = dim // num_heads
         self.scale = qk_scale or head_dim ** -0.5
 
-        # define a parameter table of relative position bias num_heads个相对位置偏置表
         self.relative_position_bias_table = nn.Parameter(
             torch.zeros((2 * window_size[0] - 1) * (2 * window_size[1] - 1), num_heads))  # 2*Wh-1 * 2*Ww-1, nH
 
@@ -100,14 +96,14 @@ class WindowAttention(nn.Module):
         relative_coords[:, :, 0] *= 2 * self.window_size[1] - 1
         relative_position_index = relative_coords.sum(-1)  # Wh*Ww, Wh*Ww
         self.register_buffer("relative_position_index", relative_position_index) 
-        # relative_position_index是固定不变的，可放入缓冲buffer，而table里的内容是可以训练的
+        
 
         self.qkv = nn.Linear(dim, dim * 3, bias=qkv_bias)
         self.attn_drop = nn.Dropout(attn_drop)
         self.proj = nn.Linear(dim, dim)
         self.proj_drop = nn.Dropout(proj_drop)
 
-        trunc_normal_(self.relative_position_bias_table, std=.02) # 初始化relative_position_bias_table
+        trunc_normal_(self.relative_position_bias_table, std=.02) 
         self.softmax = nn.Softmax(dim=-1)
 
     def forward(self, x, mask=None):
@@ -131,7 +127,7 @@ class WindowAttention(nn.Module):
         relative_position_bias = self.relative_position_bias_table[self.relative_position_index.view(-1)].view(
             self.window_size[0] * self.window_size[1], self.window_size[0] * self.window_size[1], -1)  # Wh*Ww,Wh*Ww,nH
         relative_position_bias = relative_position_bias.permute(2, 0, 1).contiguous()  # nH, Wh*Ww, Wh*Ww
-        attn = attn + relative_position_bias.unsqueeze(0) # atten加上relative_position_bias
+        attn = attn + relative_position_bias.unsqueeze(0) 
 
         if mask is not None:
             # mask: [nW, Mh*Mw, Mh*Mw]
@@ -150,7 +146,7 @@ class WindowAttention(nn.Module):
         # transpose: -> [batch_size*num_windows, Mh*Mw, num_heads, embed_dim_per_head]
         # reshape: -> [batch_size*num_windows, Mh*Mw, total_embed_dim]
         x = (attn @ v).transpose(1, 2).reshape(B_, N, C)
-        x = self.proj(x) # 乘以W0全连接层
+        x = self.proj(x)
         x = self.proj_drop(x) #dropout
         return x
 
@@ -170,7 +166,6 @@ class WindowAttention(nn.Module):
         flops += N * self.dim * self.dim
         return flops
 
-# SwinTransformerBlock 包括WindowAttention，MLP模块
 class SwinTransformerBlock(nn.Module):
     r""" Swin Transformer Block.
 
@@ -219,14 +214,13 @@ class SwinTransformerBlock(nn.Module):
         if self.shift_size > 0:
             ### calculate attention mask for SW-MSA
             H, W = self.input_resolution
-            # 拥有和feature map一样的通道排列顺序，方便后续window_partition
             img_mask = torch.zeros((1, H, W, 1))  # 1 H W 1
             h_slices = (slice(0, -self.window_size),
                         slice(-self.window_size, -self.shift_size),
                         slice(-self.shift_size, None))
             w_slices = (slice(0, -self.window_size),
                         slice(-self.window_size, -self.shift_size),
-                        slice(-self.shift_size, None)) # --self.shift_size到末尾
+                        slice(-self.shift_size, None)) 
             cnt = 0
             for h in h_slices:
                 for w in w_slices:
@@ -251,13 +245,6 @@ class SwinTransformerBlock(nn.Module):
         self.register_buffer("attn_mask", attn_mask)
 
     def forward(self, x):
-        # 首先刚开始已经划分好蒙版，各个部分的位置标有相应的号码
-        # roll挪动窗口
-        # window_partition拆分成window_size的小窗口
-        # 借助蒙版和一个个窗口计算得到W-MSA/SW-MSA的输出
-        # window_reverse合并小窗口
-        # roll恢复窗口
-        # 计算LN,MLP，dropout等模块
         H, W = self.input_resolution
         B, L, C = x.shape
         assert L == H * W, "input feature has wrong size"
@@ -283,7 +270,7 @@ class SwinTransformerBlock(nn.Module):
         attn_windows = attn_windows.view(-1, self.window_size, self.window_size, C)
         shifted_x = window_reverse(attn_windows, self.window_size, H, W)  # B H' W' C
 
-        # reverse cyclic shift 将shifted_x调整回去，向左向下
+        # reverse cyclic shift 
         if self.shift_size > 0:
             x = torch.roll(shifted_x, shifts=(self.shift_size, self.shift_size), dims=(1, 2))
         else:
@@ -291,8 +278,8 @@ class SwinTransformerBlock(nn.Module):
         x = x.view(B, H * W, C)
 
         # FFN
-        x = shortcut + self.drop_path(x) #经过droppath后进行拼接
-        x = x + self.drop_path(self.mlp(self.norm2(x))) ##经过layer_norm,mlp,drop_path后进行拼接
+        x = shortcut + self.drop_path(x) 
+        x = x + self.drop_path(self.mlp(self.norm2(x))) 
 
         return x
 
@@ -339,14 +326,6 @@ class PatchMerging(nn.Module):
         B, L, C = x.shape
         assert L == H * W, "input feature has wrong size"
         assert H % 2 == 0 and W % 2 == 0, f"x size ({H}*{W}) are not even."
-        # # padding
-        # # 如果输入feature map的H，W不是2的整数倍，需要进行padding
-        # pad_input = (H % 2 == 1) or (W % 2 == 1)
-        # if pad_input:
-        #     # to pad the last 3 dimensions, starting from the last dimension and moving forward.
-        #     # (C_front, C_back, W_left, W_right, H_top, H_bottom)
-        #     # 注意这里的Tensor通道是[B, H, W, C]，所以会和官方文档有些不同(BCHW)
-        #     x = F.pad(x, (0, 0, 0, W % 2, 0, H % 2))
 
         x = x.view(B, H, W, C)
 
@@ -371,7 +350,6 @@ class PatchMerging(nn.Module):
         flops += (H // 2) * (W // 2) * 4 * self.dim * 2 * self.dim
         return flops
 
-# PatchExpanding 模块，使得宽高都扩大两倍，channel减半
 class PatchExpand(nn.Module):
     def __init__(self, input_resolution, dim, dim_scale=2, norm_layer=nn.LayerNorm):
         super().__init__()
@@ -385,12 +363,11 @@ class PatchExpand(nn.Module):
         x: B, H*W, C
         """
         H, W = self.input_resolution
-        x = self.expand(x) # channel扩大dim_scale 2 倍
+        x = self.expand(x) 
         B, L, C = x.shape
         assert L == H * W, "input feature has wrong size"
 
         x = x.view(B, H, W, C)
-        # ？channel缩小四倍，长宽缩小两倍
         x = rearrange(x, 'b h w (p1 p2 c)-> b (h p1) (w p2) c', p1=2, p2=2, c=C//4)
         x = x.view(B,-1,C//4)
         x= self.norm(x) # norm_layer
@@ -417,7 +394,6 @@ class FinalPatchExpand_X4(nn.Module):
         assert L == H * W, "input feature has wrong size"
 
         x = x.view(B, H, W, C)
-        # ????长宽扩大dim_scale倍，channel缩小dim_scale*dim_scale倍
         x = rearrange(x, 'b h w (p1 p2 c)-> b (h p1) (w p2) c', p1=self.dim_scale, p2=self.dim_scale, c=C//(self.dim_scale**2))
         x = x.view(B,-1,self.output_dim)
         # [B, 4H, 4W, C]
@@ -425,7 +401,6 @@ class FinalPatchExpand_X4(nn.Module):
 
         return x
 
-# SwinTransformerBlock + PatchMerging 模块
 class BasicLayer(nn.Module):
     """ A basic Swin Transformer layer for one stage.
 
@@ -495,7 +470,6 @@ class BasicLayer(nn.Module):
             flops += self.downsample.flops()
         return flops
 
-# SwinTransformerBlock + PatchExpand 模块
 class BasicLayer_up(nn.Module):
     """ A basic Swin Transformer layer for one stage.
 
@@ -554,7 +528,6 @@ class BasicLayer_up(nn.Module):
             x = self.upsample(x)
         return x
 
-# 初始的 Patch Embedding层 下采样patch_size倍，同时channel调整为embed_dim，即(H/4,W/4,embed_dim)
 class PatchEmbed(nn.Module):
     r""" Image to Patch Embedding
 
@@ -570,17 +543,15 @@ class PatchEmbed(nn.Module):
 
     def __init__(self, img_size=224, patch_size=4, in_chans=3, embed_dim=96, norm_layer=None):
         super().__init__()
-        img_size = to_2tuple(img_size) # 变成元组(img_size,img_size)
+        img_size = to_2tuple(img_size) 
         patch_size = to_2tuple(patch_size)
         patches_resolution = [img_size[0] // patch_size[0], img_size[1] // patch_size[1]]
         self.img_size = img_size
         self.patch_size = patch_size
-        self.patches_resolution = patches_resolution #每个patch的分辨率
-        self.num_patches = patches_resolution[0] * patches_resolution[1] # 56*56？？？？，后面绝对位置编码会用到
-
+        self.patches_resolution = patches_resolution 
+        self.num_patches = patches_resolution[0] * patches_resolution[1] 
         self.in_chans = in_chans
         self.embed_dim = embed_dim
-        # 下采样patch_size倍，同时channel调整为embed_dim，即(H/4,W/4,embed_dim)
         self.proj = nn.Conv2d(in_chans, embed_dim, kernel_size=patch_size, stride=patch_size)
         if norm_layer is not None:
             self.norm = norm_layer(embed_dim) # LayerNorm
@@ -593,14 +564,13 @@ class PatchEmbed(nn.Module):
         assert H == self.img_size[0] and W == self.img_size[1], \
             f"Input image size ({H}*{W}) doesn't match model ({self.img_size[0]}*{self.img_size[1]})."
         
-        # # 下采样patch_size倍，同时channel调整为embed_dim，即(B,embed_dim,H/4,W/4)
         # flatten: [B,embed_dim,H/4,W/4] -> [B,embed_dim,H/4*W/4]
         # transpose: [B,embed_dim,H/4*W/4] -> [B,H/4*W/4,embed_dim]
         x = self.proj(x).flatten(2).transpose(1, 2) 
         if self.norm is not None:
             x = self.norm(x) # [B,H/4*W/4,embed_dim]
         return x
-    #??? 计算浮点次数
+ 
     def flops(self):
         Ho, Wo = self.patches_resolution
         flops = Ho * Wo * self.embed_dim * self.in_chans * (self.patch_size[0] * self.patch_size[1])
@@ -646,7 +616,7 @@ class SwinTransformerSys(nn.Module):
         depths_decoder,drop_path_rate,num_classes))
 
         self.num_classes = num_classes
-        self.num_layers = len(depths) # num_layers 深度
+        self.num_layers = len(depths) 
         self.embed_dim = embed_dim
         self.ape = ape
         self.patch_norm = patch_norm
@@ -659,8 +629,8 @@ class SwinTransformerSys(nn.Module):
         self.patch_embed = PatchEmbed(
             img_size=img_size, patch_size=patch_size, in_chans=in_chans, embed_dim=embed_dim,
             norm_layer=norm_layer if self.patch_norm else None)
-        num_patches = self.patch_embed.num_patches # ？？？
-        patches_resolution = self.patch_embed.patches_resolution #patch的分辨率
+        num_patches = self.patch_embed.num_patches 
+        patches_resolution = self.patch_embed.patches_resolution 
         self.patches_resolution = patches_resolution
 
         # absolute position embedding
@@ -671,14 +641,11 @@ class SwinTransformerSys(nn.Module):
         self.pos_drop = nn.Dropout(p=drop_rate)
 
         # stochastic depth
-        # drop_path_rate 从0慢慢增长到指定的drop_path_rate，步数为sum(depths)
         dpr = [x.item() for x in torch.linspace(0, drop_path_rate, sum(depths))]  # stochastic depth decay rule
 
         # build encoder and bottleneck layers
         self.layers = nn.ModuleList()
         for i_layer in range(self.num_layers):
-            # 注意这里构建的stage和论文图中有些差异
-            # 这里的stage不包含该stage的patch_merging层，包含的是下个stage的
             layer = BasicLayer(dim=int(embed_dim * 2 ** i_layer),#[C,2C,4C,8C]
                                input_resolution=(patches_resolution[0] // (2 ** i_layer),
                                                  patches_resolution[1] // (2 ** i_layer)),
@@ -686,11 +653,11 @@ class SwinTransformerSys(nn.Module):
                                num_heads=num_heads[i_layer],
                                window_size=window_size,
                                mlp_ratio=self.mlp_ratio,
-                               qkv_bias=qkv_bias, qk_scale=qk_scale,#？？
+                               qkv_bias=qkv_bias, qk_scale=qk_scale,
                                drop=drop_rate, attn_drop=attn_drop_rate,
                                drop_path=dpr[sum(depths[:i_layer]):sum(depths[:i_layer + 1])],
                                norm_layer=norm_layer,
-                               downsample=PatchMerging if (i_layer < self.num_layers - 1) else None, #最后一个stage无patchmerging
+                               downsample=PatchMerging if (i_layer < self.num_layers - 1) else None,
                                use_checkpoint=use_checkpoint)
             self.layers.append(layer)
         
@@ -698,13 +665,9 @@ class SwinTransformerSys(nn.Module):
         self.layers_up = nn.ModuleList()
         self.concat_back_dim = nn.ModuleList()
         for i_layer in range(self.num_layers):# num_layers = 4
-            # 用于将skip connection拼接成的两倍的channel生成channel
-            # 总共有3层，i_layer==0没有(为一个nn.Identity() )
             concat_linear = nn.Linear(2*int(embed_dim*2**(self.num_layers-1-i_layer)),
             int(embed_dim*2**(self.num_layers-1-i_layer))) if i_layer > 0 else nn.Identity() 
-            # 最后 concat_back_dim 分别为：nn.Identity(),nn.Linear(8C,4C),nn.Linear(4C,2C),nn.Linear(2C,1C)
             if i_layer ==0 :
-                # i_layer ==0 只有一个PatchExpand模块
                 layer_up = PatchExpand(input_resolution=(patches_resolution[0] // (2 ** (self.num_layers-1-i_layer)),
                 patches_resolution[1] // (2 ** (self.num_layers-1-i_layer))), dim=int(embed_dim * 2 ** (self.num_layers-1-i_layer)), dim_scale=2, norm_layer=norm_layer)
             else:
@@ -719,12 +682,12 @@ class SwinTransformerSys(nn.Module):
                                 drop=drop_rate, attn_drop=attn_drop_rate,
                                 drop_path=dpr[sum(depths[:(self.num_layers-1-i_layer)]):sum(depths[:(self.num_layers-1-i_layer) + 1])],
                                 norm_layer=norm_layer,
-                                upsample=PatchExpand if (i_layer < self.num_layers - 1) else None, # 最后一层没有PatchExpand，将会由。。替代
+                                upsample=PatchExpand if (i_layer < self.num_layers - 1) else None, 
                                 use_checkpoint=use_checkpoint)
             self.layers_up.append(layer_up)
             self.concat_back_dim.append(concat_linear)
 
-        self.norm = norm_layer(self.num_features) #最后得到的feature通过norm_layer层，num_features = int(embed_dim * 2 ** (self.num_layers - 1))
+        self.norm = norm_layer(self.num_features) 
         self.norm_up= norm_layer(self.embed_dim)
 
         if self.final_upsample == "expand_first":
@@ -754,19 +717,17 @@ class SwinTransformerSys(nn.Module):
     #Encoder and Bottleneck
     def forward_features(self, x):
         # x : [B, 3, H, W]
-        x = self.patch_embed(x)  #patch_embed
+        x = self.patch_embed(x)  # patch_embed
         # x -> [B,H/4*W/4,C] 
         if self.ape:
-            x = x + self.absolute_pos_embed # 绝对位置absolute_pos_embed
+            x = x + self.absolute_pos_embed 
         x = self.pos_drop(x) # dropout
         x_downsample = []
-        # x_downsample存储下采样过程的特征，注意：最后一层的特征未被append
         for layer in self.layers:
             x_downsample.append(x) 
             x = layer(x)
-        # x_downsample中的shape:[W/4,H/4,C],[W/8,H/8,2C],[W/16,H/16,4C]
+        # x_downsample:[W/4,H/4,C],[W/8,H/8,2C],[W/16,H/16,4C]
 
-        # #最后得到的feature通过norm_layer层
         x = self.norm(x)  # B L C
   
         return x, x_downsample
@@ -775,10 +736,10 @@ class SwinTransformerSys(nn.Module):
     def forward_up_features(self, x, x_downsample):
         for inx, layer_up in enumerate(self.layers_up):
             if inx == 0:
-                x = layer_up(x) # 此时layer_up = PatchExpand()
-            else: # len(x_downsample)==3
-                x = torch.cat([x,x_downsample[3-inx]],-1) # 最后一个维度进行concat拼接
-                x = self.concat_back_dim[inx](x) # Skip connection：通过一个linear层降低channel为原来的一半
+                x = layer_up(x) 
+            else: 
+                x = torch.cat([x,x_downsample[3-inx]],-1) 
+                x = self.concat_back_dim[inx](x) 
                 x = layer_up(x) # layer_up = BasicLayer_up
 
         x = self.norm_up(x)  # B L C
@@ -794,14 +755,14 @@ class SwinTransformerSys(nn.Module):
             x = self.up(x) # FinalPatchExpand_X4
             x = x.view(B,4*H,4*W,-1)
             x = x.permute(0,3,1,2) #B,C,H,W
-            x = self.output(x) # 输出结果
+            x = self.output(x) 
             
         return x
 
     def forward(self, x):
         x, x_downsample = self.forward_features(x) # #Encoder and Bottleneck
         x = self.forward_up_features(x,x_downsample) # #Dencoder and Skip connection
-        x = self.up_x4(x) # FinalPatchExpand_X4，并输出结果
+        x = self.up_x4(x) # FinalPatchExpand_X4
         return x
 
     def flops(self):

@@ -10,7 +10,7 @@ class PatchExpand_X2_cel(nn.Module):
         self.dim = dim
         self.reductions = nn.ModuleList()
         self.patch_size = patch_size 
-        self.norm = norm_layer(dim) # norm first
+        self.norm = norm_layer(dim) 
         # W,H,C
         for i, ps in enumerate(patch_size):
             if i == len(patch_size) - 1:
@@ -24,7 +24,7 @@ class PatchExpand_X2_cel(nn.Module):
             # 1,2W,2H,C/4
     def forward(self, x):
         # B,C,W,H
-        x = self.norm(x) # norm first
+        x = self.norm(x) 
         xs = []
         for i in range(len(self.reductions)):
             tmp_x = self.reductions[i](x)
@@ -37,9 +37,7 @@ class FinalPatchExpand_X4_cel(nn.Module):
     def __init__(self,dim, norm_layer=nn.BatchNorm2d, patch_size=[4,8,16,32]):
         super().__init__()
         self.dim = dim
-        self.norm = norm_layer(dim) # norm first
-        # self.norm = norm_layer(dim) # norm last
-        # self.relu = nn.ReLU() # relu
+        self.norm = norm_layer(dim) 
         self.reductions = nn.ModuleList()
         self.patch_size = patch_size
      
@@ -59,15 +57,13 @@ class FinalPatchExpand_X4_cel(nn.Module):
         """
         x: B,C,H,W
         """
-        x = self.norm(x) # first
+        x = self.norm(x) 
         xs = []
         for i in range(len(self.reductions)):
             tmp_x = self.reductions[i](x)
             xs.append(tmp_x)
         x = torch.cat(xs, dim=1)
         # x: B,C,4H,4W
-        # x = self.norm(x) # last
-        # x = self.relu(x) # relu
         return x
 
 def Get_encoder(config, model_name="ConvNeXt"):
@@ -94,7 +90,7 @@ def Get_encoder(config, model_name="ConvNeXt"):
                                         qk_scale=config.MODEL.SWIN.QK_SCALE,
                                         drop_rate=config.MODEL.DROP_RATE,
                                         drop_path_rate=config.MODEL.DROP_PATH_RATE,
-                                        ape=config.MODEL.SWIN.APE,#绝对位置编码
+                                        ape=config.MODEL.SWIN.APE,
                                         patch_norm=config.MODEL.SWIN.PATCH_NORM,
                                         use_checkpoint=config.TRAIN.USE_CHECKPOINT)
     else:
@@ -169,7 +165,7 @@ class Attention_Fusion_Module(nn.Module):
 
 class DAF(nn.Module):
     '''
-    直接相加 DirectAddFuse
+    DirectAddFuse
     '''
 
     def __init__(self):
@@ -180,14 +176,14 @@ class DAF(nn.Module):
 
 class iAFF(nn.Module):
     '''
-    多特征融合 iAFF
+    iAFF
     '''
 
     def __init__(self, channels=64, r=4):
         super(iAFF, self).__init__()
         inter_channels = int(channels // r)
 
-        # 本地注意力
+        # 1 local attention
         self.local_att = nn.Sequential(
             nn.Conv2d(channels, inter_channels, kernel_size=1, stride=1, padding=0),
             nn.BatchNorm2d(inter_channels),
@@ -196,7 +192,7 @@ class iAFF(nn.Module):
             nn.BatchNorm2d(channels),
         )
 
-        # 全局注意力
+        # 1 global attention
         self.global_att = nn.Sequential(
             nn.AdaptiveAvgPool2d(1),
             nn.Conv2d(channels, inter_channels, kernel_size=1, stride=1, padding=0),
@@ -206,7 +202,7 @@ class iAFF(nn.Module):
             nn.BatchNorm2d(channels),
         )
 
-        # 第二次本地注意力
+        # 2 local attention
         self.local_att2 = nn.Sequential(
             nn.Conv2d(channels, inter_channels, kernel_size=1, stride=1, padding=0),
             nn.BatchNorm2d(inter_channels),
@@ -214,7 +210,8 @@ class iAFF(nn.Module):
             nn.Conv2d(inter_channels, channels, kernel_size=1, stride=1, padding=0),
             nn.BatchNorm2d(channels),
         )
-        # 第二次全局注意力
+
+        # 2 global attention
         self.global_att2 = nn.Sequential(
             nn.AdaptiveAvgPool2d(1),
             nn.Conv2d(channels, inter_channels, kernel_size=1, stride=1, padding=0),
@@ -243,7 +240,7 @@ class iAFF(nn.Module):
 
 class AFF(nn.Module):
     '''
-    多特征融合 AFF
+    AFF
     '''
 
     def __init__(self, channels=64, r=4):
@@ -283,9 +280,9 @@ class DHUnet(nn.Module):
     def __init__(self,config, Global_branch="SwinTransformer", Local_branch="ConvNeXt", num_classes=1000):
         super().__init__()
 
-        ##### 实验设置 ####
+        ##### Experiment settings ####
         setup = {
-            "fuse" : "DAF", # DAF AFF iAFF MyAFF 0,1,2,3
+            "fuse" : "DAF", # DAF AFF iAFF MyAFF
             "pxd" : True, # skip-connection patchExpand cel, default upsample
             "deep_supervision":True,  # deep supervision
         }
@@ -328,14 +325,12 @@ class DHUnet(nn.Module):
                 nn.Sequential(nn.Conv2d(embed_dim, num_classes, 3, padding=1))
             ])
     def forward(self, x_l,x_g):
-        # 单通道变成三通道
-        # print(x_l.shape, x_g.shape)
         if x_l.size()[1] == 1:
             x_l = x_l.repeat(1,3,1,1)
         if x_g.size()[1] == 1:
             x_g = x_g.repeat(1,3,1,1)
         
-        # 获取encoder模型获得的中间层特征(从下到上)
+        # Obtain the intermediate layer features obtained by the encoder model (from bottom to top)
         L_features, local_ape = self.L_encoder(x_l)
         G_features = self.G_encoder(x_g, local_ape)
 
@@ -345,7 +340,7 @@ class DHUnet(nn.Module):
         if self.ds:
             self.ds_out = []
 
-        # decoder融合特征并还原图像分辨率
+        # The decoder fuses the features and restores the image resolution
         for idx in range(self.decoder_depth):
             if idx == 0:
                 out = self.Att_fusion[idx](L_features[idx], G_features[idx], None, None)
@@ -366,7 +361,7 @@ class DHUnet(nn.Module):
     def load_from(self, config):
         pretrained_path_G = config.MODEL.PRETRAIN_CKPT_G
         pretrained_path_L = config.MODEL.PRETRAIN_CKPT_L
-        print(" G_encoder, L_encoder 加载预训练权重: ", pretrained_path_L, pretrained_path_G)
+        print(" G_encoder, L_encoder load pretrained weights: ", pretrained_path_L, pretrained_path_G)
         # pretrain
         self.G_encoder.load_from(pretrained_path_G)
         self.L_encoder.load_from(pretrained_path_L)

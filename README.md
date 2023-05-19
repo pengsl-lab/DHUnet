@@ -49,12 +49,12 @@ python wsi2patch.py --dataset Liver --data_dir data/Liver/WSI --output data/Live
 ```
 ## Train
 ```python
-python train.py --dataset Liver --network [DHUnet or Other optional networks] --cfg configs/DHUnet_224.yaml --root_path data --max_epochs 50 --output_dir model-Liver/DHUnet/lr0.005 --img_size 224 --base_lr 0.005 --batch_size 24
+python train.py --dataset Liver --network DHUnet --cfg configs/DHUnet_224.yaml --root_path data --max_epochs 50 --output_dir model-Liver/DHUnet --img_size 224 --base_lr 0.005 --batch_size 24
 ```
 
 ## Test
 ```python
-python test.py --dataset Liver --network [DHUnet or Other optional networks] --cfg configs/DHUnet_224.yaml --is_saveni --volume_path data --output_dir model-Liver/DHUnet/lr0.005 --max_epochs 50 --base_lr 0.005 --img_size 224 --batch_size 24
+python test.py --dataset Liver --network DHUnet --cfg configs/DHUnet_224.yaml --is_saveni --volume_path data --output_dir model-Liver/DHUnet --max_epochs 50 --base_lr 0.005 --img_size 224 --batch_size 24
 ```
 ## Optional implementation networks 
 | CNNs-based network | Transformer-based network |
@@ -79,7 +79,7 @@ python test.py --dataset Liver --network [DHUnet or Other optional networks] --c
 ## Citation
 ```bibtex
 @article{wang2023dhunet,
-  title={DHUnet: Dual-branch hierarchical global–local fusion network for whole slide image segmentation},
+  title={DHUnet: Dual-branch hierarchical global--local fusion network for whole slide image segmentation},
   author={Wang, Lian and Pan, Liangrui and Wang, Hetian and Liu, Mingting and Feng, Zhichao and Rong, Pengfei and Chen, Zuo and Peng, Shaoliang},
   journal={Biomedical Signal Processing and Control},
   volume={85},
@@ -89,4 +89,4 @@ python test.py --dataset Liver --network [DHUnet or Other optional networks] --c
 }
 ```
 
-## If you have any questions or comments, please feel free to email: lianwang@hnu.edu.cn
+## If you have any questions or comments, please feel free to contact: lianwang@hnu.edu.cn

@@ -99,8 +99,8 @@ class ToTensor(object):
     def __call__(self, image, mask=None):
         image = F.to_tensor(image)
         if mask is not None:
-            # mask = F.to_tensor(mask) # mask用这个会出现交叉熵损失很小的情况,会出现/255，归一化
-            mask = torch.from_numpy(np.asarray(mask)) #  # 如果是3为的mask则需要 array.transpose((2,0,1)))
+
+            mask = torch.from_numpy(np.asarray(mask)) 
         return image, mask
 
 class Compose(object):
@@ -125,13 +125,12 @@ class DHUnet_dataset(Dataset):
         if self.split == "test":
             self.image_list = self.get_sample_list("test_images")
             self.mask_list = self.get_sample_list("test_masks")
-        else: # train val 进行n折交叉验证
-            # 提取全部数据
+        else: # train val 
             self.image_list = self.get_sample_list("train_images")
             self.mask_list = self.get_sample_list("train_masks")
 
-            # 根据交叉验证取第fold_no折数据
-            if fold_no != -1: # fold_no == -1使用全部数据训练
+            # Take the fold_no th fold data according to cross-validation
+            if fold_no != -1: # Use all data to train
                 kfold = KFold(n_splits=total_fold, shuffle=True)
                 for i, (train_index, val_index) in enumerate(kfold.split(self.image_list, self.mask_list)):
                     if i == fold_no:
@@ -145,11 +144,11 @@ class DHUnet_dataset(Dataset):
                             self.mask_list = np.array(self.mask_list)[val_index]
                             print(self.image_list[100], self.mask_list[100])
                         break
-            elif fold_no == -1 and self.split == 'val': # 使用全部数据训练,剩余验证集为空
+            elif fold_no == -1 and self.split == 'val': # Use all data training, the remaining validation set is empty
                 self.image_list = []
                 self.mask_list = []
                 
-        if split == "train": # 只有训练集做数据增广
+        if split == "train": 
             self.img_transform = Compose([
                                     # ColorJitter(brightness=0.5, contrast=0.5, saturation=0.5, hue=0.5), 
                                     RandomHorizontalFlip(flip_prob=0.5),
@@ -166,13 +165,13 @@ class DHUnet_dataset(Dataset):
                             [0.229, 0.224, 0.225])
                 ])
     def __len__(self):
-        return len(self.image_list) # , len(self.mask_list)
+        return len(self.image_list) 
 
     def get_sample_list(self, sample_name):
         file_lines = open(os.path.join(self.list_dir, sample_name + '.txt')).readlines()
         sample_list = []
         for line in file_lines: 
-            line = line.strip('\n') # 去掉换行符
+            line = line.strip('\n') 
             if line:
                 sample_list.append(line)
         return sample_list
@@ -215,11 +214,11 @@ if __name__ == '__main__':
         for j in range(256):
             palette.extend((j,j,j))    
             palette[:3*6]=np.array([
-                                [0, 0, 0], # 黑色非组织区域
-                                [0,255,0], # 绿色 
-                                [0,0,255], # 蓝色
-                                [255,255,0], # 黄色 
-                                [255,0,0], # 红色
+                                [0, 0, 0], 
+                                [0,255,0], 
+                                [0,0,255], 
+                                [255,255,0], 
+                                [255,0,0], 
                              ], dtype='uint8').flatten()
         mask = mask.convert('P')
         mask.putpalette(palette)
