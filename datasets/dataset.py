@@ -101,6 +101,8 @@ class ToTensor(object):
         if mask is not None:
 
             mask = torch.from_numpy(np.asarray(mask)) 
+            # if warning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor
+            #　mask = torch.from_numpy(np.asarray(np.copy(mask)))
         return image, mask
 
 class Compose(object):
