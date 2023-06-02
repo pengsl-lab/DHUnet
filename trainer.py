@@ -9,7 +9,7 @@ import wandb
 from torch.nn.modules.loss import CrossEntropyLoss
 from torch.utils.data import DataLoader
 from tqdm import tqdm
-from utils import DiceLoss,FocalLossV2
+from utils import DiceLoss
 from utils import validate_single_patch
 from datasets.dataset import DHUnet_dataset
 
