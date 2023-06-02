@@ -132,7 +132,7 @@ def trainer_KFold(args, model, snapshot_path, trainloader):
     return "Training Finished!"
 
 def trainer(args, model, snapshot_path):
-    # 9折训练
+    
     trainloader = get_dataloader(args, fold_no=args.fold_no, total_fold=args.total_fold, split = "train", batch_size=args.batch_size, shuffle = True)
     trainer_KFold(args, model, snapshot_path, trainloader)
     return "Finished!"
