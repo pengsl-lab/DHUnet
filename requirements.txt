@@ -13,4 +13,7 @@ tqdm==4.62.3
 timm==0.4.12
 wandb==0.12.21
 yacs==0.1.8
-
+mmcv-full==1.6.1
+ml_collections
+opencv-python
+thop
