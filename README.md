@@ -11,6 +11,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
+The processed datasets and trained models are publicly available at [Google Drive](https://drive.google.com/drive/folders/1cEHr1YPE3fuJ0AKlJtWHOZ_vLKMcdQPa?usp=sharing).
 ### Liver
 * The Third Xiangya Hospital of Central South University provides the data support.
 ### WSSS4LUAD
