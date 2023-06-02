@@ -279,14 +279,15 @@ if __name__ == "__main__":
     model=net.to(device)
     msg = net.load_state_dict(torch.load(snapshot,map_location=device))
     print("self trained DHUnet ",msg)
-
-    # Calculate FLOPs and parameters
-    total = sum([param.nelement() for param in net.parameters()])
-    print("Number of parameter: %.2fM" % (total/1e6))
-    from thop import profile
-    input = torch.randn(1, 3, 224, 224).cuda()
-    flops, params = profile(net, inputs=(input, input))[:2] 
-    print('FLOPs:%.2fG'%(flops/1e9))
+    
+    if args.network == "DHUnet":
+        # Calculate FLOPs and parameters
+        total = sum([param.nelement() for param in net.parameters()])
+        print("Number of parameter: %.2fM" % (total/1e6))
+        from thop import profile
+        input = torch.randn(1, 3, 224, 224).cuda()
+        flops, params = profile(net, inputs=(input, input))[:2] 
+        print('FLOPs:%.2fG'%(flops/1e9))
 
     snapshot_name = snapshot.split('/')[-1]
     log_folder = args.output_dir + '/test_log_/' + dataset_name
