@@ -105,7 +105,7 @@ def calculate_Acc_binary(y_pred, y_true):
 def calculate_metric_perpatch(pred, gt):
     if pred.sum() > 0 and gt.sum() > 0:
         dice = calculate_Dice_binary(pred, gt)
-        yc = metric.binary.jc(pred, gt) # jaccard == iou 
+        yc = metric.binary.jc(pred, gt) # calculate_IoU_binary(pred, gt) # metric.binary.jc(pred, gt) # jaccard == iou
         acc = calculate_Acc_binary(pred, gt)
         return [dice, yc, acc]
     elif pred.sum() == 0 and gt.sum() == 0:
