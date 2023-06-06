@@ -1,5 +1,5 @@
 # DHUnet
-The codes for the paper "DHUnet: Dual-branch Hierarchical Global-local Fusion Network for Whole Slide Image Segmentation"
+The codes for the paper "[DHUnet: Dual-branch Hierarchical Global-local Fusion Network for Whole Slide Image Segmentation](https://doi.org/10.1016/j.bspc.2023.104976)"
 
 ## Abstract
 ![DHUnet](./DHUnet.png)
