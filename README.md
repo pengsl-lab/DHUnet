@@ -9,7 +9,8 @@ Hematoxylin and eosin stained whole slide images (WSIs) are the gold standard fo
 ```shell
 pip install -r requirements.txt
 ```
-
+## Pre-trained Checkpoints
+The official pre-trained checkpoints are available at [Google Drive](https://drive.google.com/file/d/1spDwAM8eqfPx97wPBJbd1frkFPdKDd7g/view?usp=sharing).
 ## Dataset
 The processed datasets and trained models are publicly available at [Google Drive](https://drive.google.com/drive/folders/1cEHr1YPE3fuJ0AKlJtWHOZ_vLKMcdQPa?usp=sharing).
 ### Liver
